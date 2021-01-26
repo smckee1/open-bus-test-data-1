@@ -1,0 +1,114 @@
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.transxchange.org.uk/" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2020-01-13T17:13:33+01:00" ModificationDateTime="2020-01-13T17:13:33+01:00" Modification="new" RevisionNumber="0" FileName="" SchemaVersion="2.1" RegistrationDocument="false">
+
+<StopPoints>
+<AnnotatedStopPointRef><StopPointRef>1100DEZ05138</StopPointRef><CommonName>Bus Station</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1100DEA56861</StopPointRef><CommonName>Pathfields</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1100DEA05862</StopPointRef><CommonName>Hacche Lane</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1100DEA11262</StopPointRef><CommonName>Quince Honey Farm</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1100DEA57057</StopPointRef><CommonName>Market</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1100DEA11274</StopPointRef><CommonName>Broad Street</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1100DEA05982</StopPointRef><CommonName>Mill on the Mole</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1100DEA11929</StopPointRef><CommonName>Mill Inn</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1100DEA57055</StopPointRef><CommonName>East Crosside</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1100DEA57054</StopPointRef><CommonName>Mill Bridge</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1100DEA57050</StopPointRef><CommonName>Mason's Arms</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1100DEA57048</StopPointRef><CommonName>Anstice Cottage</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1100DEA57046</StopPointRef><CommonName>Post Box</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1100DEA57095</StopPointRef><CommonName>Woodburn Cross</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1100DEB10903</StopPointRef><CommonName>High Bolham</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1100DEB10906</StopPointRef><CommonName>Village Shop</CommonName></AnnotatedStopPointRef></StopPoints>
+
+<JourneyPatternSections>
+<JourneyPatternSection id='JPS_0_1_inbound'>
+
+<JourneyPatternTimingLink id='JPL_0_1_inbound_1'>
+<From SequenceNumber='1'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEZ05138</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEA56861</StopPointRef><TimingStatus>PTP</TimingStatus></To><RunTime>PT23M</RunTime></JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPL_0_1_inbound_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEA56861</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEA05862</StopPointRef><TimingStatus>PTP</TimingStatus></To><RunTime>PT0M</RunTime></JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPL_0_1_inbound_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEA05862</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEA11262</StopPointRef><TimingStatus>PTP</TimingStatus></To><RunTime>PT0M</RunTime></JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPL_0_1_inbound_4'>
+<From SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEA11262</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEA57057</StopPointRef><TimingStatus>PTP</TimingStatus></To><RunTime>PT0M</RunTime></JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPL_0_1_inbound_5'>
+<From SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEA57057</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEA11274</StopPointRef><TimingStatus>PTP</TimingStatus></To><RunTime>PT0M</RunTime></JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPL_0_1_inbound_6'>
+<From SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEA11274</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEA05982</StopPointRef><TimingStatus>PTP</TimingStatus></To><RunTime>PT1M</RunTime></JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPL_0_1_inbound_7'>
+<From SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEA05982</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='8'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEA11929</StopPointRef><TimingStatus>PTP</TimingStatus></To><RunTime>PT3M</RunTime></JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPL_0_1_inbound_8'>
+<From SequenceNumber='8'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEA11929</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='9'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEA57055</StopPointRef><TimingStatus>PTP</TimingStatus></To><RunTime>PT11M</RunTime></JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPL_0_1_inbound_9'>
+<From SequenceNumber='9'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEA57055</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='10'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEA57054</StopPointRef><TimingStatus>PTP</TimingStatus></To><RunTime>PT1M</RunTime></JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPL_0_1_inbound_10'>
+<From SequenceNumber='10'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEA57054</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='11'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEA57050</StopPointRef><TimingStatus>PTP</TimingStatus></To><RunTime>PT2M</RunTime></JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPL_0_1_inbound_11'>
+<From SequenceNumber='11'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEA57050</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='12'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEA57048</StopPointRef><TimingStatus>PTP</TimingStatus></To><RunTime>PT5M</RunTime></JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPL_0_1_inbound_12'>
+<From SequenceNumber='12'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEA57048</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='13'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEA57046</StopPointRef><TimingStatus>PTP</TimingStatus></To><RunTime>PT5M</RunTime></JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPL_0_1_inbound_13'>
+<From SequenceNumber='13'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEA57046</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='14'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEA57095</StopPointRef><TimingStatus>PTP</TimingStatus></To><RunTime>PT2M</RunTime></JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPL_0_1_inbound_14'>
+<From SequenceNumber='14'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEA57095</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='15'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEB10903</StopPointRef><TimingStatus>PTP</TimingStatus></To><RunTime>PT5M</RunTime></JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPL_0_1_inbound_15'>
+<From SequenceNumber='15'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEB10903</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='16'><Activity>pickUpAndSetDown</Activity><StopPointRef>1100DEB10906</StopPointRef><TimingStatus>PTP</TimingStatus></To><RunTime>PT1M</RunTime></JourneyPatternTimingLink>
+</JourneyPatternSection>
+</JourneyPatternSections>
+
+<Operators><Operator id="OId_SCCM"><NationalOperatorCode>1234</NationalOperatorCode><OperatorCode>1234</OperatorCode><OperatorShortName>Stagecoach</OperatorShortName></Operator></Operators>
+
+<Services>
+<Service>
+<ServiceCode>jcodankln</ServiceCode><Lines><Line id="jcodankln"><LineName>123</LineName></Line></Lines>
+<OperatingPeriod><StartDate>2020-01-07</StartDate></OperatingPeriod>
+
+<RegisteredOperatorRef>OId_SCCM</RegisteredOperatorRef>
+
+<StopRequirements>
+<NoNewStopsRequired/>
+</StopRequirements>
+
+<Mode>bus</Mode><Description>Pathfields - Village Shop - Village Shop</Description>
+
+<StandardService>
+<Origin>Pathfields</Origin>
+<Destination>Village Shop</Destination>
+<JourneyPattern id='JPS_0_1_inbound_Id'><Direction>inbound</Direction><JourneyPatternSectionRefs>JPS_0_1_inbound</JourneyPatternSectionRefs></JourneyPattern>
+
+</StandardService>
+</Service>
+
+</Services>
+
+<VehicleJourneys>
+<VehicleJourney>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation><DaysOfOperation>
+<DateRange><StartDate>2020-01-12</StartDate><EndDate>2020-01-12</EndDate></DateRange><DateRange><StartDate>2020-01-13</StartDate><EndDate>2020-01-13</EndDate></DateRange><DateRange><StartDate>2020-01-19</StartDate><EndDate>2020-01-19</EndDate></DateRange><DateRange><StartDate>2020-01-20</StartDate><EndDate>2020-01-20</EndDate></DateRange><DateRange><StartDate>2020-01-26</StartDate><EndDate>2020-01-26</EndDate></DateRange><DateRange><StartDate>2020-01-27</StartDate><EndDate>2020-01-27</EndDate></DateRange><DateRange><StartDate>2020-02-02</StartDate><EndDate>2020-02-02</EndDate></DateRange><DateRange><StartDate>2020-02-03</StartDate><EndDate>2020-02-03</EndDate></DateRange><DateRange><StartDate>2020-02-09</StartDate><EndDate>2020-02-09</EndDate></DateRange><DateRange><StartDate>2020-02-10</StartDate><EndDate>2020-02-10</EndDate></DateRange><DateRange><StartDate>2020-02-16</StartDate><EndDate>2020-02-16</EndDate></DateRange><DateRange><StartDate>2020-02-17</StartDate><EndDate>2020-02-17</EndDate></DateRange><DateRange><StartDate>2020-02-23</StartDate><EndDate>2020-02-23</EndDate></DateRange><DateRange><StartDate>2020-02-24</StartDate><EndDate>2020-02-24</EndDate></DateRange><DateRange><StartDate>2020-03-01</StartDate><EndDate>2020-03-01</EndDate></DateRange><DateRange><StartDate>2020-03-02</StartDate><EndDate>2020-03-02</EndDate></DateRange><DateRange><StartDate>2020-03-08</StartDate><EndDate>2020-03-08</EndDate></DateRange><DateRange><StartDate>2020-03-09</StartDate><EndDate>2020-03-09</EndDate></DateRange><DateRange><StartDate>2020-03-15</StartDate><EndDate>2020-03-15</EndDate></DateRange><DateRange><StartDate>2020-03-16</StartDate><EndDate>2020-03-16</EndDate></DateRange><DateRange><StartDate>2020-03-22</StartDate><EndDate>2020-03-22</EndDate></DateRange><DateRange><StartDate>2020-03-23</StartDate><EndDate>2020-03-23</EndDate></DateRange><DateRange><StartDate>2020-03-29</StartDate><EndDate>2020-03-29</EndDate></DateRange><DateRange><StartDate>2020-03-30</StartDate><EndDate>2020-03-30</EndDate></DateRange><DateRange><StartDate>2020-04-05</StartDate><EndDate>2020-04-05</EndDate></DateRange><DateRange><StartDate>2020-04-06</StartDate><EndDate>2020-04-06</EndDate></DateRange><DateRange><StartDate>2020-04-12</StartDate><EndDate>2020-04-12</EndDate></DateRange><DateRange><StartDate>2020-04-13</StartDate><EndDate>2020-04-13</EndDate></DateRange><DateRange><StartDate>2020-04-19</StartDate><EndDate>2020-04-19</EndDate></DateRange><DateRange><StartDate>2020-04-20</StartDate><EndDate>2020-04-20</EndDate></DateRange><DateRange><StartDate>2020-04-26</StartDate><EndDate>2020-04-26</EndDate></DateRange><DateRange><StartDate>2020-04-27</StartDate><EndDate>2020-04-27</EndDate></DateRange><DateRange><StartDate>2020-05-03</StartDate><EndDate>2020-05-03</EndDate></DateRange><DateRange><StartDate>2020-05-04</StartDate><EndDate>2020-05-04</EndDate></DateRange><DateRange><StartDate>2020-05-10</StartDate><EndDate>2020-05-10</EndDate></DateRange><DateRange><StartDate>2020-05-11</StartDate><EndDate>2020-05-11</EndDate></DateRange><DateRange><StartDate>2020-05-17</StartDate><EndDate>2020-05-17</EndDate></DateRange><DateRange><StartDate>2020-05-18</StartDate><EndDate>2020-05-18</EndDate></DateRange><DateRange><StartDate>2020-05-24</StartDate><EndDate>2020-05-24</EndDate></DateRange><DateRange><StartDate>2020-05-25</StartDate><EndDate>2020-05-25</EndDate></DateRange><DateRange><StartDate>2020-05-31</StartDate><EndDate>2020-05-31</EndDate></DateRange><DateRange><StartDate>2020-06-01</StartDate><EndDate>2020-06-01</EndDate></DateRange><DateRange><StartDate>2020-06-07</StartDate><EndDate>2020-06-07</EndDate></DateRange><DateRange><StartDate>2020-06-08</StartDate><EndDate>2020-06-08</EndDate></DateRange><DateRange><StartDate>2020-06-14</StartDate><EndDate>2020-06-14</EndDate></DateRange><DateRange><StartDate>2020-06-15</StartDate><EndDate>2020-06-15</EndDate></DateRange><DateRange><StartDate>2020-06-21</StartDate><EndDate>2020-06-21</EndDate></DateRange><DateRange><StartDate>2020-06-22</StartDate><EndDate>2020-06-22</EndDate></DateRange><DateRange><StartDate>2020-06-28</StartDate><EndDate>2020-06-28</EndDate></DateRange><DateRange><StartDate>2020-06-29</StartDate><EndDate>2020-06-29</EndDate></DateRange><DateRange><StartDate>2020-07-05</StartDate><EndDate>2020-07-05</EndDate></DateRange><DateRange><StartDate>2020-07-06</StartDate><EndDate>2020-07-06</EndDate></DateRange><DateRange><StartDate>2020-07-12</StartDate><EndDate>2020-07-12</EndDate></DateRange><DateRange><StartDate>2020-07-13</StartDate><EndDate>2020-07-13</EndDate></DateRange><DateRange><StartDate>2020-07-19</StartDate><EndDate>2020-07-19</EndDate></DateRange><DateRange><StartDate>2020-07-20</StartDate><EndDate>2020-07-20</EndDate></DateRange><DateRange><StartDate>2020-07-26</StartDate><EndDate>2020-07-26</EndDate></DateRange><DateRange><StartDate>2020-07-27</StartDate><EndDate>2020-07-27</EndDate></DateRange><DateRange><StartDate>2020-08-02</StartDate><EndDate>2020-08-02</EndDate></DateRange><DateRange><StartDate>2020-08-03</StartDate><EndDate>2020-08-03</EndDate></DateRange><DateRange><StartDate>2020-08-09</StartDate><EndDate>2020-08-09</EndDate></DateRange><DateRange><StartDate>2020-08-10</StartDate><EndDate>2020-08-10</EndDate></DateRange><DateRange><StartDate>2020-08-16</StartDate><EndDate>2020-08-16</EndDate></DateRange><DateRange><StartDate>2020-08-17</StartDate><EndDate>2020-08-17</EndDate></DateRange><DateRange><StartDate>2020-08-23</StartDate><EndDate>2020-08-23</EndDate></DateRange><DateRange><StartDate>2020-08-24</StartDate><EndDate>2020-08-24</EndDate></DateRange><DateRange><StartDate>2020-08-30</StartDate><EndDate>2020-08-30</EndDate></DateRange><DateRange><StartDate>2020-08-31</StartDate><EndDate>2020-08-31</EndDate></DateRange><DateRange><StartDate>2020-09-06</StartDate><EndDate>2020-09-06</EndDate></DateRange><DateRange><StartDate>2020-09-07</StartDate><EndDate>2020-09-07</EndDate></DateRange><DateRange><StartDate>2020-09-13</StartDate><EndDate>2020-09-13</EndDate></DateRange><DateRange><StartDate>2020-09-14</StartDate><EndDate>2020-09-14</EndDate></DateRange><DateRange><StartDate>2020-09-20</StartDate><EndDate>2020-09-20</EndDate></DateRange><DateRange><StartDate>2020-09-21</StartDate><EndDate>2020-09-21</EndDate></DateRange><DateRange><StartDate>2020-09-27</StartDate><EndDate>2020-09-27</EndDate></DateRange><DateRange><StartDate>2020-09-28</StartDate><EndDate>2020-09-28</EndDate></DateRange><DateRange><StartDate>2020-10-04</StartDate><EndDate>2020-10-04</EndDate></DateRange><DateRange><StartDate>2020-10-05</StartDate><EndDate>2020-10-05</EndDate></DateRange><DateRange><StartDate>2020-10-11</StartDate><EndDate>2020-10-11</EndDate></DateRange><DateRange><StartDate>2020-10-12</StartDate><EndDate>2020-10-12</EndDate></DateRange><DateRange><StartDate>2020-10-18</StartDate><EndDate>2020-10-18</EndDate></DateRange><DateRange><StartDate>2020-10-19</StartDate><EndDate>2020-10-19</EndDate></DateRange><DateRange><StartDate>2020-10-25</StartDate><EndDate>2020-10-25</EndDate></DateRange><DateRange><StartDate>2020-10-26</StartDate><EndDate>2020-10-26</EndDate></DateRange><DateRange><StartDate>2020-11-01</StartDate><EndDate>2020-11-01</EndDate></DateRange><DateRange><StartDate>2020-11-02</StartDate><EndDate>2020-11-02</EndDate></DateRange><DateRange><StartDate>2020-11-08</StartDate><EndDate>2020-11-08</EndDate></DateRange><DateRange><StartDate>2020-11-09</StartDate><EndDate>2020-11-09</EndDate></DateRange><DateRange><StartDate>2020-11-15</StartDate><EndDate>2020-11-15</EndDate></DateRange><DateRange><StartDate>2020-11-16</StartDate><EndDate>2020-11-16</EndDate></DateRange><DateRange><StartDate>2020-11-22</StartDate><EndDate>2020-11-22</EndDate></DateRange><DateRange><StartDate>2020-11-23</StartDate><EndDate>2020-11-23</EndDate></DateRange><DateRange><StartDate>2020-11-29</StartDate><EndDate>2020-11-29</EndDate></DateRange><DateRange><StartDate>2020-11-30</StartDate><EndDate>2020-11-30</EndDate></DateRange><DateRange><StartDate>2020-12-06</StartDate><EndDate>2020-12-06</EndDate></DateRange><DateRange><StartDate>2020-12-07</StartDate><EndDate>2020-12-07</EndDate></DateRange><DateRange><StartDate>2020-12-13</StartDate><EndDate>2020-12-13</EndDate></DateRange><DateRange><StartDate>2020-12-14</StartDate><EndDate>2020-12-14</EndDate></DateRange><DateRange><StartDate>2020-12-20</StartDate><EndDate>2020-12-20</EndDate></DateRange><DateRange><StartDate>2020-12-21</StartDate><EndDate>2020-12-21</EndDate></DateRange><DateRange><StartDate>2020-12-27</StartDate><EndDate>2020-12-27</EndDate></DateRange><DateRange><StartDate>2020-12-28</StartDate><EndDate>2020-12-28</EndDate></DateRange><DateRange><StartDate>2021-01-03</StartDate><EndDate>2021-01-03</EndDate></DateRange><DateRange><StartDate>2021-01-04</StartDate><EndDate>2021-01-04</EndDate></DateRange>
+</DaysOfOperation></SpecialDaysOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>JPS_0_1_inbound_vj</VehicleJourneyCode>
+<ServiceRef>jcodankln</ServiceRef><LineRef>jcodankln</LineRef>
+<JourneyPatternRef>JPS_0_1_inbound_Id</JourneyPatternRef>
+<DepartureTime>12:25:00</DepartureTime>
+</VehicleJourney>
+
+
+</VehicleJourneys>
+</TransXChange>
