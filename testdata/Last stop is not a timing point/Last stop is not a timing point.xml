@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_registration.xsd" CreationDateTime='2021-03-10T10:37:54' ModificationDateTime='2021-03-10T10:37:54' Modification='new' RevisionNumber='0' FileName="C:\Users\smckee1\Documents\Irving of Dalston 2021-03-10 10-37\Irving of Dalston IOD03 2021-03-10 10-37.xml" SchemaVersion="2.4" RegistrationDocument="false">
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_registration.xsd" CreationDateTime='2021-03-10T10:37:54' ModificationDateTime='2021-03-10T10:37:54' Modification='new' RevisionNumber='0' FileName="C:\Users\smckee1\Documents\Irving of Dalston E 2021-03-10 10-37\Irving of Dalston E IOD03 2021-03-10 10-37.xml" SchemaVersion="2.4" RegistrationDocument="false">
 
 	<StopPoints>
 		<AnnotatedStopPointRef>
@@ -696,7 +696,7 @@
 		<Operator id="OId_IRVD">
 			<NationalOperatorCode>IRVD</NationalOperatorCode>
 			<OperatorCode>IRVD</OperatorCode>
-			<OperatorShortName>Irving of Dalston</OperatorShortName>
+			<OperatorShortName>Irving of Dalston E E</OperatorShortName>
 			<LicenceNumber>PC0000358</LicenceNumber>
 		</Operator>
 	</Operators>
