@@ -694,7 +694,6 @@
 
 	<Operators>
 		<Operator id="OId_IRVD">
-			<NationalOperatorCode>IRVD</NationalOperatorCode>
 			<OperatorCode>IRVD</OperatorCode>
 			<OperatorShortName>Irving of Dalston UP</OperatorShortName>
 			<LicenceNumber>PC0000358</LicenceNumber>
@@ -703,7 +702,7 @@
 
 	<Services>
 		<Service CreationDateTime='2021-03-10T10:37:54' ModificationDateTime='2021-03-10T10:37:54' Modification='new' RevisionNumber='0'>
-			<ServiceCode>PC0000358:8</ServiceCode>
+			<ServiceCode>PC0000358:8:2</ServiceCode>
 			<Lines>
 				<Line id="IRVD:PC0000358:8:IOD03">
 					<LineName>IOD03</LineName>
