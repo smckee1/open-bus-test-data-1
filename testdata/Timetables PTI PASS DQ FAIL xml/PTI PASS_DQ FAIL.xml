@@ -1,0 +1,1273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File written by Elydium.API.Timetable v.2.0.7657.18710 using PTI Profile v.1.1-->
+<TransXChange xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_general.xsd" CreationDateTime="2020-12-18T12:13:57.5430116+00:00" ModificationDateTime="2020-12-18T12:13:57.5430116+00:00" Modification="new" RevisionNumber="0" SchemaVersion="2.4" FileName="TXC - BRTH|PD1073423:5|20201124.xml" RegistrationDocument="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A19680</StopPointRef>
+      <CommonName>Country Bus Station</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A18272</StopPointRef>
+      <CommonName>Shire Hall</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A19209</StopPointRef>
+      <CommonName>Moreland Avenue</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A068900</StopPointRef>
+      <CommonName>Venn's Lane</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A19494</StopPointRef>
+      <CommonName>The Shires</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A19488</StopPointRef>
+      <CommonName>The Swan</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A0106248</StopPointRef>
+      <CommonName>Lugg Bridge</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A18264</StopPointRef>
+      <CommonName>Crossroads</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A068600</StopPointRef>
+      <CommonName>Spout</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A068500</StopPointRef>
+      <CommonName>Crossroads</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A130800</StopPointRef>
+      <CommonName>Lower Egleton Court</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A067501</StopPointRef>
+      <CommonName>Chase Inn</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A18256</StopPointRef>
+      <CommonName>Stocks Farm</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A094200</StopPointRef>
+      <CommonName>Stores</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A20181</StopPointRef>
+      <CommonName>Flaggoner's Green</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A18295</StopPointRef>
+      <CommonName>Lodon Avenue</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A052402</StopPointRef>
+      <CommonName>Pump Street</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A052403</StopPointRef>
+      <CommonName>Tower Hill</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A19119</StopPointRef>
+      <CommonName>Clover Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A052301</StopPointRef>
+      <CommonName>Shop</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A207801</StopPointRef>
+      <CommonName>Queen Elizabeth School</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A094201</StopPointRef>
+      <CommonName>Stocks Farm</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A067500</StopPointRef>
+      <CommonName>Chase Inn</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A18757</StopPointRef>
+      <CommonName>Lower Egleton Court</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A18227</StopPointRef>
+      <CommonName>Crossroads</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A068601</StopPointRef>
+      <CommonName>Spout</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A18262</StopPointRef>
+      <CommonName>Crossroads</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A18225</StopPointRef>
+      <CommonName>Crossroads</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A20251</StopPointRef>
+      <CommonName>Southbank</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A068801</StopPointRef>
+      <CommonName>Village Hall</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A0106250</StopPointRef>
+      <CommonName>Lugg Bridge</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A19490</StopPointRef>
+      <CommonName>The Swan</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A19492</StopPointRef>
+      <CommonName>The Shires</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A068901</StopPointRef>
+      <CommonName>Venn's Lane</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A19211</StopPointRef>
+      <CommonName>Moreland Avenue</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A19689</StopPointRef>
+      <CommonName>Station Approach Bridge</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2090A041615</StopPointRef>
+      <CommonName>The Hop Pole</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="RS1">
+      <RouteLink id="RS1RL1">
+        <ParentRouteRef>RS1</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A19680</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A18272</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS1RL2">
+        <ParentRouteRef>RS1</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A18272</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A19209</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS1RL3">
+        <ParentRouteRef>RS1</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A19209</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A068900</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS1RL4">
+        <ParentRouteRef>RS1</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A068900</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A19494</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS1RL5">
+        <ParentRouteRef>RS1</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A19494</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A19488</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS1RL6">
+        <ParentRouteRef>RS1</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A19488</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A0106248</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS1RL7">
+        <ParentRouteRef>RS1</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A0106248</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A18264</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS1RL8">
+        <ParentRouteRef>RS1</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A18264</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A068600</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS1RL9">
+        <ParentRouteRef>RS1</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A068600</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A068500</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS1RL10">
+        <ParentRouteRef>RS1</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A068500</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A130800</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS1RL11">
+        <ParentRouteRef>RS1</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A130800</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A067501</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS1RL12">
+        <ParentRouteRef>RS1</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A067501</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A18256</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS1RL13">
+        <ParentRouteRef>RS1</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A18256</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A094200</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS1RL14">
+        <ParentRouteRef>RS1</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A094200</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A20181</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS1RL15">
+        <ParentRouteRef>RS1</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A20181</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A18295</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS1RL16">
+        <ParentRouteRef>RS1</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A18295</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A052402</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS2">
+      <RouteLink id="RS2RL1">
+        <ParentRouteRef>RS2</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A20181</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A18295</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS2RL2">
+        <ParentRouteRef>RS2</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A18295</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A052402</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS2RL3">
+        <ParentRouteRef>RS2</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A052402</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A052403</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS2RL4">
+        <ParentRouteRef>RS2</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A052403</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A19119</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS2RL5">
+        <ParentRouteRef>RS2</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A19119</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A052301</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS2RL6">
+        <ParentRouteRef>RS2</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A052301</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A207801</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS2RL7">
+        <ParentRouteRef>RS2</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A207801</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A094201</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS2RL8">
+        <ParentRouteRef>RS2</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A094201</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A067500</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS2RL9">
+        <ParentRouteRef>RS2</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A067500</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A18757</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS2RL10">
+        <ParentRouteRef>RS2</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A18757</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A18227</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS2RL11">
+        <ParentRouteRef>RS2</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A18227</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A068601</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS2RL12">
+        <ParentRouteRef>RS2</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A068601</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A18262</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS2RL13">
+        <ParentRouteRef>RS2</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A18262</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A18225</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS2RL14">
+        <ParentRouteRef>RS2</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A18225</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A20251</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS2RL15">
+        <ParentRouteRef>RS2</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A20251</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A068801</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS2RL16">
+        <ParentRouteRef>RS2</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A068801</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A0106250</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS2RL17">
+        <ParentRouteRef>RS2</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A0106250</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A19490</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS2RL18">
+        <ParentRouteRef>RS2</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A19490</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A19492</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS2RL19">
+        <ParentRouteRef>RS2</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A19492</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A068901</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS2RL20">
+        <ParentRouteRef>RS2</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A068901</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A19211</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS2RL21">
+        <ParentRouteRef>RS2</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A19211</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A19689</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS2RL22">
+        <ParentRouteRef>RS2</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A19689</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A19680</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RS2RL23">
+        <ParentRouteRef>RS2</ParentRouteRef>
+        <From>
+          <StopPointRef>2090A19680</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2090A041615</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="RT1">
+      <PrivateCode>RT1</PrivateCode>
+      <Description>RT1</Description>
+      <RouteSectionRef>RS1</RouteSectionRef>
+    </Route>
+    <Route id="RT2">
+      <PrivateCode>RT2</PrivateCode>
+      <Description>RT2</Description>
+      <RouteSectionRef>RS2</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS1" CreationDateTime="2020-12-18T12:13:57.5418427+00:00" Modification="new" RevisionNumber="0">
+      <JourneyPatternTimingLink id="JP1TL1" CreationDateTime="2020-12-18T12:13:57.541859+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU1" SequenceNumber="1">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A19680</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU2" SequenceNumber="2">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A18272</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS1RL1</RouteLinkRef>
+        <RunTime>PT5M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP1TL2" CreationDateTime="2020-12-18T12:13:57.5418649+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU3" SequenceNumber="2">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A18272</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU4" SequenceNumber="3">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A19209</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS1RL2</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP1TL3" CreationDateTime="2020-12-18T12:13:57.5418689+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU5" SequenceNumber="3">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A19209</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU6" SequenceNumber="4">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A068900</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS1RL3</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP1TL4" CreationDateTime="2020-12-18T12:13:57.5418736+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU7" SequenceNumber="4">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A068900</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU8" SequenceNumber="5">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A19494</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS1RL4</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP1TL5" CreationDateTime="2020-12-18T12:13:57.5418775+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU9" SequenceNumber="5">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A19494</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU10" SequenceNumber="6">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A19488</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS1RL5</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP1TL6" CreationDateTime="2020-12-18T12:13:57.5418829+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU11" SequenceNumber="6">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A19488</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU12" SequenceNumber="7">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A0106248</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS1RL6</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP1TL7" CreationDateTime="2020-12-18T12:13:57.541905+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU13" SequenceNumber="7">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A0106248</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU14" SequenceNumber="8">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A18264</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS1RL7</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP1TL8" CreationDateTime="2020-12-18T12:13:57.5419116+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU15" SequenceNumber="8">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A18264</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU16" SequenceNumber="9">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A068600</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS1RL8</RouteLinkRef>
+        <RunTime>PT5M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP1TL9" CreationDateTime="2020-12-18T12:13:57.5419156+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU17" SequenceNumber="9">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A068600</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU18" SequenceNumber="10">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A068500</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS1RL9</RouteLinkRef>
+        <RunTime>PT5M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP1TL10" CreationDateTime="2020-12-18T12:13:57.5419382+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU19" SequenceNumber="10">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A068500</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU20" SequenceNumber="11">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A130800</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS1RL10</RouteLinkRef>
+        <RunTime>PT2M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP1TL11" CreationDateTime="2020-12-18T12:13:57.5419434+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU21" SequenceNumber="11">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A130800</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU22" SequenceNumber="12">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A067501</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS1RL11</RouteLinkRef>
+        <RunTime>PT3M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP1TL12" CreationDateTime="2020-12-18T12:13:57.5419612+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU23" SequenceNumber="12">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A067501</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU24" SequenceNumber="13">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A18256</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS1RL12</RouteLinkRef>
+        <RunTime>PT6M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP1TL13" CreationDateTime="2020-12-18T12:13:57.5419666+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU25" SequenceNumber="13">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A18256</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU26" SequenceNumber="14">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A094200</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS1RL13</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP1TL14" CreationDateTime="2020-12-18T12:13:57.5419703+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU27" SequenceNumber="14">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A094200</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU28" SequenceNumber="15">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A20181</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS1RL14</RouteLinkRef>
+        <RunTime>PT3M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP1TL15" CreationDateTime="2020-12-18T12:13:57.5419747+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU29" SequenceNumber="15">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A20181</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU30" SequenceNumber="16">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A18295</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS1RL15</RouteLinkRef>
+        <RunTime>PT3M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP1TL16" CreationDateTime="2020-12-18T12:13:57.541977+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU31" SequenceNumber="16">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A18295</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU32" SequenceNumber="17">
+		  <Activity>setDown</Activity>
+          <StopPointRef>2090A052402</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS1RL16</RouteLinkRef>
+        <RunTime>PT7M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS2" CreationDateTime="2020-12-18T12:13:57.541981+00:00" Modification="new" RevisionNumber="0">
+      <JourneyPatternTimingLink id="JP2TL1" CreationDateTime="2020-12-18T12:13:57.5419839+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU33" SequenceNumber="15">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A20181</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU34" SequenceNumber="16">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A18295</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS2RL1</RouteLinkRef>
+        <RunTime>PT6M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP2TL2" CreationDateTime="2020-12-18T12:13:57.5419861+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU35" SequenceNumber="16">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A18295</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU36" SequenceNumber="17">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A052402</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS2RL2</RouteLinkRef>
+        <RunTime>PT9M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP2TL3" CreationDateTime="2020-12-18T12:13:57.5420017+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU37" SequenceNumber="17">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A052402</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU38" SequenceNumber="18">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A052403</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS2RL3</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP2TL4" CreationDateTime="2020-12-18T12:13:57.542004+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU39" SequenceNumber="18">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A052403</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU40" SequenceNumber="19">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A19119</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS2RL4</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP2TL5" CreationDateTime="2020-12-18T12:13:57.5420061+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU41" SequenceNumber="19">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A19119</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU42" SequenceNumber="20">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A052301</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS2RL5</RouteLinkRef>
+        <RunTime>PT2M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP2TL6" CreationDateTime="2020-12-18T12:13:57.542011+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU43" SequenceNumber="20">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A052301</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU44" SequenceNumber="21">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A207801</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS2RL6</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP2TL7" CreationDateTime="2020-12-18T12:13:57.5420133+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU45" SequenceNumber="21">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A207801</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU46" SequenceNumber="22">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A094201</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS2RL7</RouteLinkRef>
+        <RunTime>PT7M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP2TL8" CreationDateTime="2020-12-18T12:13:57.5420156+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU47" SequenceNumber="22">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A094201</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU48" SequenceNumber="23">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A067500</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS2RL8</RouteLinkRef>
+        <RunTime>PT5M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP2TL9" CreationDateTime="2020-12-18T12:13:57.5420178+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU49" SequenceNumber="23">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A067500</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU50" SequenceNumber="24">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A18757</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS2RL9</RouteLinkRef>
+        <RunTime>PT5M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP2TL10" CreationDateTime="2020-12-18T12:13:57.5420201+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU51" SequenceNumber="24">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A18757</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU52" SequenceNumber="25">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A18227</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS2RL10</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP2TL11" CreationDateTime="2020-12-18T12:13:57.5420425+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU53" SequenceNumber="25">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A18227</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU54" SequenceNumber="26">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A068601</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS2RL11</RouteLinkRef>
+        <RunTime>PT4M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP2TL12" CreationDateTime="2020-12-18T12:13:57.5420462+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU55" SequenceNumber="26">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A068601</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU56" SequenceNumber="27">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A18262</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS2RL12</RouteLinkRef>
+        <RunTime>PT3M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP2TL13" CreationDateTime="2020-12-18T12:13:57.5420494+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU57" SequenceNumber="27">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A18262</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU58" SequenceNumber="28">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A18225</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS2RL13</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP2TL14" CreationDateTime="2020-12-18T12:13:57.5420524+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU59" SequenceNumber="28">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A18225</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU60" SequenceNumber="29">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A20251</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS2RL14</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP2TL15" CreationDateTime="2020-12-18T12:13:57.5420542+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU61" SequenceNumber="29">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A20251</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU62" SequenceNumber="30">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A068801</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS2RL15</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP2TL16" CreationDateTime="2020-12-18T12:13:57.5420558+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU63" SequenceNumber="30">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A068801</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU64" SequenceNumber="31">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A0106250</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS2RL16</RouteLinkRef>
+        <RunTime>PT3M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP2TL17" CreationDateTime="2020-12-18T12:13:57.5420585+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU65" SequenceNumber="31">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A0106250</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU66" SequenceNumber="32">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A19490</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS2RL17</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP2TL18" CreationDateTime="2020-12-18T12:13:57.5420603+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU67" SequenceNumber="32">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A19490</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU68" SequenceNumber="33">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A19492</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS2RL18</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP2TL19" CreationDateTime="2020-12-18T12:13:57.5420619+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU69" SequenceNumber="33">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A19492</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU70" SequenceNumber="34">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A068901</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS2RL19</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP2TL20" CreationDateTime="2020-12-18T12:13:57.5420634+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU71" SequenceNumber="34">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A068901</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU72" SequenceNumber="35">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A19211</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS2RL20</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP2TL21" CreationDateTime="2020-12-18T12:13:57.5420683+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU73" SequenceNumber="35">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A19211</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU74" SequenceNumber="36">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A19689</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS2RL21</RouteLinkRef>
+        <RunTime>PT2M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP2TL22" CreationDateTime="2020-12-18T12:13:57.5420708+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU75" SequenceNumber="36">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A19689</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU76" SequenceNumber="37">
+          <Activity>setDown</Activity>
+          <StopPointRef>2090A19680</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS2RL22</RouteLinkRef>
+        <RunTime>PT2M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP2TL23" CreationDateTime="2020-12-18T12:13:57.5420726+00:00" Modification="new" RevisionNumber="0">
+        <From id="JPSU77" SequenceNumber="37">
+		  <Activity>pickUp</Activity>
+          <StopPointRef>2090A19680</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU78" SequenceNumber="38">
+		  <Activity>setDown</Activity>
+          <StopPointRef>2090A041615</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS2RL23</RouteLinkRef>
+        <RunTime>PT2M</RunTime>
+        <Distance>0</Distance>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="OP1">
+      <NationalOperatorCode>BRTH</NationalOperatorCode>
+      <OperatorCode>BRTH</OperatorCode>
+      <OperatorShortName>BRTH Bus</OperatorShortName>
+      <OperatorNameOnLicence>BRTH Coaches</OperatorNameOnLicence>
+      <TradingName>BRTH Coaches</TradingName>
+      <LicenceNumber>PD1073423</LicenceNumber>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service id="BRTH:PD1073423:5:20201124" CreationDateTime="2020-12-18T12:13:57.5421874+00:00" ModificationDateTime="2020-12-18T12:13:57.5421884+00:00" Modification="new" RevisionNumber="20">
+	  <ServiceCode>PD1073423:5</ServiceCode>
+      <PrivateCode>BRTH|PD1073423:5|20201124</PrivateCode>
+      <Lines>
+        <Line id="BRTH:PD1073423:5:469">
+          <LineName>469</LineName>
+          <OutboundDescription>
+            <Description>BRTH 469 Outbound</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>BRTH 469 Inbound</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2020-12-17</StartDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>OP1</RegisteredOperatorRef>
+      <PublicUse>true</PublicUse>
+      <Description>BRTH 469 Outbound</Description>
+      <StandardService>
+        <Origin>BRTH 469 Outbound</Origin>
+        <Destination>BRTH 469 Outbound</Destination>
+        <JourneyPattern id="JPS1" CreationDateTime="2020-12-18T12:13:57.5418427+00:00" Modification="new" RevisionNumber="0">
+          <DestinationDisplay>Bromyard</DestinationDisplay>
+          <OperatorRef>BRTH</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>RT1</RouteRef>
+          <JourneyPatternSectionRefs>JPS1</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JPS2" CreationDateTime="2020-12-18T12:13:57.541981+00:00" Modification="new" RevisionNumber="0">
+          <DestinationDisplay>Hereford</DestinationDisplay>
+          <OperatorRef>BRTH</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>RT2</RouteRef>
+          <JourneyPatternSectionRefs>JPS2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+      <Direction>inboundAndOutbound</Direction>
+    </Service>
+  </Services>
+  <!-- <VehicleJourneys>
+    <VehicleJourney id="VJ1" CreationDateTime="2020-12-18T12:13:57.5423634+00:00" Modification="new" RevisionNumber="0">
+      <PrivateCode>BRTH:PD1073423:5:20201124|O|2</PrivateCode>
+      <DestinationDisplay>Hereford</DestinationDisplay>
+      <OperatorRef>OP1</OperatorRef>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <Jan2ndScotland />
+            <StAndrewsDay />
+            <EasterMonday />
+            <AugustBankHolidayScotland />
+            <Jan2ndScotlandHoliday />
+            <StAndrewsDayHoliday />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ1</VehicleJourneyCode>
+      <ServiceRef>PD1073423:5</ServiceRef>
+      <LineRef>BRTH:PD1073423:5:469</LineRef>
+      <JourneyPatternRef>JPS2</JourneyPatternRef>
+      <DepartureTime>09:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney id="VJ2" CreationDateTime="2020-12-18T12:13:57.5422733+00:00" Modification="new" RevisionNumber="0">
+      <PrivateCode>BRTH:PD1073423:5:20201124|I|1</PrivateCode>
+      <DestinationDisplay>Bromyard</DestinationDisplay>
+      <OperatorRef>OP1</OperatorRef>
+      <Direction>inbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <Jan2ndScotland />
+            <StAndrewsDay />
+            <EasterMonday />
+            <AugustBankHolidayScotland />
+            <Jan2ndScotlandHoliday />
+            <StAndrewsDayHoliday />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ2</VehicleJourneyCode>
+      <ServiceRef>PD1073423:5</ServiceRef>
+      <LineRef>BRTH:PD1073423:5:469</LineRef>
+      <JourneyPatternRef>JPS1</JourneyPatternRef>
+      <DepartureTime>13:25:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys> -->
+</TransXChange>

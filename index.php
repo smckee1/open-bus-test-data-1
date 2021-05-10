@@ -2,14 +2,14 @@
 ?> 
 
 <?php
-echo "<p>Timetable large zip</p>
+echo "<p>Timetable LARGE 66mb zip</p>
 ";
-$path = "/app/testdata/Timetable large zip";
+$path = "/app/testdata/Timetable LARGE 66mb zip";
 $dh = opendir($path);
 $i=1;
 while (($file = readdir($dh)) !== false) {
     if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
-        echo "<a href='/testdata/Timetable large zip/$file'>$file</a><br /><br />";
+        echo "<a href='/testdata/Timetable LARGE 66mb zip/$file'>$file</a><br /><br />";
         $i++;
     }
 }
@@ -17,14 +17,14 @@ closedir($dh);
 ?> 
 
 <?php
-echo "<p>66mb Timetable</p>
+echo "<p>Timetables Not Valid xml</p>
 ";
-$path = "/app/testdata/66mb Timetable";
+$path = "/app/testdata/Timetables Not Valid xml";
 $dh = opendir($path);
 $i=1;
 while (($file = readdir($dh)) !== false) {
     if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
-        echo "<a href='/testdata/66mb Timetable/$file'>$file</a><br /><br />";
+        echo "<a href='/testdata/Timetables Not Valid xml/$file'>$file</a><br /><br />";
         $i++;
     }
 }
@@ -32,14 +32,14 @@ closedir($dh);
 ?> 
 
 <?php
-echo "<p>Incorrect NOC code</p>
+echo "<p>Timetables Not Valid zip</p>
 ";
-$path = "/app/testdata/Incorrect NOC code";
+$path = "/app/testdata/Timetables Not Valid zip";
 $dh = opendir($path);
 $i=1;
 while (($file = readdir($dh)) !== false) {
     if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
-        echo "<a href='/testdata/Incorrect NOC code/$file'>$file</a><br /><br />";
+        echo "<a href='/testdata/Timetables Not Valid zip/$file'>$file</a><br /><br />";
         $i++;
     }
 }
@@ -47,14 +47,14 @@ closedir($dh);
 ?> 
 
 <?php
-echo "<p>Missing stops</p>
+echo "<p>Timetables PTI FAIL DQ FAIL xml</p>
 ";
-$path = "/app/testdata/Missing stops";
+$path = "/app/testdata/Timetables PTI FAIL DQ FAIL xml";
 $dh = opendir($path);
 $i=1;
 while (($file = readdir($dh)) !== false) {
     if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
-        echo "<a href='/testdata/Missing stops/$file'>$file</a><br /><br />";
+        echo "<a href='/testdata/Timetables PTI FAIL DQ FAIL xml/$file'>$file</a><br /><br />";
         $i++;
     }
 }
@@ -62,14 +62,14 @@ closedir($dh);
 ?> 
 
 <?php
-echo "<p>No timing point for more than 15 minutes</p>
+echo "<p>Timetables PTI FAIL DQ FAIL zip</p>
 ";
-$path = "/app/testdata/No timing point for more than 15 minutes";
+$path = "/app/testdata/Timetables PTI FAIL DQ FAIL zip";
 $dh = opendir($path);
 $i=1;
 while (($file = readdir($dh)) !== false) {
     if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
-        echo "<a href='/testdata/No timing point for more than 15 minutes/$file'>$file</a><br /><br />";
+        echo "<a href='/testdata/Timetables PTI FAIL DQ FAIL zip/$file'>$file</a><br /><br />";
         $i++;
     }
 }
@@ -77,14 +77,14 @@ closedir($dh);
 ?> 
 
 <?php
-echo "<p>Missing destination display</p>
+echo "<p>Timetables PTI FAIL DQ PASS xml</p>
 ";
-$path = "/app/testdata/Missing destination display";
+$path = "/app/testdata/Timetables PTI FAIL DQ PASS xml";
 $dh = opendir($path);
 $i=1;
 while (($file = readdir($dh)) !== false) {
     if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
-        echo "<a href='/testdata/Missing destination display/$file'>$file</a><br /><br />";
+        echo "<a href='/testdata/Timetables PTI FAIL DQ PASS xml/$file'>$file</a><br /><br />";
         $i++;
     }
 }
@@ -92,14 +92,14 @@ closedir($dh);
 ?> 
 
 <?php
-echo "<p>Expired lines</p>
+echo "<p>Timetables PTI FAIL DQ PASS zip</p>
 ";
-$path = "/app/testdata/Expired lines";
+$path = "/app/testdata/Timetables PTI FAIL DQ PASS zip";
 $dh = opendir($path);
 $i=1;
 while (($file = readdir($dh)) !== false) {
     if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
-        echo "<a href='/testdata/Expired lines/$file'>$file</a><br /><br />";
+        echo "<a href='/testdata/Timetables PTI FAIL DQ PASS zip/$file'>$file</a><br /><br />";
         $i++;
     }
 }
@@ -107,14 +107,14 @@ closedir($dh);
 ?> 
 
 <?php
-echo "<p>Missing Block Number</p>
+echo "<p>Timetables PTI PASS DQ FAIL xml</p>
 ";
-$path = "/app/testdata/Missing Block Number";
+$path = "/app/testdata/Timetables PTI PASS DQ FAIL xml";
 $dh = opendir($path);
 $i=1;
 while (($file = readdir($dh)) !== false) {
     if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
-        echo "<a href='/testdata/Missing Block Number/$file'>$file</a><br /><br />";
+        echo "<a href='/testdata/Timetables PTI PASS DQ FAIL xml/$file'>$file</a><br /><br />";
         $i++;
     }
 }
@@ -122,14 +122,14 @@ closedir($dh);
 ?> 
 
 <?php
-echo "<p>Missing National Operator Code</p>
+echo "<p>Timetables PTI PASS DQ FAIL zip</p>
 ";
-$path = "/app/testdata/Missing National Operator Code";
+$path = "/app/testdata/Timetables PTI PASS DQ FAIL zip";
 $dh = opendir($path);
 $i=1;
 while (($file = readdir($dh)) !== false) {
     if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
-        echo "<a href='/testdata/Missing National Operator Code/$file'>$file</a><br /><br />";
+        echo "<a href='/testdata/Timetables PTI PASS DQ FAIL zip/$file'>$file</a><br /><br />";
         $i++;
     }
 }
@@ -137,14 +137,14 @@ closedir($dh);
 ?> 
 
 <?php
-echo "<p>DQ zip</p>
+echo "<p>Timetables PTI PASS DQ PASS xml</p>
 ";
-$path = "/app/testdata/DQ zip";
+$path = "/app/testdata/Timetables PTI PASS DQ PASS xml";
 $dh = opendir($path);
 $i=1;
 while (($file = readdir($dh)) !== false) {
     if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
-        echo "<a href='/testdata/DQ zip/$file'>$file</a><br /><br />";
+        echo "<a href='/testdata/Timetables PTI PASS DQ PASS xml/$file'>$file</a><br /><br />";
         $i++;
     }
 }
@@ -152,14 +152,14 @@ closedir($dh);
 ?> 
 
 <?php
-echo "<p>Shared python results</p>
+echo "<p>Timetables PTI PASS DQ PASS zip</p>
 ";
-$path = "/app/testdata/Shared python results";
+$path = "/app/testdata/Timetables PTI PASS DQ PASS zip";
 $dh = opendir($path);
 $i=1;
 while (($file = readdir($dh)) !== false) {
     if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
-        echo "<a href='/testdata/Shared python results/$file'>$file</a><br /><br />";
+        echo "<a href='/testdata/Timetables PTI PASS DQ PASS zip/$file'>$file</a><br /><br />";
         $i++;
     }
 }
@@ -167,14 +167,14 @@ closedir($dh);
 ?> 
 
 <?php
-echo "<p>Siri SM</p>
+echo "<p>AVL Siri SM</p>
 ";
-$path = "/app/testdata/Siri SM";
+$path = "/app/testdata/AVL Siri SM";
 $dh = opendir($path);
 $i=1;
 while (($file = readdir($dh)) !== false) {
     if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
-        echo "<a href='/testdata/Siri SM/$file'>$file</a><br /><br />";
+        echo "<a href='/testdata/AVL Siri SM/$file'>$file</a><br /><br />";
         $i++;
     }
 }
@@ -182,14 +182,14 @@ closedir($dh);
 ?> 
 
 <?php
-echo "<p>Siri VM request</p>
+echo "<p>AVL Siri VM request</p>
 ";
-$path = "/app/testdata/Siri VM request";
+$path = "/app/testdata/AVL Siri VM request";
 $dh = opendir($path);
 $i=1;
 while (($file = readdir($dh)) !== false) {
     if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
-        echo "<a href='/testdata/Siri VM request/$file'>$file</a><br /><br />";
+        echo "<a href='/testdata/AVL Siri VM request/$file'>$file</a><br /><br />";
         $i++;
     }
 }
@@ -197,14 +197,14 @@ closedir($dh);
 ?> 
 
 <?php
-echo "<p>Siri VM response</p>
+echo "<p>AVL Siri VM response</p>
 ";
-$path = "/app/testdata/Siri VM response";
+$path = "/app/testdata/AVL Siri VM response";
 $dh = opendir($path);
 $i=1;
 while (($file = readdir($dh)) !== false) {
     if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
-        echo "<a href='/testdata/Siri VM response/$file'>$file</a><br /><br />";
+        echo "<a href='/testdata/AVL Siri VM response/$file'>$file</a><br /><br />";
         $i++;
     }
 }
@@ -212,14 +212,14 @@ closedir($dh);
 ?> 
 
 <?php
-echo "<p>Siri VM request simple</p>
+echo "<p>AVL Siri VM request simple</p>
 ";
-$path = "/app/testdata/Siri VM request simple";
+$path = "/app/testdata/AVL Siri VM request simple";
 $dh = opendir($path);
 $i=1;
 while (($file = readdir($dh)) !== false) {
     if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
-        echo "<a href='/testdata/Siri VM request simple/$file'>$file</a><br /><br />";
+        echo "<a href='/testdata/AVL Siri VM request simple/$file'>$file</a><br /><br />";
         $i++;
     }
 }
@@ -227,14 +227,14 @@ closedir($dh);
 ?> 
 
 <?php
-echo "<p>Siri VM response simple</p>
+echo "<p>AVL Siri VM response simple</p>
 ";
-$path = "/app/testdata/Siri VM response simple";
+$path = "/app/testdata/AVL Siri VM response simple";
 $dh = opendir($path);
 $i=1;
 while (($file = readdir($dh)) !== false) {
     if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
-        echo "<a href='/testdata/Siri VM response simple/$file'>$file</a><br /><br />";
+        echo "<a href='/testdata/AVL Siri VM response simple/$file'>$file</a><br /><br />";
         $i++;
     }
 }
@@ -242,14 +242,14 @@ closedir($dh);
 ?> 
 
 <?php
-echo "<p>Fare NWBT</p>
+echo "<p>Fares xml</p>
 ";
-$path = "/app/testdata/Fare NWBT";
+$path = "/app/testdata/Fares xml";
 $dh = opendir($path);
 $i=1;
 while (($file = readdir($dh)) !== false) {
     if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
-        echo "<a href='/testdata/Fare NWBT/$file'>$file</a><br /><br />";
+        echo "<a href='/testdata/Fares xml/$file'>$file</a><br /><br />";
         $i++;
     }
 }
@@ -257,14 +257,14 @@ closedir($dh);
 ?> 
 
 <?php
-echo "<p>Fare STBC</p>
+echo "<p>Fares second xml</p>
 ";
-$path = "/app/testdata/Fare STBC";
+$path = "/app/testdata/Fares second xml";
 $dh = opendir($path);
 $i=1;
 while (($file = readdir($dh)) !== false) {
     if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
-        echo "<a href='/testdata/Fare STBC/$file'>$file</a><br /><br />";
+        echo "<a href='/testdata/Fares second xml/$file'>$file</a><br /><br />";
         $i++;
     }
 }
