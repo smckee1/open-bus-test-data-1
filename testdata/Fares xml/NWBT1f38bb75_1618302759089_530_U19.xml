@@ -1,10 +1,10 @@
 <PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:siri="http://www.siri.org.uk/siri" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1" xsi:schemaLocation="http://www.netex.org.uk/netex http://netex.uk/netex/schema/1.10/xsd/NeTEx_publication.xsd">
-  <PublicationTimestamp>2021-04-13T08:32:39.991Z</PublicationTimestamp>
+  <PublicationTimestamp>2020-08-24T09:31:02.887Z</PublicationTimestamp>
   <ParticipantRef>SYS001</ParticipantRef>
   <PublicationRequest version="1.0">
-    <RequestTimestamp>2021-04-13T08:32:39.991Z</RequestTimestamp>
+    <RequestTimestamp>2020-08-24T09:31:02.887Z</RequestTimestamp>
     <ParticipantRef>SYS002</ParticipantRef>
-    <Description>Request for NWBT bus pass fares</Description>
+    <Description>Request for ESCL bus pass fares</Description>
     <topics>
       <NetworkFrameTopic>
         <selectionValidityConditions>
@@ -15,15 +15,10 @@
         <TypeOfFrameRef version="fxc:v1.0" ref="fxc:UK:DFT:TypeOfFrame_UK_PI_LINE_FARE_OFFER:FXCP"/>
         <NetworkFilterByValue>
           <objectReferences>
-            <OperatorRef version="1.0" ref="noc:NWBT">noc:135752</OperatorRef>
+            <OperatorRef version="1.0" ref="noc:ESCL">noc:136284</OperatorRef>
             <TypeOfFareProductRef version="fxc:v1.0" ref="fxc:standard_product@pass@period"/>
-            <PreassignedFareProductRef version="1.0" ref="op:Pass@U19_Day_youngPerson"/>
-            <PreassignedFareProductRef version="1.0" ref="op:Pass@U19_Week_youngPerson"/>
-            <PreassignedFareProductRef version="1.0" ref="op:Pass@U19_Month_youngPerson"/>
-            <PreassignedFareProductRef version="1.0" ref="op:Pass@U19_Summer_Half_Term_1_youngPerson"/>
-            <PreassignedFareProductRef version="1.0" ref="op:Pass@U19_Summer_Half_Term_2_youngPerson"/>
-            <PreassignedFareProductRef version="1.0" ref="op:Pass@U19_Summer_Term_youngPerson"/>
-            <BrandingRef version="1.0" ref="op:NWBT@brand"/>
+            <PreassignedFareProductRef version="1.0" ref="op:Pass@Flat_Fare_Trial_adult"/>
+            <BrandingRef version="1.0" ref="op:ESCL@brand"/>
           </objectReferences>
         </NetworkFilterByValue>
       </NetworkFrameTopic>
@@ -35,9 +30,9 @@
   <PublicationRefreshInterval>P1M</PublicationRefreshInterval>
   <Description>Example of simple zonal pass fares.</Description>
   <dataObjects>
-    <CompositeFrame version="1.0" id="epd:UK:NWBT:CompositeFrame_UK_PI_LINE_FARE_OFFER:Pass@NWBT_products:op" dataSourceRef="op:src" responsibilitySetRef="op:tariffs">
-      <Name>Fares for Pilkingtonbus</Name>
-      <Description>Period ticket for Pilkingtonbus</Description>
+    <CompositeFrame version="1.0" id="epd:UK:ESCL:CompositeFrame_UK_PI_LINE_FARE_OFFER:Pass@ESCL_products:op" dataSourceRef="op:src" responsibilitySetRef="op:tariffs">
+      <Name>Fares for Ugobus</Name>
+      <Description>Period ticket for Ugobus</Description>
       <TypeOfFrameRef version="fxc:v1.0" ref="fxc:UK:DFT:TypeOfFrame_UK_PI_LINE_FARE_OFFER:FXCP"/>
       <codespaces>
         <CodespaceRef ref="epd_data"/>
@@ -57,13 +52,13 @@
         <CompositeFrameRef version="fxc:v1.0" ref="fxc:UK:DFT:TypeOfFrame_UK_PI_METADATA_OFFER:FXCP:fxc"/>
       </prerequisites>
       <frames>
-        <ResourceFrame version="1.0" id="epd:UK:NWBT:ResourceFrame_UK_PI_COMMON:NWBT:op" dataSourceRef="op:src" responsibilitySetRef="op:network_data">
+        <ResourceFrame version="1.0" id="epd:UK:ESCL:ResourceFrame_UK_PI_COMMON:ESCL:op" dataSourceRef="op:src" responsibilitySetRef="op:network_data">
           <Name>Operator specific common resources</Name>
           <TypeOfFrameRef ref="fxc:UK:DFT:TypeOfFrame_UK_PI_COMMON:FXCP" version="fxc:v1.0"/>
           <codespaces>
             <Codespace id="op_data">
               <Xmlns>op</Xmlns>
-              <XmlnsUrl>http://pilkingtonbus.com/</XmlnsUrl>
+              <XmlnsUrl>https://www.essexhighways.org/getting-around/bus/ugobus.aspx</XmlnsUrl>
               <Description>Operator data</Description>
             </Codespace>
           </codespaces>
@@ -74,7 +69,7 @@
           </FrameDefaults>
           <dataSources>
             <DataSource id="op:src" version="1.0">
-              <Email>pilkingtonbus@live.co.uk</Email>
+              <Email>ugobus@essex.gov.uk</Email>
             </DataSource>
           </dataSources>
           <responsibilitySets>
@@ -84,7 +79,7 @@
                 <ResponsibilityRoleAssignment version="1.0" id="op:tariff_data@creates">
                   <DataRoleType>creates</DataRoleType>
                   <StakeholderRoleType>FareManagement</StakeholderRoleType>
-                  <ResponsibleOrganisationRef ref="noc:NWBT" version="1.0">Pilkingtonbus</ResponsibleOrganisationRef>
+                  <ResponsibleOrganisationRef ref="noc:ESCL" version="1.0">Ugobus</ResponsibleOrganisationRef>
                 </ResponsibilityRoleAssignment>
               </roles>
             </ResponsibilitySet>
@@ -94,7 +89,7 @@
                 <ResponsibilityRoleAssignment version="1.0" id="op:network_data@creates">
                   <DataRoleType>creates</DataRoleType>
                   <StakeholderRoleType>Planning</StakeholderRoleType>
-                  <ResponsibleOrganisationRef ref="noc:NWBT" version="1.0">Pilkingtonbus</ResponsibleOrganisationRef>
+                  <ResponsibleOrganisationRef ref="noc:ESCL" version="1.0">Ugobus</ResponsibleOrganisationRef>
                 </ResponsibilityRoleAssignment>
               </roles>
             </ResponsibilitySet>
@@ -103,9 +98,9 @@
             <ValueSet version="1.0" id="op:Branding" classOfValues="Branding">
               <Name>Operator Branding</Name>
               <values>
-                <Branding version="1.0" id="op:NWBT@brand">
-                  <Name>Pilkingtonbus</Name>
-                  <Url>http://pilkingtonbus.com/</Url>
+                <Branding version="1.0" id="op:ESCL@brand">
+                  <Name>Ugobus</Name>
+                  <Url>https://www.essexhighways.org/getting-around/bus/ugobus.aspx</Url>
                 </Branding>
               </values>
             </ValueSet>
@@ -126,28 +121,25 @@
             </ValueSet>
           </typesOfValue>
           <organisations>
-            <Operator version="1.0" id="noc:NWBT">
-              <PublicCode>NWBT</PublicCode>
+            <Operator version="1.0" id="noc:ESCL">
+              <PublicCode>ESCL</PublicCode>
               <PrivateCode type="nocn">nocn:00000</PrivateCode>
-              <Name>Pilkingtonbus</Name>
-              <ShortName>Pilkingtonbus</ShortName>
-              <TradingName>Boomerang Travel Ltd</TradingName>
+              <Name>Ugobus</Name>
+              <ShortName>Ugobus</ShortName>
+              <TradingName>Essex Community Link</TradingName>
               <ContactDetails>
-                <Phone>01254237083</Phone>
-                <Url>http://pilkingtonbus.com/</Url>
+                <Phone>03330139489</Phone>
+                <Url>https://www.essexhighways.org/getting-around/bus/ugobus.aspx</Url>
               </ContactDetails>
               <OrganisationType>operator</OrganisationType>
               <Address>
-                <Street>Argyle Street, Accrington, Lancashire BB5 1DQ</Street>
+                <Street>c/o Essex County Council, County Hall, Chelmsford CM1 1QH</Street>
               </Address>
               <PrimaryMode>bus</PrimaryMode>
-              <CustomerServiceContactDetails>
-                <Email>pilkingtonbus@live.co.uk</Email>
-              </CustomerServiceContactDetails>
             </Operator>
           </organisations>
         </ResourceFrame>
-        <FareFrame version="1.0" id="epd:UK:NWBT:FareFrame_UK_PI_FARE_PRODUCT:NWBT_products@pass:op" responsibilitySetRef="op:tariffs">
+        <FareFrame version="1.0" id="epd:UK:ESCL:FareFrame_UK_PI_FARE_PRODUCT:ESCL_products@pass:op" responsibilitySetRef="op:tariffs">
           <Name>Fare products</Name>
           <TypeOfFrameRef version="fxc:v1.0" ref="fxc:UK:DFT:TypeOfFrame_UK_PI_FARE_PRODUCT:FXCP"/>
           <FrameDefaults>
@@ -155,264 +147,66 @@
             <DefaultResponsibilitySetRef version="1.0" ref="op:tariffs"/>
           </FrameDefaults>
           <tariffs>
-            <Tariff version="1.0" id="op:Tariff@NWBT_products">
+            <Tariff version="1.0" id="op:Tariff@ESCL_products">
               <validityConditions>
                 <ValidBetween>
-                  <FromDate>2021-04-13T08:32:39.089Z</FromDate>
-                  <ToDate>2121-04-13T08:32:39.089Z</ToDate>
+                  <FromDate>2020-08-24T09:31:02.887Z</FromDate>
+				  <ToDate>2022-08-24T09:31:02.887Z</ToDate>
                 </ValidBetween>
               </validityConditions>
-              <Name>Pilkingtonbus - NWBT_products - Fares for Period ticket</Name>
-              <OperatorRef version="1.0" ref="noc:NWBT">noc:135752</OperatorRef>
+              <Name>ESCL_products - Tariff</Name>
+              <Description>ESCL_products single zone tariff</Description>
+              <OperatorRef version="1.0" ref="noc:ESCL">noc:136284</OperatorRef>
               <TypeOfTariffRef version="fxc:v1.0" ref="fxc:zonal"/>
-              <timeIntervals>
-                <TimeInterval version="1.0" id="op:Tariff@U19_Day@1-day">
-                  <Name>1 day</Name>
-                  <Description>P1D</Description>
-                </TimeInterval>
-                <TimeInterval version="1.0" id="op:Tariff@U19_Week@1-week">
-                  <Name>1 week</Name>
-                  <Description>P7D</Description>
-                </TimeInterval>
-                <TimeInterval version="1.0" id="op:Tariff@U19_Month@1-month">
-                  <Name>1 month</Name>
-                  <Description>P1M</Description>
-                </TimeInterval>
-                <TimeInterval version="1.0" id="op:Tariff@U19_Summer_Half_Term_1@6-weeks">
-                  <Name>6 weeks</Name>
-                  <Description>P42D</Description>
-                </TimeInterval>
-                <TimeInterval version="1.0" id="op:Tariff@U19_Summer_Half_Term_2@7-weeks">
-                  <Name>7 weeks</Name>
-                  <Description>P49D</Description>
-                </TimeInterval>
-                <TimeInterval version="1.0" id="op:Tariff@U19_Summer_Term@14-weeks">
-                  <Name>14 weeks</Name>
-                  <Description>P98D</Description>
-                </TimeInterval>
-              </timeIntervals>
+              <geographicalIntervals>
+                <GeographicalInterval version="1.0" id="">
+                  <Name>Travel in one zone</Name>
+                  <NumberOfUnits>1</NumberOfUnits>
+                  <IntervalType>tariffZone</IntervalType>
+                </GeographicalInterval>
+              </geographicalIntervals>
               <fareStructureElements>
-                <FareStructureElement version="1.0" id="op:Tariff@U19_Day@access_lines">
-                  <Name>Available lines and/or zones</Name>
+                <FareStructureElement version="1.0" id="op:Tariff@Flat_Fare_Trial@access_lines">
+                  <Name>Available zones</Name>
+                  <Description>single zone.</Description>
                   <TypeOfFareStructureElementRef version="fxc:v1.0" ref="fxc:access"/>
-                  <GenericParameterAssignment id="Tariff@U19_Day@access_lines" version="1.0" order="1">
+                  <GenericParameterAssignment id="Tariff@Flat_Fare_Trial@access_lines" version="1.0" order="1">
                     <TypeOfAccessRightAssignmentRef version="fxc:v1.0" ref="fxc:can_access"/>
                     <ValidityParameterGroupingType>OR</ValidityParameterGroupingType>
                     <validityParameters>
-                      <LineRef version="1.0" ref="op:530#NW_05_NWBT_530_1#04/06/2018"/>
+                      <LineRef version="1.0" ref="op:40#5-40-B-y08-1#18/08/2020"/>
                     </validityParameters>
                   </GenericParameterAssignment>
                 </FareStructureElement>
-                <FareStructureElement version="1.0" id="op:Tariff@U19_Day@durations@youngPerson">
-                  <Name>Available duration combination - youngPerson ticket</Name>
-                  <TypeOfFareStructureElementRef version="fxc:v1.0" ref="fxc:durations"/>
-                  <timeIntervals>
-                    <TimeIntervalRef version="1.0" ref="op:Tariff@U19_Day@1-day"/>
-                  </timeIntervals>
-                </FareStructureElement>
-                <FareStructureElement id="op:Tariff@U19_Day@conditions_of_travel" version="1.0">
+                <FareStructureElement id="op:Tariff@Flat_Fare_Trial@conditions_of_travel" version="1.0">
                   <Name>Conditions of travel</Name>
-                  <GenericParameterAssignment version="1.0" order="1" id="op:Tariff@U19_Day@conditions_of_travel">
+                  <GenericParameterAssignment version="1.0" order="1" id="op:Tariff@Flat_Fare_Trial@conditions_of_travel">
                     <TypeOfAccessRightAssignmentRef version="fxc:v1.0" ref="fxc:condition_of_use"/>
                     <LimitationGroupingType>AND</LimitationGroupingType>
                     <limitations>
-                      <FrequencyOfUse version="1.0" id="op:Pass@U19_Day@frequency">
+                      <Transferability version="1.0" id="op:Pass@Flat_Fare_Trial@transferability">
+                        <Name>Ticket is not transferable</Name>
+                        <CanTransfer>false</CanTransfer>
+                      </Transferability>
+                      <FrequencyOfUse version="1.0" id="op:Pass@Flat_Fare_Trial@frequency">
                         <FrequencyOfUseType>unlimited</FrequencyOfUseType>
                       </FrequencyOfUse>
-                      <UsageValidityPeriod version="1.0" id="op:Trip@U19_Day@back@frequency">
-                        <UsageTrigger>purchase</UsageTrigger>
-                        <UsageEnd>endOfFareDay</UsageEnd>
-                        <ActivationMeans>noneRequired</ActivationMeans>
-                      </UsageValidityPeriod>
+                      <Interchanging version="1.0" id="op:Pass@Flat_Fare_Trial@interchanging">
+                        <CanInterchange>true</CanInterchange>
+                      </Interchanging>
                     </limitations>
                   </GenericParameterAssignment>
                 </FareStructureElement>
-                <FareStructureElement version="1.0" id="op:Tariff@U19_Week@access_lines">
-                  <Name>Available lines and/or zones</Name>
-                  <TypeOfFareStructureElementRef version="fxc:v1.0" ref="fxc:access"/>
-                  <GenericParameterAssignment id="Tariff@U19_Week@access_lines" version="1.0" order="1">
-                    <TypeOfAccessRightAssignmentRef version="fxc:v1.0" ref="fxc:can_access"/>
-                    <ValidityParameterGroupingType>OR</ValidityParameterGroupingType>
-                    <validityParameters>
-                      <LineRef version="1.0" ref="op:530#NW_05_NWBT_530_1#04/06/2018"/>
-                    </validityParameters>
-                  </GenericParameterAssignment>
-                </FareStructureElement>
-                <FareStructureElement version="1.0" id="op:Tariff@U19_Week@durations@youngPerson">
-                  <Name>Available duration combination - youngPerson ticket</Name>
-                  <TypeOfFareStructureElementRef version="fxc:v1.0" ref="fxc:durations"/>
-                  <timeIntervals>
-                    <TimeIntervalRef version="1.0" ref="op:Tariff@U19_Week@1-week"/>
-                  </timeIntervals>
-                </FareStructureElement>
-                <FareStructureElement id="op:Tariff@U19_Week@conditions_of_travel" version="1.0">
-                  <Name>Conditions of travel</Name>
-                  <GenericParameterAssignment version="1.0" order="1" id="op:Tariff@U19_Week@conditions_of_travel">
-                    <TypeOfAccessRightAssignmentRef version="fxc:v1.0" ref="fxc:condition_of_use"/>
-                    <LimitationGroupingType>AND</LimitationGroupingType>
-                    <limitations>
-                      <FrequencyOfUse version="1.0" id="op:Pass@U19_Week@frequency">
-                        <FrequencyOfUseType>unlimited</FrequencyOfUseType>
-                      </FrequencyOfUse>
-                      <UsageValidityPeriod version="1.0" id="op:Trip@U19_Week@back@frequency">
-                        <UsageTrigger>purchase</UsageTrigger>
-                        <UsageEnd>endOfFareDay</UsageEnd>
-                        <ActivationMeans>noneRequired</ActivationMeans>
-                      </UsageValidityPeriod>
-                    </limitations>
-                  </GenericParameterAssignment>
-                </FareStructureElement>
-                <FareStructureElement version="1.0" id="op:Tariff@U19_Month@access_lines">
-                  <Name>Available lines and/or zones</Name>
-                  <TypeOfFareStructureElementRef version="fxc:v1.0" ref="fxc:access"/>
-                  <GenericParameterAssignment id="Tariff@U19_Month@access_lines" version="1.0" order="1">
-                    <TypeOfAccessRightAssignmentRef version="fxc:v1.0" ref="fxc:can_access"/>
-                    <ValidityParameterGroupingType>OR</ValidityParameterGroupingType>
-                    <validityParameters>
-                      <LineRef version="1.0" ref="op:530#NW_05_NWBT_530_1#04/06/2018"/>
-                    </validityParameters>
-                  </GenericParameterAssignment>
-                </FareStructureElement>
-                <FareStructureElement version="1.0" id="op:Tariff@U19_Month@durations@youngPerson">
-                  <Name>Available duration combination - youngPerson ticket</Name>
-                  <TypeOfFareStructureElementRef version="fxc:v1.0" ref="fxc:durations"/>
-                  <timeIntervals>
-                    <TimeIntervalRef version="1.0" ref="op:Tariff@U19_Month@1-month"/>
-                  </timeIntervals>
-                </FareStructureElement>
-                <FareStructureElement id="op:Tariff@U19_Month@conditions_of_travel" version="1.0">
-                  <Name>Conditions of travel</Name>
-                  <GenericParameterAssignment version="1.0" order="1" id="op:Tariff@U19_Month@conditions_of_travel">
-                    <TypeOfAccessRightAssignmentRef version="fxc:v1.0" ref="fxc:condition_of_use"/>
-                    <LimitationGroupingType>AND</LimitationGroupingType>
-                    <limitations>
-                      <FrequencyOfUse version="1.0" id="op:Pass@U19_Month@frequency">
-                        <FrequencyOfUseType>unlimited</FrequencyOfUseType>
-                      </FrequencyOfUse>
-                      <UsageValidityPeriod version="1.0" id="op:Trip@U19_Month@back@frequency">
-                        <UsageTrigger>purchase</UsageTrigger>
-                        <UsageEnd>endOfFareDay</UsageEnd>
-                        <ActivationMeans>noneRequired</ActivationMeans>
-                      </UsageValidityPeriod>
-                    </limitations>
-                  </GenericParameterAssignment>
-                </FareStructureElement>
-                <FareStructureElement version="1.0" id="op:Tariff@U19_Summer_Half_Term_1@access_lines">
-                  <Name>Available lines and/or zones</Name>
-                  <TypeOfFareStructureElementRef version="fxc:v1.0" ref="fxc:access"/>
-                  <GenericParameterAssignment id="Tariff@U19_Summer_Half_Term_1@access_lines" version="1.0" order="1">
-                    <TypeOfAccessRightAssignmentRef version="fxc:v1.0" ref="fxc:can_access"/>
-                    <ValidityParameterGroupingType>OR</ValidityParameterGroupingType>
-                    <validityParameters>
-                      <LineRef version="1.0" ref="op:530#NW_05_NWBT_530_1#04/06/2018"/>
-                    </validityParameters>
-                  </GenericParameterAssignment>
-                </FareStructureElement>
-                <FareStructureElement version="1.0" id="op:Tariff@U19_Summer_Half_Term_1@durations@youngPerson">
-                  <Name>Available duration combination - youngPerson ticket</Name>
-                  <TypeOfFareStructureElementRef version="fxc:v1.0" ref="fxc:durations"/>
-                  <timeIntervals>
-                    <TimeIntervalRef version="1.0" ref="op:Tariff@U19_Summer_Half_Term_1@6-weeks"/>
-                  </timeIntervals>
-                </FareStructureElement>
-                <FareStructureElement id="op:Tariff@U19_Summer_Half_Term_1@conditions_of_travel" version="1.0">
-                  <Name>Conditions of travel</Name>
-                  <GenericParameterAssignment version="1.0" order="1" id="op:Tariff@U19_Summer_Half_Term_1@conditions_of_travel">
-                    <TypeOfAccessRightAssignmentRef version="fxc:v1.0" ref="fxc:condition_of_use"/>
-                    <LimitationGroupingType>AND</LimitationGroupingType>
-                    <limitations>
-                      <FrequencyOfUse version="1.0" id="op:Pass@U19_Summer_Half_Term_1@frequency">
-                        <FrequencyOfUseType>unlimited</FrequencyOfUseType>
-                      </FrequencyOfUse>
-                      <UsageValidityPeriod version="1.0" id="op:Trip@U19_Summer_Half_Term_1@back@frequency">
-                        <UsageTrigger>purchase</UsageTrigger>
-                        <UsageEnd>endOfFareDay</UsageEnd>
-                        <ActivationMeans>noneRequired</ActivationMeans>
-                      </UsageValidityPeriod>
-                    </limitations>
-                  </GenericParameterAssignment>
-                </FareStructureElement>
-                <FareStructureElement version="1.0" id="op:Tariff@U19_Summer_Half_Term_2@access_lines">
-                  <Name>Available lines and/or zones</Name>
-                  <TypeOfFareStructureElementRef version="fxc:v1.0" ref="fxc:access"/>
-                  <GenericParameterAssignment id="Tariff@U19_Summer_Half_Term_2@access_lines" version="1.0" order="1">
-                    <TypeOfAccessRightAssignmentRef version="fxc:v1.0" ref="fxc:can_access"/>
-                    <ValidityParameterGroupingType>OR</ValidityParameterGroupingType>
-                    <validityParameters>
-                      <LineRef version="1.0" ref="op:530#NW_05_NWBT_530_1#04/06/2018"/>
-                    </validityParameters>
-                  </GenericParameterAssignment>
-                </FareStructureElement>
-                <FareStructureElement version="1.0" id="op:Tariff@U19_Summer_Half_Term_2@durations@youngPerson">
-                  <Name>Available duration combination - youngPerson ticket</Name>
-                  <TypeOfFareStructureElementRef version="fxc:v1.0" ref="fxc:durations"/>
-                  <timeIntervals>
-                    <TimeIntervalRef version="1.0" ref="op:Tariff@U19_Summer_Half_Term_2@7-weeks"/>
-                  </timeIntervals>
-                </FareStructureElement>
-                <FareStructureElement id="op:Tariff@U19_Summer_Half_Term_2@conditions_of_travel" version="1.0">
-                  <Name>Conditions of travel</Name>
-                  <GenericParameterAssignment version="1.0" order="1" id="op:Tariff@U19_Summer_Half_Term_2@conditions_of_travel">
-                    <TypeOfAccessRightAssignmentRef version="fxc:v1.0" ref="fxc:condition_of_use"/>
-                    <LimitationGroupingType>AND</LimitationGroupingType>
-                    <limitations>
-                      <FrequencyOfUse version="1.0" id="op:Pass@U19_Summer_Half_Term_2@frequency">
-                        <FrequencyOfUseType>unlimited</FrequencyOfUseType>
-                      </FrequencyOfUse>
-                      <UsageValidityPeriod version="1.0" id="op:Trip@U19_Summer_Half_Term_2@back@frequency">
-                        <UsageTrigger>purchase</UsageTrigger>
-                        <UsageEnd>endOfFareDay</UsageEnd>
-                        <ActivationMeans>noneRequired</ActivationMeans>
-                      </UsageValidityPeriod>
-                    </limitations>
-                  </GenericParameterAssignment>
-                </FareStructureElement>
-                <FareStructureElement version="1.0" id="op:Tariff@U19_Summer_Term@access_lines">
-                  <Name>Available lines and/or zones</Name>
-                  <TypeOfFareStructureElementRef version="fxc:v1.0" ref="fxc:access"/>
-                  <GenericParameterAssignment id="Tariff@U19_Summer_Term@access_lines" version="1.0" order="1">
-                    <TypeOfAccessRightAssignmentRef version="fxc:v1.0" ref="fxc:can_access"/>
-                    <ValidityParameterGroupingType>OR</ValidityParameterGroupingType>
-                    <validityParameters>
-                      <LineRef version="1.0" ref="op:530#NW_05_NWBT_530_1#04/06/2018"/>
-                    </validityParameters>
-                  </GenericParameterAssignment>
-                </FareStructureElement>
-                <FareStructureElement version="1.0" id="op:Tariff@U19_Summer_Term@durations@youngPerson">
-                  <Name>Available duration combination - youngPerson ticket</Name>
-                  <TypeOfFareStructureElementRef version="fxc:v1.0" ref="fxc:durations"/>
-                  <timeIntervals>
-                    <TimeIntervalRef version="1.0" ref="op:Tariff@U19_Summer_Term@14-weeks"/>
-                  </timeIntervals>
-                </FareStructureElement>
-                <FareStructureElement id="op:Tariff@U19_Summer_Term@conditions_of_travel" version="1.0">
-                  <Name>Conditions of travel</Name>
-                  <GenericParameterAssignment version="1.0" order="1" id="op:Tariff@U19_Summer_Term@conditions_of_travel">
-                    <TypeOfAccessRightAssignmentRef version="fxc:v1.0" ref="fxc:condition_of_use"/>
-                    <LimitationGroupingType>AND</LimitationGroupingType>
-                    <limitations>
-                      <FrequencyOfUse version="1.0" id="op:Pass@U19_Summer_Term@frequency">
-                        <FrequencyOfUseType>unlimited</FrequencyOfUseType>
-                      </FrequencyOfUse>
-                      <UsageValidityPeriod version="1.0" id="op:Trip@U19_Summer_Term@back@frequency">
-                        <UsageTrigger>purchase</UsageTrigger>
-                        <UsageEnd>endOfFareDay</UsageEnd>
-                        <ActivationMeans>noneRequired</ActivationMeans>
-                      </UsageValidityPeriod>
-                    </limitations>
-                  </GenericParameterAssignment>
-                </FareStructureElement>
-                <FareStructureElement version="1.0" id="op:Tariff@eligibility@youngPerson">
+                <FareStructureElement version="1.0" id="op:Tariff@eligibility@adult">
                   <Name>Eligible user types</Name>
                   <TypeOfFareStructureElementRef version="fxc:v1.0" ref="fxc:eligibility"/>
-                  <GenericParameterAssignment id="op:Tariff@youngPerson" version="1.0" order="0">
+                  <GenericParameterAssignment id="op:Tariff@adult" version="1.0" order="0">
                     <TypeOfAccessRightAssignmentRef version="fxc:v1.0" ref="fxc:eligible"/>
                     <LimitationGroupingType>XOR</LimitationGroupingType>
                     <limitations>
-                      <UserProfile version="1.0" id="op:youngPerson">
-                        <Name>youngPerson</Name>
-                        <TypeOfConcessionRef version="fxc:v1.0" ref="fxc:young_person"/>
-                        <MaximumAge>18</MaximumAge>
+                      <UserProfile version="1.0" id="op:adult">
+                        <Name>adult</Name>
+                        <TypeOfConcessionRef version="fxc:v1.0" ref="fxc:none"/>
                       </UserProfile>
                     </limitations>
                   </GenericParameterAssignment>
@@ -421,738 +215,94 @@
             </Tariff>
           </tariffs>
           <fareProducts>
-            <PreassignedFareProduct version="1.0" id="op:Pass@U19_Day_youngPerson">
-              <Name>U19 Day Pass - youngPerson</Name>
+            <PreassignedFareProduct version="1.0" id="op:Pass@Flat_Fare_Trial_adult">
+              <Name>Flat Fare Trial Pass - adult</Name>
               <ChargingMomentType>beforeTravel</ChargingMomentType>
               <typesOfFareProduct>
                 <TypeOfFareProductRef version="fxc:v1.0" ref="fxc:standard_product@pass@period"/>
               </typesOfFareProduct>
-              <OperatorRef version="1.0" ref="noc:NWBT">noc:135752</OperatorRef>
+              <OperatorRef version="1.0" ref="noc:ESCL">noc:136284</OperatorRef>
               <validableElements>
-                <ValidableElement version="1.0" id="op:Pass@U19_Day_youngPerson@travel">
-                  <Name>Rides available for specified durations</Name>
+                <ValidableElement version="1.0" id="op:Pass@Flat_Fare_Trial_adult@travel">
+                  <Name>Unlimited rides available for specified durations</Name>
                   <fareStructureElements>
-                    <FareStructureElementRef version="1.0" ref="op:Tariff@U19_Day@access_lines"/>
-                    <FareStructureElementRef version="1.0" ref="op:Tariff@U19_Day@durations@youngPerson"/>
-                    <FareStructureElementRef version="1.0" ref="op:Tariff@U19_Day@conditions_of_travel"/>
-                    <FareStructureElementRef version="1.0" ref="op:Tariff@eligibility@youngPerson"/>
+                    <FareStructureElementRef version="1.0" ref="op:Tariff@Flat_Fare_Trial@access_lines"/>
+                    <FareStructureElementRef version="1.0" ref="op:Tariff@Flat_Fare_Trial@conditions_of_travel"/>
+                    <FareStructureElementRef version="1.0" ref="op:Tariff@eligibility@adult"/>
                   </fareStructureElements>
                 </ValidableElement>
               </validableElements>
               <accessRightsInProduct>
-                <AccessRightInProduct version="1.0" id="op:Pass@U19_Day_youngPerson@travel" order="1">
-                  <ValidableElementRef version="1.0" ref="op:Pass@U19_Day_youngPerson@travel"/>
-                </AccessRightInProduct>
-              </accessRightsInProduct>
-              <ProductType>periodPass</ProductType>
-            </PreassignedFareProduct>
-            <PreassignedFareProduct version="1.0" id="op:Pass@U19_Week_youngPerson">
-              <Name>U19 Week Pass - youngPerson</Name>
-              <ChargingMomentType>beforeTravel</ChargingMomentType>
-              <typesOfFareProduct>
-                <TypeOfFareProductRef version="fxc:v1.0" ref="fxc:standard_product@pass@period"/>
-              </typesOfFareProduct>
-              <OperatorRef version="1.0" ref="noc:NWBT">noc:135752</OperatorRef>
-              <validableElements>
-                <ValidableElement version="1.0" id="op:Pass@U19_Week_youngPerson@travel">
-                  <Name>Rides available for specified durations</Name>
-                  <fareStructureElements>
-                    <FareStructureElementRef version="1.0" ref="op:Tariff@U19_Week@access_lines"/>
-                    <FareStructureElementRef version="1.0" ref="op:Tariff@U19_Week@durations@youngPerson"/>
-                    <FareStructureElementRef version="1.0" ref="op:Tariff@U19_Week@conditions_of_travel"/>
-                    <FareStructureElementRef version="1.0" ref="op:Tariff@eligibility@youngPerson"/>
-                  </fareStructureElements>
-                </ValidableElement>
-              </validableElements>
-              <accessRightsInProduct>
-                <AccessRightInProduct version="1.0" id="op:Pass@U19_Week_youngPerson@travel" order="1">
-                  <ValidableElementRef version="1.0" ref="op:Pass@U19_Week_youngPerson@travel"/>
-                </AccessRightInProduct>
-              </accessRightsInProduct>
-              <ProductType>periodPass</ProductType>
-            </PreassignedFareProduct>
-            <PreassignedFareProduct version="1.0" id="op:Pass@U19_Month_youngPerson">
-              <Name>U19 Month Pass - youngPerson</Name>
-              <ChargingMomentType>beforeTravel</ChargingMomentType>
-              <typesOfFareProduct>
-                <TypeOfFareProductRef version="fxc:v1.0" ref="fxc:standard_product@pass@period"/>
-              </typesOfFareProduct>
-              <OperatorRef version="1.0" ref="noc:NWBT">noc:135752</OperatorRef>
-              <validableElements>
-                <ValidableElement version="1.0" id="op:Pass@U19_Month_youngPerson@travel">
-                  <Name>Rides available for specified durations</Name>
-                  <fareStructureElements>
-                    <FareStructureElementRef version="1.0" ref="op:Tariff@U19_Month@access_lines"/>
-                    <FareStructureElementRef version="1.0" ref="op:Tariff@U19_Month@durations@youngPerson"/>
-                    <FareStructureElementRef version="1.0" ref="op:Tariff@U19_Month@conditions_of_travel"/>
-                    <FareStructureElementRef version="1.0" ref="op:Tariff@eligibility@youngPerson"/>
-                  </fareStructureElements>
-                </ValidableElement>
-              </validableElements>
-              <accessRightsInProduct>
-                <AccessRightInProduct version="1.0" id="op:Pass@U19_Month_youngPerson@travel" order="1">
-                  <ValidableElementRef version="1.0" ref="op:Pass@U19_Month_youngPerson@travel"/>
-                </AccessRightInProduct>
-              </accessRightsInProduct>
-              <ProductType>periodPass</ProductType>
-            </PreassignedFareProduct>
-            <PreassignedFareProduct version="1.0" id="op:Pass@U19_Summer_Half_Term_1_youngPerson">
-              <Name>U19 Summer Half Term 1 Pass - youngPerson</Name>
-              <ChargingMomentType>beforeTravel</ChargingMomentType>
-              <typesOfFareProduct>
-                <TypeOfFareProductRef version="fxc:v1.0" ref="fxc:standard_product@pass@period"/>
-              </typesOfFareProduct>
-              <OperatorRef version="1.0" ref="noc:NWBT">noc:135752</OperatorRef>
-              <validableElements>
-                <ValidableElement version="1.0" id="op:Pass@U19_Summer_Half_Term_1_youngPerson@travel">
-                  <Name>Rides available for specified durations</Name>
-                  <fareStructureElements>
-                    <FareStructureElementRef version="1.0" ref="op:Tariff@U19_Summer_Half_Term_1@access_lines"/>
-                    <FareStructureElementRef version="1.0" ref="op:Tariff@U19_Summer_Half_Term_1@durations@youngPerson"/>
-                    <FareStructureElementRef version="1.0" ref="op:Tariff@U19_Summer_Half_Term_1@conditions_of_travel"/>
-                    <FareStructureElementRef version="1.0" ref="op:Tariff@eligibility@youngPerson"/>
-                  </fareStructureElements>
-                </ValidableElement>
-              </validableElements>
-              <accessRightsInProduct>
-                <AccessRightInProduct version="1.0" id="op:Pass@U19_Summer_Half_Term_1_youngPerson@travel" order="1">
-                  <ValidableElementRef version="1.0" ref="op:Pass@U19_Summer_Half_Term_1_youngPerson@travel"/>
-                </AccessRightInProduct>
-              </accessRightsInProduct>
-              <ProductType>periodPass</ProductType>
-            </PreassignedFareProduct>
-            <PreassignedFareProduct version="1.0" id="op:Pass@U19_Summer_Half_Term_2_youngPerson">
-              <Name>U19 Summer Half Term 2 Pass - youngPerson</Name>
-              <ChargingMomentType>beforeTravel</ChargingMomentType>
-              <typesOfFareProduct>
-                <TypeOfFareProductRef version="fxc:v1.0" ref="fxc:standard_product@pass@period"/>
-              </typesOfFareProduct>
-              <OperatorRef version="1.0" ref="noc:NWBT">noc:135752</OperatorRef>
-              <validableElements>
-                <ValidableElement version="1.0" id="op:Pass@U19_Summer_Half_Term_2_youngPerson@travel">
-                  <Name>Rides available for specified durations</Name>
-                  <fareStructureElements>
-                    <FareStructureElementRef version="1.0" ref="op:Tariff@U19_Summer_Half_Term_2@access_lines"/>
-                    <FareStructureElementRef version="1.0" ref="op:Tariff@U19_Summer_Half_Term_2@durations@youngPerson"/>
-                    <FareStructureElementRef version="1.0" ref="op:Tariff@U19_Summer_Half_Term_2@conditions_of_travel"/>
-                    <FareStructureElementRef version="1.0" ref="op:Tariff@eligibility@youngPerson"/>
-                  </fareStructureElements>
-                </ValidableElement>
-              </validableElements>
-              <accessRightsInProduct>
-                <AccessRightInProduct version="1.0" id="op:Pass@U19_Summer_Half_Term_2_youngPerson@travel" order="1">
-                  <ValidableElementRef version="1.0" ref="op:Pass@U19_Summer_Half_Term_2_youngPerson@travel"/>
-                </AccessRightInProduct>
-              </accessRightsInProduct>
-              <ProductType>periodPass</ProductType>
-            </PreassignedFareProduct>
-            <PreassignedFareProduct version="1.0" id="op:Pass@U19_Summer_Term_youngPerson">
-              <Name>U19 Summer Term Pass - youngPerson</Name>
-              <ChargingMomentType>beforeTravel</ChargingMomentType>
-              <typesOfFareProduct>
-                <TypeOfFareProductRef version="fxc:v1.0" ref="fxc:standard_product@pass@period"/>
-              </typesOfFareProduct>
-              <OperatorRef version="1.0" ref="noc:NWBT">noc:135752</OperatorRef>
-              <validableElements>
-                <ValidableElement version="1.0" id="op:Pass@U19_Summer_Term_youngPerson@travel">
-                  <Name>Rides available for specified durations</Name>
-                  <fareStructureElements>
-                    <FareStructureElementRef version="1.0" ref="op:Tariff@U19_Summer_Term@access_lines"/>
-                    <FareStructureElementRef version="1.0" ref="op:Tariff@U19_Summer_Term@durations@youngPerson"/>
-                    <FareStructureElementRef version="1.0" ref="op:Tariff@U19_Summer_Term@conditions_of_travel"/>
-                    <FareStructureElementRef version="1.0" ref="op:Tariff@eligibility@youngPerson"/>
-                  </fareStructureElements>
-                </ValidableElement>
-              </validableElements>
-              <accessRightsInProduct>
-                <AccessRightInProduct version="1.0" id="op:Pass@U19_Summer_Term_youngPerson@travel" order="1">
-                  <ValidableElementRef version="1.0" ref="op:Pass@U19_Summer_Term_youngPerson@travel"/>
+                <AccessRightInProduct version="1.0" id="op:Pass@Flat_Fare_Trial_adult@travel" order="1">
+                  <ValidableElementRef version="1.0" ref="op:Pass@Flat_Fare_Trial_adult@travel"/>
                 </AccessRightInProduct>
               </accessRightsInProduct>
               <ProductType>periodPass</ProductType>
             </PreassignedFareProduct>
           </fareProducts>
           <salesOfferPackages>
-            <SalesOfferPackage version="1.0" id="Trip@period_youngPerson-U19_Day-SOP@Onboard_(cash)">
-              <Name>U19 Day - youngPerson - Onboard (cash)</Name>
+            <SalesOfferPackage version="1.0" id="Trip@flatFare_adult-Flat_Fare_Trial-SOP@Onboard_(cash)">
+              <Name>Flat Fare Trial - adult - Onboard (cash)</Name>
+              <Description>Purchasable on board the bus, with cash, as a paper ticket.</Description>
               <distributionAssignments>
-                <DistributionAssignment version="any" id="Trip@period_youngPerson-U19_Day-SOP@Onboard_(cash)@onBoard" order="1">
-                  <DistributionChannelRef ref="fxc:on_board" version="fxc:v1.0"/>
+                <DistributionAssignment version="any" id="Trip@flatFare_adult-Flat_Fare_Trial-SOP@Onboard_(cash)@onBoard" order="1">
+                  <DistributionChannelRef ref="fxc:onBoard" version="fxc:v1.0"/>
                   <DistributionChannelType>onBoard</DistributionChannelType>
                   <PaymentMethods>cash</PaymentMethods>
                 </DistributionAssignment>
               </distributionAssignments>
               <salesOfferPackageElements>
-                <SalesOfferPackageElement id="Trip@period_youngPerson-U19_Day-Onboard_(cash)@paperTicket" version="1.0" order="1">
+                <SalesOfferPackageElement id="Trip@flatFare_adult-Flat_Fare_Trial-Onboard_(cash)@paperTicket" version="1.0" order="1">
                   <TypeOfTravelDocumentRef version="fxc:v1.0" ref="fxc:paperTicket"/>
-                  <PreassignedFareProductRef version="1.0" ref="op:Pass@U19_Day_youngPerson"/>
-                </SalesOfferPackageElement>
-              </salesOfferPackageElements>
-            </SalesOfferPackage>
-            <SalesOfferPackage version="1.0" id="Trip@period_youngPerson-U19_Day-SOP@Onboard_(contactless)">
-              <Name>U19 Day - youngPerson - Onboard (contactless)</Name>
-              <distributionAssignments>
-                <DistributionAssignment version="any" id="Trip@period_youngPerson-U19_Day-SOP@Onboard_(contactless)@onBoard" order="1">
-                  <DistributionChannelRef ref="fxc:on_board" version="fxc:v1.0"/>
-                  <DistributionChannelType>onBoard</DistributionChannelType>
-                  <PaymentMethods>contactlessPaymentCard</PaymentMethods>
-                </DistributionAssignment>
-              </distributionAssignments>
-              <salesOfferPackageElements>
-                <SalesOfferPackageElement id="Trip@period_youngPerson-U19_Day-Onboard_(contactless)@paperTicket" version="1.0" order="1">
-                  <TypeOfTravelDocumentRef version="fxc:v1.0" ref="fxc:paperTicket"/>
-                  <PreassignedFareProductRef version="1.0" ref="op:Pass@U19_Day_youngPerson"/>
-                </SalesOfferPackageElement>
-              </salesOfferPackageElements>
-            </SalesOfferPackage>
-            <SalesOfferPackage version="1.0" id="Trip@period_youngPerson-U19_Day-SOP@Mobile_App">
-              <Name>U19 Day - youngPerson - Mobile App</Name>
-              <distributionAssignments>
-                <DistributionAssignment version="any" id="Trip@period_youngPerson-U19_Day-SOP@Mobile_App@mobileDevice" order="1">
-                  <DistributionChannelRef ref="fxc:mobile_device" version="fxc:v1.0"/>
-                  <DistributionChannelType>mobileDevice</DistributionChannelType>
-                  <PaymentMethods>debitCard creditCard mobilePhone directDebit</PaymentMethods>
-                </DistributionAssignment>
-              </distributionAssignments>
-              <salesOfferPackageElements>
-                <SalesOfferPackageElement id="Trip@period_youngPerson-U19_Day-Mobile_App@mobileApp" version="1.0" order="1">
-                  <TypeOfTravelDocumentRef version="fxc:v1.0" ref="fxc:mobileApp"/>
-                  <PreassignedFareProductRef version="1.0" ref="op:Pass@U19_Day_youngPerson"/>
-                </SalesOfferPackageElement>
-              </salesOfferPackageElements>
-            </SalesOfferPackage>
-            <SalesOfferPackage version="1.0" id="Trip@period_youngPerson-U19_Week-SOP@Onboard_(cash)">
-              <Name>U19 Week - youngPerson - Onboard (cash)</Name>
-              <distributionAssignments>
-                <DistributionAssignment version="any" id="Trip@period_youngPerson-U19_Week-SOP@Onboard_(cash)@onBoard" order="1">
-                  <DistributionChannelRef ref="fxc:on_board" version="fxc:v1.0"/>
-                  <DistributionChannelType>onBoard</DistributionChannelType>
-                  <PaymentMethods>cash</PaymentMethods>
-                </DistributionAssignment>
-              </distributionAssignments>
-              <salesOfferPackageElements>
-                <SalesOfferPackageElement id="Trip@period_youngPerson-U19_Week-Onboard_(cash)@paperTicket" version="1.0" order="1">
-                  <TypeOfTravelDocumentRef version="fxc:v1.0" ref="fxc:paperTicket"/>
-                  <PreassignedFareProductRef version="1.0" ref="op:Pass@U19_Week_youngPerson"/>
-                </SalesOfferPackageElement>
-              </salesOfferPackageElements>
-            </SalesOfferPackage>
-            <SalesOfferPackage version="1.0" id="Trip@period_youngPerson-U19_Week-SOP@Onboard_(contactless)">
-              <Name>U19 Week - youngPerson - Onboard (contactless)</Name>
-              <distributionAssignments>
-                <DistributionAssignment version="any" id="Trip@period_youngPerson-U19_Week-SOP@Onboard_(contactless)@onBoard" order="1">
-                  <DistributionChannelRef ref="fxc:on_board" version="fxc:v1.0"/>
-                  <DistributionChannelType>onBoard</DistributionChannelType>
-                  <PaymentMethods>contactlessPaymentCard</PaymentMethods>
-                </DistributionAssignment>
-              </distributionAssignments>
-              <salesOfferPackageElements>
-                <SalesOfferPackageElement id="Trip@period_youngPerson-U19_Week-Onboard_(contactless)@paperTicket" version="1.0" order="1">
-                  <TypeOfTravelDocumentRef version="fxc:v1.0" ref="fxc:paperTicket"/>
-                  <PreassignedFareProductRef version="1.0" ref="op:Pass@U19_Week_youngPerson"/>
-                </SalesOfferPackageElement>
-              </salesOfferPackageElements>
-            </SalesOfferPackage>
-            <SalesOfferPackage version="1.0" id="Trip@period_youngPerson-U19_Week-SOP@Mobile_App">
-              <Name>U19 Week - youngPerson - Mobile App</Name>
-              <distributionAssignments>
-                <DistributionAssignment version="any" id="Trip@period_youngPerson-U19_Week-SOP@Mobile_App@mobileDevice" order="1">
-                  <DistributionChannelRef ref="fxc:mobile_device" version="fxc:v1.0"/>
-                  <DistributionChannelType>mobileDevice</DistributionChannelType>
-                  <PaymentMethods>debitCard creditCard mobilePhone directDebit</PaymentMethods>
-                </DistributionAssignment>
-              </distributionAssignments>
-              <salesOfferPackageElements>
-                <SalesOfferPackageElement id="Trip@period_youngPerson-U19_Week-Mobile_App@mobileApp" version="1.0" order="1">
-                  <TypeOfTravelDocumentRef version="fxc:v1.0" ref="fxc:mobileApp"/>
-                  <PreassignedFareProductRef version="1.0" ref="op:Pass@U19_Week_youngPerson"/>
-                </SalesOfferPackageElement>
-              </salesOfferPackageElements>
-            </SalesOfferPackage>
-            <SalesOfferPackage version="1.0" id="Trip@period_youngPerson-U19_Month-SOP@Onboard_(contactless)">
-              <Name>U19 Month - youngPerson - Onboard (contactless)</Name>
-              <distributionAssignments>
-                <DistributionAssignment version="any" id="Trip@period_youngPerson-U19_Month-SOP@Onboard_(contactless)@onBoard" order="1">
-                  <DistributionChannelRef ref="fxc:on_board" version="fxc:v1.0"/>
-                  <DistributionChannelType>onBoard</DistributionChannelType>
-                  <PaymentMethods>contactlessPaymentCard</PaymentMethods>
-                </DistributionAssignment>
-              </distributionAssignments>
-              <salesOfferPackageElements>
-                <SalesOfferPackageElement id="Trip@period_youngPerson-U19_Month-Onboard_(contactless)@paperTicket" version="1.0" order="1">
-                  <TypeOfTravelDocumentRef version="fxc:v1.0" ref="fxc:paperTicket"/>
-                  <PreassignedFareProductRef version="1.0" ref="op:Pass@U19_Month_youngPerson"/>
-                </SalesOfferPackageElement>
-              </salesOfferPackageElements>
-            </SalesOfferPackage>
-            <SalesOfferPackage version="1.0" id="Trip@period_youngPerson-U19_Month-SOP@Mobile_App">
-              <Name>U19 Month - youngPerson - Mobile App</Name>
-              <distributionAssignments>
-                <DistributionAssignment version="any" id="Trip@period_youngPerson-U19_Month-SOP@Mobile_App@mobileDevice" order="1">
-                  <DistributionChannelRef ref="fxc:mobile_device" version="fxc:v1.0"/>
-                  <DistributionChannelType>mobileDevice</DistributionChannelType>
-                  <PaymentMethods>debitCard creditCard mobilePhone directDebit</PaymentMethods>
-                </DistributionAssignment>
-              </distributionAssignments>
-              <salesOfferPackageElements>
-                <SalesOfferPackageElement id="Trip@period_youngPerson-U19_Month-Mobile_App@mobileApp" version="1.0" order="1">
-                  <TypeOfTravelDocumentRef version="fxc:v1.0" ref="fxc:mobileApp"/>
-                  <PreassignedFareProductRef version="1.0" ref="op:Pass@U19_Month_youngPerson"/>
-                </SalesOfferPackageElement>
-              </salesOfferPackageElements>
-            </SalesOfferPackage>
-            <SalesOfferPackage version="1.0" id="Trip@period_youngPerson-U19_Summer_Half_Term_1-SOP@Mobile_App">
-              <Name>U19 Summer Half Term 1 - youngPerson - Mobile App</Name>
-              <distributionAssignments>
-                <DistributionAssignment version="any" id="Trip@period_youngPerson-U19_Summer_Half_Term_1-SOP@Mobile_App@mobileDevice" order="1">
-                  <DistributionChannelRef ref="fxc:mobile_device" version="fxc:v1.0"/>
-                  <DistributionChannelType>mobileDevice</DistributionChannelType>
-                  <PaymentMethods>debitCard creditCard mobilePhone directDebit</PaymentMethods>
-                </DistributionAssignment>
-              </distributionAssignments>
-              <salesOfferPackageElements>
-                <SalesOfferPackageElement id="Trip@period_youngPerson-U19_Summer_Half_Term_1-Mobile_App@mobileApp" version="1.0" order="1">
-                  <TypeOfTravelDocumentRef version="fxc:v1.0" ref="fxc:mobileApp"/>
-                  <PreassignedFareProductRef version="1.0" ref="op:Pass@U19_Summer_Half_Term_1_youngPerson"/>
-                </SalesOfferPackageElement>
-              </salesOfferPackageElements>
-            </SalesOfferPackage>
-            <SalesOfferPackage version="1.0" id="Trip@period_youngPerson-U19_Summer_Half_Term_2-SOP@Mobile_App">
-              <Name>U19 Summer Half Term 2 - youngPerson - Mobile App</Name>
-              <distributionAssignments>
-                <DistributionAssignment version="any" id="Trip@period_youngPerson-U19_Summer_Half_Term_2-SOP@Mobile_App@mobileDevice" order="1">
-                  <DistributionChannelRef ref="fxc:mobile_device" version="fxc:v1.0"/>
-                  <DistributionChannelType>mobileDevice</DistributionChannelType>
-                  <PaymentMethods>debitCard creditCard mobilePhone directDebit</PaymentMethods>
-                </DistributionAssignment>
-              </distributionAssignments>
-              <salesOfferPackageElements>
-                <SalesOfferPackageElement id="Trip@period_youngPerson-U19_Summer_Half_Term_2-Mobile_App@mobileApp" version="1.0" order="1">
-                  <TypeOfTravelDocumentRef version="fxc:v1.0" ref="fxc:mobileApp"/>
-                  <PreassignedFareProductRef version="1.0" ref="op:Pass@U19_Summer_Half_Term_2_youngPerson"/>
-                </SalesOfferPackageElement>
-              </salesOfferPackageElements>
-            </SalesOfferPackage>
-            <SalesOfferPackage version="1.0" id="Trip@period_youngPerson-U19_Summer_Term-SOP@Mobile_App">
-              <Name>U19 Summer Term - youngPerson - Mobile App</Name>
-              <distributionAssignments>
-                <DistributionAssignment version="any" id="Trip@period_youngPerson-U19_Summer_Term-SOP@Mobile_App@mobileDevice" order="1">
-                  <DistributionChannelRef ref="fxc:mobile_device" version="fxc:v1.0"/>
-                  <DistributionChannelType>mobileDevice</DistributionChannelType>
-                  <PaymentMethods>debitCard creditCard mobilePhone directDebit</PaymentMethods>
-                </DistributionAssignment>
-              </distributionAssignments>
-              <salesOfferPackageElements>
-                <SalesOfferPackageElement id="Trip@period_youngPerson-U19_Summer_Term-Mobile_App@mobileApp" version="1.0" order="1">
-                  <TypeOfTravelDocumentRef version="fxc:v1.0" ref="fxc:mobileApp"/>
-                  <PreassignedFareProductRef version="1.0" ref="op:Pass@U19_Summer_Term_youngPerson"/>
+                  <PreassignedFareProductRef version="1.0" ref="op:Pass@Flat_Fare_Trial_adult"/>
                 </SalesOfferPackageElement>
               </salesOfferPackageElements>
             </SalesOfferPackage>
           </salesOfferPackages>
         </FareFrame>
-        <FareFrame version="1.0" id="epd:UK:NWBT:FareFrame_UK_PI_FARE_PRICE:NWBT_products@pass:op" responsibilitySetRef="op:tariffs">
-          <Name>NWBT_products Prices</Name>
+        <FareFrame version="1.0" id="epd:UK:ESCL:FareFrame_UK_PI_FARE_PRICE:ESCL_products@pass:op" responsibilitySetRef="op:tariffs">
+          <Name>ESCL_products Prices</Name>
           <TypeOfFrameRef version="fxc:v1.0" ref="fxc:UK:DFT:TypeOfFrame_UK_PI_FARE_PRICE:FXCP"/>
           <FrameDefaults>
             <DefaultCodespaceRef ref="op_data"/>
             <DefaultResponsibilitySetRef version="1.0" ref="op:tariffs"/>
           </FrameDefaults>
           <prerequisites>
-            <FareFrameRef version="1.0" ref="epd:UK:NWBT:FareFrame_UK_PI_FARE_PRODUCT:NWBT_products@pass:op"/>
+            <FareFrameRef version="1.0" ref="epd:UK:ESCL:FareFrame_UK_PI_FARE_PRODUCT:ESCL_products@pass:op"/>
           </prerequisites>
           <fareTables>
-            <FareTable version="1.0" id="op:U19_Day@NWBT-multi-service">
-              <Name>NWBT-multi-service</Name>
-              <columns>
-                <FareTableColumn version="1.0" id="op:U19_Day@NWBT-multi-service@p-ticket">
-                  <Name>NWBT-multi-service</Name>
-                </FareTableColumn>
-              </columns>
+            <FareTable version="1.0" id="op:Flat_Fare_Trial">
+              <Name>Flat Fare Trial</Name>
               <includes>
-                <FareTable version="1.0" id="op:U19_Day@NWBT-multi-service@all_media">
-                  <Name>U19 Day</Name>
+                <FareTable version="1.0" id="op:Flat_Fare_Trial@p-ticket@adult">
+                  <Name>Flat Fare Trial</Name>
                   <pricesFor>
-                    <SalesOfferPackageRef version="1.0" ref="Trip@period_youngPerson-U19_Day-SOP@Onboard_(cash)"/>
+                    <SalesOfferPackageRef version="1.0" ref="Trip@flatFare_adult-Flat_Fare_Trial-SOP@Onboard_(cash)"/>
                   </pricesFor>
-                  <specifics>
-                    <TypeOfTravelDocumentRef version="1.0" ref="op:p-ticket"/>
-                  </specifics>
-                  <columns>
-                    <FareTableColumn version="1.0" id="op:U19_Day@NWBT-multi-service@all_media@paper">
-                      <Name>U19 Day</Name>
-                      <representing>
-                        <TypeOfTravelDocumentRef version="1.0" ref="op:p-ticket"/>
-                        <UserProfileRef version="1.0" ref="op:youngPerson"/>
-                      </representing>
-                    </FareTableColumn>
-                  </columns>
-                  <includes>
-                    <FareTable version="1.0" id="op:U19_Day@NWBT-multi-service@p-ticket@youngPerson">
-                      <Name>U19 Day - youngPerson</Name>
-                      <limitations>
-                        <UserProfileRef version="1.0" ref="op:youngPerson"/>
-                      </limitations>
-                      <columns>
-                        <FareTableColumn version="1.0" id="op:U19_Day@NWBT-multi-service@p-ticket@youngPerson">
-                          <Name>youngPerson</Name>
-                          <representing>
-                            <TypeOfTravelDocumentRef version="1.0" ref="op:p-ticket"/>
-                            <UserProfileRef version="1.0" ref="op:youngPerson"/>
-                          </representing>
-                        </FareTableColumn>
-                      </columns>
-                      <rows>
-                        <FareTableRow version="1.0" id="op:U19_Day@NWBT-multi-service@p-ticket@1-day">
-                          <Name>1 day</Name>
-                          <representing>
-                            <TimeIntervalRef version="1.0" ref="op:Tariff@U19_Day@1-day"/>
-                          </representing>
-                        </FareTableRow>
-                      </rows>
-                      <cells>
-                        <Cell version="1.0" id="op:U19_Day@NWBT-multi-service@p-ticket@youngPerson@1-day" order="1">
-                          <TimeIntervalPrice version="1.0" id="op:U19_Day@NWBT-multi-service@p-ticket@youngPerson@1-day">
-                            <Amount>5</Amount>
-                            <TimeIntervalRef version="1.0" ref="op:Tariff@U19_Day@1-day"/>
-                          </TimeIntervalPrice>
-                          <ColumnRef version="1.0" ref="op:U19_Day@NWBT-multi-service@p-ticket@youngPerson"/>
-                          <RowRef version="1.0" ref="op:U19_Day@NWBT-multi-service@p-ticket@1-day"/>
-                        </Cell>
-                      </cells>
-                    </FareTable>
-                  </includes>
-                </FareTable>
-              </includes>
-            </FareTable>
-            <FareTable version="1.0" id="op:U19_Week@NWBT-multi-service">
-              <Name>NWBT-multi-service</Name>
-              <columns>
-                <FareTableColumn version="1.0" id="op:U19_Week@NWBT-multi-service@p-ticket">
-                  <Name>NWBT-multi-service</Name>
-                </FareTableColumn>
-              </columns>
-              <includes>
-                <FareTable version="1.0" id="op:U19_Week@NWBT-multi-service@all_media">
-                  <Name>U19 Week</Name>
-                  <pricesFor>
-                    <SalesOfferPackageRef version="1.0" ref="Trip@period_youngPerson-U19_Week-SOP@Onboard_(cash)"/>
-                  </pricesFor>
-                  <specifics>
-                    <TypeOfTravelDocumentRef version="1.0" ref="op:p-ticket"/>
-                  </specifics>
-                  <columns>
-                    <FareTableColumn version="1.0" id="op:U19_Week@NWBT-multi-service@all_media@paper">
-                      <Name>U19 Week</Name>
-                      <representing>
-                        <TypeOfTravelDocumentRef version="1.0" ref="op:p-ticket"/>
-                        <UserProfileRef version="1.0" ref="op:youngPerson"/>
-                      </representing>
-                    </FareTableColumn>
-                  </columns>
-                  <includes>
-                    <FareTable version="1.0" id="op:U19_Week@NWBT-multi-service@p-ticket@youngPerson">
-                      <Name>U19 Week - youngPerson</Name>
-                      <limitations>
-                        <UserProfileRef version="1.0" ref="op:youngPerson"/>
-                      </limitations>
-                      <columns>
-                        <FareTableColumn version="1.0" id="op:U19_Week@NWBT-multi-service@p-ticket@youngPerson">
-                          <Name>youngPerson</Name>
-                          <representing>
-                            <TypeOfTravelDocumentRef version="1.0" ref="op:p-ticket"/>
-                            <UserProfileRef version="1.0" ref="op:youngPerson"/>
-                          </representing>
-                        </FareTableColumn>
-                      </columns>
-                      <rows>
-                        <FareTableRow version="1.0" id="op:U19_Week@NWBT-multi-service@p-ticket@1-week">
-                          <Name>1 week</Name>
-                          <representing>
-                            <TimeIntervalRef version="1.0" ref="op:Tariff@U19_Week@1-week"/>
-                          </representing>
-                        </FareTableRow>
-                      </rows>
-                      <cells>
-                        <Cell version="1.0" id="op:U19_Week@NWBT-multi-service@p-ticket@youngPerson@1-week" order="1">
-                          <TimeIntervalPrice version="1.0" id="op:U19_Week@NWBT-multi-service@p-ticket@youngPerson@1-week">
-                            <Amount>16</Amount>
-                            <TimeIntervalRef version="1.0" ref="op:Tariff@U19_Week@1-week"/>
-                          </TimeIntervalPrice>
-                          <ColumnRef version="1.0" ref="op:U19_Week@NWBT-multi-service@p-ticket@youngPerson"/>
-                          <RowRef version="1.0" ref="op:U19_Week@NWBT-multi-service@p-ticket@1-week"/>
-                        </Cell>
-                      </cells>
-                    </FareTable>
-                  </includes>
-                </FareTable>
-              </includes>
-            </FareTable>
-            <FareTable version="1.0" id="op:U19_Month@NWBT-multi-service">
-              <Name>NWBT-multi-service</Name>
-              <columns>
-                <FareTableColumn version="1.0" id="op:U19_Month@NWBT-multi-service@p-ticket">
-                  <Name>NWBT-multi-service</Name>
-                </FareTableColumn>
-              </columns>
-              <includes>
-                <FareTable version="1.0" id="op:U19_Month@NWBT-multi-service@all_media">
-                  <Name>U19 Month</Name>
-                  <pricesFor>
-                    <SalesOfferPackageRef version="1.0" ref="Trip@period_youngPerson-U19_Month-SOP@Onboard_(cash)"/>
-                  </pricesFor>
-                  <specifics>
-                    <TypeOfTravelDocumentRef version="1.0" ref="op:p-ticket"/>
-                  </specifics>
-                  <columns>
-                    <FareTableColumn version="1.0" id="op:U19_Month@NWBT-multi-service@all_media@paper">
-                      <Name>U19 Month</Name>
-                      <representing>
-                        <TypeOfTravelDocumentRef version="1.0" ref="op:p-ticket"/>
-                        <UserProfileRef version="1.0" ref="op:youngPerson"/>
-                      </representing>
-                    </FareTableColumn>
-                  </columns>
-                  <includes>
-                    <FareTable version="1.0" id="op:U19_Month@NWBT-multi-service@p-ticket@youngPerson">
-                      <Name>U19 Month - youngPerson</Name>
-                      <limitations>
-                        <UserProfileRef version="1.0" ref="op:youngPerson"/>
-                      </limitations>
-                      <columns>
-                        <FareTableColumn version="1.0" id="op:U19_Month@NWBT-multi-service@p-ticket@youngPerson">
-                          <Name>youngPerson</Name>
-                          <representing>
-                            <TypeOfTravelDocumentRef version="1.0" ref="op:p-ticket"/>
-                            <UserProfileRef version="1.0" ref="op:youngPerson"/>
-                          </representing>
-                        </FareTableColumn>
-                      </columns>
-                      <rows>
-                        <FareTableRow version="1.0" id="op:U19_Month@NWBT-multi-service@p-ticket@1-month">
-                          <Name>1 month</Name>
-                          <representing>
-                            <TimeIntervalRef version="1.0" ref="op:Tariff@U19_Month@1-month"/>
-                          </representing>
-                        </FareTableRow>
-                      </rows>
-                      <cells>
-                        <Cell version="1.0" id="op:U19_Month@NWBT-multi-service@p-ticket@youngPerson@1-month" order="1">
-                          <TimeIntervalPrice version="1.0" id="op:U19_Month@NWBT-multi-service@p-ticket@youngPerson@1-month">
-                            <Amount>64</Amount>
-                            <TimeIntervalRef version="1.0" ref="op:Tariff@U19_Month@1-month"/>
-                          </TimeIntervalPrice>
-                          <ColumnRef version="1.0" ref="op:U19_Month@NWBT-multi-service@p-ticket@youngPerson"/>
-                          <RowRef version="1.0" ref="op:U19_Month@NWBT-multi-service@p-ticket@1-month"/>
-                        </Cell>
-                      </cells>
-                    </FareTable>
-                  </includes>
-                </FareTable>
-              </includes>
-            </FareTable>
-            <FareTable version="1.0" id="op:U19_Summer_Half_Term_1@NWBT-multi-service">
-              <Name>NWBT-multi-service</Name>
-              <columns>
-                <FareTableColumn version="1.0" id="op:U19_Summer_Half_Term_1@NWBT-multi-service@p-ticket">
-                  <Name>NWBT-multi-service</Name>
-                </FareTableColumn>
-              </columns>
-              <includes>
-                <FareTable version="1.0" id="op:U19_Summer_Half_Term_1@NWBT-multi-service@all_media">
-                  <Name>U19 Summer Half Term 1</Name>
-                  <pricesFor>
-                    <SalesOfferPackageRef version="1.0" ref="Trip@period_youngPerson-U19_Summer_Half_Term_1-SOP@Mobile_App"/>
-                  </pricesFor>
-                  <specifics>
-                    <TypeOfTravelDocumentRef version="1.0" ref="op:p-ticket"/>
-                  </specifics>
-                  <columns>
-                    <FareTableColumn version="1.0" id="op:U19_Summer_Half_Term_1@NWBT-multi-service@all_media@paper">
-                      <Name>U19 Summer Half Term 1</Name>
-                      <representing>
-                        <TypeOfTravelDocumentRef version="1.0" ref="op:p-ticket"/>
-                        <UserProfileRef version="1.0" ref="op:youngPerson"/>
-                      </representing>
-                    </FareTableColumn>
-                  </columns>
-                  <includes>
-                    <FareTable version="1.0" id="op:U19_Summer_Half_Term_1@NWBT-multi-service@p-ticket@youngPerson">
-                      <Name>U19 Summer Half Term 1 - youngPerson</Name>
-                      <limitations>
-                        <UserProfileRef version="1.0" ref="op:youngPerson"/>
-                      </limitations>
-                      <columns>
-                        <FareTableColumn version="1.0" id="op:U19_Summer_Half_Term_1@NWBT-multi-service@p-ticket@youngPerson">
-                          <Name>youngPerson</Name>
-                          <representing>
-                            <TypeOfTravelDocumentRef version="1.0" ref="op:p-ticket"/>
-                            <UserProfileRef version="1.0" ref="op:youngPerson"/>
-                          </representing>
-                        </FareTableColumn>
-                      </columns>
-                      <rows>
-                        <FareTableRow version="1.0" id="op:U19_Summer_Half_Term_1@NWBT-multi-service@p-ticket@6-weeks">
-                          <Name>6 weeks</Name>
-                          <representing>
-                            <TimeIntervalRef version="1.0" ref="op:Tariff@U19_Summer_Half_Term_1@6-weeks"/>
-                          </representing>
-                        </FareTableRow>
-                      </rows>
-                      <cells>
-                        <Cell version="1.0" id="op:U19_Summer_Half_Term_1@NWBT-multi-service@p-ticket@youngPerson@6-weeks" order="1">
-                          <TimeIntervalPrice version="1.0" id="op:U19_Summer_Half_Term_1@NWBT-multi-service@p-ticket@youngPerson@6-weeks">
-                            <Amount>96</Amount>
-                            <TimeIntervalRef version="1.0" ref="op:Tariff@U19_Summer_Half_Term_1@6-weeks"/>
-                          </TimeIntervalPrice>
-                          <ColumnRef version="1.0" ref="op:U19_Summer_Half_Term_1@NWBT-multi-service@p-ticket@youngPerson"/>
-                          <RowRef version="1.0" ref="op:U19_Summer_Half_Term_1@NWBT-multi-service@p-ticket@6-weeks"/>
-                        </Cell>
-                      </cells>
-                    </FareTable>
-                  </includes>
-                </FareTable>
-              </includes>
-            </FareTable>
-            <FareTable version="1.0" id="op:U19_Summer_Half_Term_2@NWBT-multi-service">
-              <Name>NWBT-multi-service</Name>
-              <columns>
-                <FareTableColumn version="1.0" id="op:U19_Summer_Half_Term_2@NWBT-multi-service@p-ticket">
-                  <Name>NWBT-multi-service</Name>
-                </FareTableColumn>
-              </columns>
-              <includes>
-                <FareTable version="1.0" id="op:U19_Summer_Half_Term_2@NWBT-multi-service@all_media">
-                  <Name>U19 Summer Half Term 2</Name>
-                  <pricesFor>
-                    <SalesOfferPackageRef version="1.0" ref="Trip@period_youngPerson-U19_Summer_Half_Term_2-SOP@Mobile_App"/>
-                  </pricesFor>
-                  <specifics>
-                    <TypeOfTravelDocumentRef version="1.0" ref="op:p-ticket"/>
-                  </specifics>
-                  <columns>
-                    <FareTableColumn version="1.0" id="op:U19_Summer_Half_Term_2@NWBT-multi-service@all_media@paper">
-                      <Name>U19 Summer Half Term 2</Name>
-                      <representing>
-                        <TypeOfTravelDocumentRef version="1.0" ref="op:p-ticket"/>
-                        <UserProfileRef version="1.0" ref="op:youngPerson"/>
-                      </representing>
-                    </FareTableColumn>
-                  </columns>
-                  <includes>
-                    <FareTable version="1.0" id="op:U19_Summer_Half_Term_2@NWBT-multi-service@p-ticket@youngPerson">
-                      <Name>U19 Summer Half Term 2 - youngPerson</Name>
-                      <limitations>
-                        <UserProfileRef version="1.0" ref="op:youngPerson"/>
-                      </limitations>
-                      <columns>
-                        <FareTableColumn version="1.0" id="op:U19_Summer_Half_Term_2@NWBT-multi-service@p-ticket@youngPerson">
-                          <Name>youngPerson</Name>
-                          <representing>
-                            <TypeOfTravelDocumentRef version="1.0" ref="op:p-ticket"/>
-                            <UserProfileRef version="1.0" ref="op:youngPerson"/>
-                          </representing>
-                        </FareTableColumn>
-                      </columns>
-                      <rows>
-                        <FareTableRow version="1.0" id="op:U19_Summer_Half_Term_2@NWBT-multi-service@p-ticket@7-weeks">
-                          <Name>7 weeks</Name>
-                          <representing>
-                            <TimeIntervalRef version="1.0" ref="op:Tariff@U19_Summer_Half_Term_2@7-weeks"/>
-                          </representing>
-                        </FareTableRow>
-                      </rows>
-                      <cells>
-                        <Cell version="1.0" id="op:U19_Summer_Half_Term_2@NWBT-multi-service@p-ticket@youngPerson@7-weeks" order="1">
-                          <TimeIntervalPrice version="1.0" id="op:U19_Summer_Half_Term_2@NWBT-multi-service@p-ticket@youngPerson@7-weeks">
-                            <Amount>96</Amount>
-                            <TimeIntervalRef version="1.0" ref="op:Tariff@U19_Summer_Half_Term_2@7-weeks"/>
-                          </TimeIntervalPrice>
-                          <ColumnRef version="1.0" ref="op:U19_Summer_Half_Term_2@NWBT-multi-service@p-ticket@youngPerson"/>
-                          <RowRef version="1.0" ref="op:U19_Summer_Half_Term_2@NWBT-multi-service@p-ticket@7-weeks"/>
-                        </Cell>
-                      </cells>
-                    </FareTable>
-                  </includes>
-                </FareTable>
-              </includes>
-            </FareTable>
-            <FareTable version="1.0" id="op:U19_Summer_Term@NWBT-multi-service">
-              <Name>NWBT-multi-service</Name>
-              <columns>
-                <FareTableColumn version="1.0" id="op:U19_Summer_Term@NWBT-multi-service@p-ticket">
-                  <Name>NWBT-multi-service</Name>
-                </FareTableColumn>
-              </columns>
-              <includes>
-                <FareTable version="1.0" id="op:U19_Summer_Term@NWBT-multi-service@all_media">
-                  <Name>U19 Summer Term</Name>
-                  <pricesFor>
-                    <SalesOfferPackageRef version="1.0" ref="Trip@period_youngPerson-U19_Summer_Term-SOP@Mobile_App"/>
-                  </pricesFor>
-                  <specifics>
-                    <TypeOfTravelDocumentRef version="1.0" ref="op:p-ticket"/>
-                  </specifics>
-                  <columns>
-                    <FareTableColumn version="1.0" id="op:U19_Summer_Term@NWBT-multi-service@all_media@paper">
-                      <Name>U19 Summer Term</Name>
-                      <representing>
-                        <TypeOfTravelDocumentRef version="1.0" ref="op:p-ticket"/>
-                        <UserProfileRef version="1.0" ref="op:youngPerson"/>
-                      </representing>
-                    </FareTableColumn>
-                  </columns>
-                  <includes>
-                    <FareTable version="1.0" id="op:U19_Summer_Term@NWBT-multi-service@p-ticket@youngPerson">
-                      <Name>U19 Summer Term - youngPerson</Name>
-                      <limitations>
-                        <UserProfileRef version="1.0" ref="op:youngPerson"/>
-                      </limitations>
-                      <columns>
-                        <FareTableColumn version="1.0" id="op:U19_Summer_Term@NWBT-multi-service@p-ticket@youngPerson">
-                          <Name>youngPerson</Name>
-                          <representing>
-                            <TypeOfTravelDocumentRef version="1.0" ref="op:p-ticket"/>
-                            <UserProfileRef version="1.0" ref="op:youngPerson"/>
-                          </representing>
-                        </FareTableColumn>
-                      </columns>
-                      <rows>
-                        <FareTableRow version="1.0" id="op:U19_Summer_Term@NWBT-multi-service@p-ticket@14-weeks">
-                          <Name>14 weeks</Name>
-                          <representing>
-                            <TimeIntervalRef version="1.0" ref="op:Tariff@U19_Summer_Term@14-weeks"/>
-                          </representing>
-                        </FareTableRow>
-                      </rows>
-                      <cells>
-                        <Cell version="1.0" id="op:U19_Summer_Term@NWBT-multi-service@p-ticket@youngPerson@14-weeks" order="1">
-                          <TimeIntervalPrice version="1.0" id="op:U19_Summer_Term@NWBT-multi-service@p-ticket@youngPerson@14-weeks">
-                            <Amount>192</Amount>
-                            <TimeIntervalRef version="1.0" ref="op:Tariff@U19_Summer_Term@14-weeks"/>
-                          </TimeIntervalPrice>
-                          <ColumnRef version="1.0" ref="op:U19_Summer_Term@NWBT-multi-service@p-ticket@youngPerson"/>
-                          <RowRef version="1.0" ref="op:U19_Summer_Term@NWBT-multi-service@p-ticket@14-weeks"/>
-                        </Cell>
-                      </cells>
-                    </FareTable>
-                  </includes>
+                  <limitations>
+                    <UserProfileRef version="1.0" ref="op:adult"/>
+                  </limitations>
+                  <prices>
+                    <DistanceMatrixElementPrice version="1.0" id="op:Flat_Fare_Trial@p-ticket@adult">
+                      <Amount>1.10</Amount>
+                    </DistanceMatrixElementPrice>
+                  </prices>
                 </FareTable>
               </includes>
             </FareTable>
           </fareTables>
         </FareFrame>
-        <ServiceFrame version="1.0" id="epd:UK:NWBT:ServiceFrame_UK_PI_NETWORK:NWBT_products:op" dataSourceRef="op:operator" responsibilitySetRef="tariffs">
+        <ServiceFrame version="1.0" id="epd:UK:ESCL:ServiceFrame_UK_PI_NETWORK:ESCL_products:op" dataSourceRef="op:operator" responsibilitySetRef="tariffs">
           <Description>This frame contains the stop and line definitions for the service. It could also be exchanged separately.</Description>
           <TypeOfFrameRef ref="fxc:UK:DFT:TypeOfFrame_UK_PI_NETWORK:FXCP" version="fxc:v1.0"/>
           <lines>
-            <Line version="1.0" id="op:530#NW_05_NWBT_530_1#04/06/2018">
-              <Name>Line 530</Name>
-              <Description>Accrington - Billington St Augustines Rchs</Description>
-              <Url>http://pilkingtonbus.com/</Url>
-              <PublicCode>530</PublicCode>
-              <PrivateCode type="noc">NWBT_530</PrivateCode>
-              <OperatorRef version="1.0" ref="noc:NWBT"/>
+            <Line version="1.0" id="op:40#5-40-B-y08-1#18/08/2020">
+              <Name>Line 40</Name>
+              <Description>Collingwood Road - Central Witham (Circular)</Description>
+              <Url>https://www.essexhighways.org/getting-around/bus/ugobus.aspx</Url>
+              <PublicCode>40</PublicCode>
+              <PrivateCode type="noc">ESCL_40</PrivateCode>
+              <OperatorRef version="1.0" ref="noc:ESCL"/>
               <LineType>local</LineType>
             </Line>
           </lines>
@@ -2263,10 +1413,12 @@
             <priceUnits>
               <PriceUnit id="fxc:GBP" version="fxc:v1.0">
                 <Name>Pound Sterling</Name>
+                <PrivateCode></PrivateCode>
                 <Precision>2</Precision>
               </PriceUnit>
               <PriceUnit id="fxc:EUR" version="fxc:v1.0">
                 <Name>Euro</Name>
+                <PrivateCode></PrivateCode>
                 <Precision>2</Precision>
               </PriceUnit>
             </priceUnits>
@@ -2358,17 +1510,7 @@
               <DistributionChannelType>online</DistributionChannelType>
               <IsObligatory>false</IsObligatory>
             </DistributionChannel>
-            <DistributionChannel id="fxc:postal" version="fxc:v1.0">
-              <ShortName>Ticket or card received by post</ShortName>
-              <DistributionChannelType>postal</DistributionChannelType>
-              <IsObligatory>false</IsObligatory>
-            </DistributionChannel>
-            <DistributionChannel id="fxc:agency" version="fxc:v1.0">
-              <ShortName>e.g. Travel shop</ShortName>
-              <DistributionChannelType>agency</DistributionChannelType>
-              <IsObligatory>false</IsObligatory>
-            </DistributionChannel>
-            <DistributionChannel id="fxc:at_stop" version="fxc:v1.0">
+            <DistributionChannel id="fxc:atStop" version="fxc:v1.0">
               <ShortName>In station sale by machine, counter or payg</ShortName>
               <DistributionChannelType>atStop</DistributionChannelType>
               <IsObligatory>false</IsObligatory>
@@ -2394,12 +1536,12 @@
               <DistributionChannelType>atStop</DistributionChannelType>
               <IsObligatory>false</IsObligatory>
             </DistributionChannel>
-            <DistributionChannel id="fxc:on_board" version="fxc:v1.0">
+            <DistributionChannel id="fxc:onBoard" version="fxc:v1.0">
               <ShortName>on_board</ShortName>
               <DistributionChannelType>onBoard</DistributionChannelType>
               <IsObligatory>false</IsObligatory>
             </DistributionChannel>
-            <DistributionChannel id="fxc:mobile_device" version="fxc:v1.0">
+            <DistributionChannel id="fxc:mobileDevice" version="fxc:v1.0">
               <ShortName>Mobile Device</ShortName>
               <DistributionChannelType>mobileDevice</DistributionChannelType>
               <IsObligatory>false</IsObligatory>
