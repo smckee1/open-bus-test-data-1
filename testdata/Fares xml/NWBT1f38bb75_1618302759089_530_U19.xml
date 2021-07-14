@@ -1119,24 +1119,7 @@
                 <TypeOfConcession version="fxc:v1.0" id="fxc:disabled">
                   <Name>Disabled</Name>
                 </TypeOfConcession>
-                <TypeOfConcession version="fxc:v1.0" id="fxc:disabled_companion">
-                  <Name>Disabled Companion</Name>
-                </TypeOfConcession>
-                <TypeOfConcession version="fxc:v1.0" id="fxc:employee">
-                  <Name>Employee</Name>
-                </TypeOfConcession>
-                <TypeOfConcession version="fxc:v1.0" id="fxc:military">
-                  <Name>Military</Name>
-                </TypeOfConcession>
-                <TypeOfConcession version="fxc:v1.0" id="fxc:job_seeker">
-                  <Name>Job Seeker</Name>
-                </TypeOfConcession>
-                <TypeOfConcession version="fxc:v1.0" id="fxc:guide_dog">
-                  <Name>Guide Dog</Name>
-                </TypeOfConcession>
-                <TypeOfConcession version="fxc:v1.0" id="fxc:animal">
-                  <Name>Animal</Name>
-                </TypeOfConcession>
+
               </values>
             </ValueSet>
             <ValueSet version="fxc:v1.0" id="fxc:Types_of_Tariff" classOfValues="TypeOfTariff">
@@ -1147,12 +1130,6 @@
                 </TypeOfTariff>
                 <TypeOfTariff version="fxc:v1.0" id="fxc:flat">
                   <Name>Flat</Name>
-                </TypeOfTariff>
-                <TypeOfTariff version="fxc:v1.0" id="fxc:point_to_point">
-                  <Name>Point to point</Name>
-                </TypeOfTariff>
-                <TypeOfTariff version="fxc:v1.0" id="fxc:zone_to_zone">
-                  <Name>Zone to Zone</Name>
                 </TypeOfTariff>
                 <TypeOfTariff version="fxc:v1.0" id="fxc:zonal">
                   <Name>Zonal</Name>
