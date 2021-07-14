@@ -905,15 +905,7 @@
             </Version>
           </versions>
           <typesOfValue>
-            <ValueSet version="fxc:v1.0" id="fxc:PointsOfInterest_Classifications" classOfValues="PointOfInterestClassification">
-              <Name>Types of POI</Name>
-              <values>
-                <PointOfInterestClassification version="fxc:v1.0" id="fxc:operator_travel_shop">
-                  <Name>Travel Shop</Name>
-                </PointOfInterestClassification>
-                <PointOfInterestClassification version="fxc:v1.0" id="fxc:tourist_information_centre">
-                  <Name>Tourist Information Centre</Name>
-                </PointOfInterestClassification>
+            <ValueS>
               </values>
             </ValueSet>
             <ValueSet version="fxc:v1.0" id="fxc:Types_of_FareZone" classOfValues="TypeOfZone">
@@ -1116,26 +1108,7 @@
                 <TypeOfConcession version="fxc:v1.0" id="fxc:young_person">
                   <Name>Young Person</Name>
                 </TypeOfConcession>
-                <TypeOfConcession version="fxc:v1.0" id="fxc:disabled">
-                  <Name>Disabled</Name>
-                </TypeOfConcession>
-
-              </values>
-            </ValueSet>
-            <ValueSet version="fxc:v1.0" id="fxc:Types_of_Tariff" classOfValues="TypeOfTariff">
-              <Name>Spatial Types of Tariff</Name>
-              <values>
-                <TypeOfTariff version="fxc:v1.0" id="fxc:Distance_kilometers">
-                  <Name>Kilometer Distance Kilometers</Name>
-                </TypeOfTariff>
-                <TypeOfTariff version="fxc:v1.0" id="fxc:flat">
-                  <Name>Flat</Name>
-                </TypeOfTariff>
-                <TypeOfTariff version="fxc:v1.0" id="fxc:zonal">
-                  <Name>Zonal</Name>
-                </TypeOfTariff>
-                <TypeOfTariff version="fxc:v1.0" id="fxc:section">
-                  <Name>Section</Name>
+           
                 </TypeOfTariff>
                 <TypeOfTariff version="fxc:v1.0" id="fxc:banded">
                   <Name>Section</Name>
