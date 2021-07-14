@@ -1,8 +1,8 @@
 <PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:siri="http://www.siri.org.uk/siri" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1" xsi:schemaLocation="http://www.netex.org.uk/netex http://netex.uk/netex/schema/1.10/xsd/NeTEx_publication.xsd">
-  <PublicationTimestamp>2021-07-08T13:18:01.139Z</PublicationTimestamp>
+  <PublicationTimestamp>2021-07-08T13:22:40.365Z</PublicationTimestamp>
   <ParticipantRef>SYS001</ParticipantRef>
   <PublicationRequest version="1.0">
-    <RequestTimestamp>2021-07-08T13:18:01.139Z</RequestTimestamp>
+    <RequestTimestamp>2021-07-08T13:22:40.365Z</RequestTimestamp>
     <ParticipantRef>SYS002</ParticipantRef>
     <Description>Request for LEMN 57 bus pass fares</Description>
     <topics>
@@ -141,7 +141,14 @@
                 <Name>East Saltdean</Name>
               </TopographicPlaceView>
             </ScheduledStopPoint>
-            <ScheduledStopPoint version="any" id="atco:1400LE10104">
+            <ScheduledStopPoint version="any" id="atco:1400LE10014">
+              <Name>Oaklands Avenue</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0057383"/>
+                <Name>East Saltdean</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:1400LE10015">
               <Name>Cissbury Crescent</Name>
               <TopographicPlaceView>
                 <TopographicPlaceRef ref="nptgLocality:E0057383"/>
@@ -183,8 +190,78 @@
                 <Name>Saltdean</Name>
               </TopographicPlaceView>
             </ScheduledStopPoint>
-            <ScheduledStopPoint version="any" id="atco:149000006021">
-              <Name>Chichester Drive West</Name>
+            <ScheduledStopPoint version="any" id="atco:149000006789">
+              <Name>Lido</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035548"/>
+                <Name>Saltdean</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006542">
+              <Name>St Nicholas's Church</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035548"/>
+                <Name>Saltdean</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006785">
+              <Name>Glynde Avenue</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035548"/>
+                <Name>Saltdean</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000007546">
+              <Name>Arlington Gardens</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035548"/>
+                <Name>Saltdean</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006548">
+              <Name>Saltdean Vale Shops</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035548"/>
+                <Name>Saltdean</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006784">
+              <Name>Winton Avenue</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035548"/>
+                <Name>Saltdean</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006783">
+              <Name>Tumulus Road Middle</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035548"/>
+                <Name>Saltdean</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006786">
+              <Name>Falmer Avenue North</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035548"/>
+                <Name>Saltdean</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006608">
+              <Name>Chorley Avenue</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035548"/>
+                <Name>Saltdean</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006607">
+              <Name>Founthill Road</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035548"/>
+                <Name>Saltdean</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006605">
+              <Name>Lenham Road East</Name>
               <TopographicPlaceView>
                 <TopographicPlaceRef ref="nptgLocality:E0035548"/>
                 <Name>Saltdean</Name>
@@ -211,18 +288,116 @@
                 <Name>Rottingdean</Name>
               </TopographicPlaceView>
             </ScheduledStopPoint>
-            <ScheduledStopPoint version="any" id="atco:149000006017">
-              <Name>White Horse</Name>
+            <ScheduledStopPoint version="any" id="atco:149000006384">
+              <Name>Rottingdean High Street</Name>
               <TopographicPlaceView>
                 <TopographicPlaceRef ref="nptgLocality:E0035546"/>
                 <Name>Rottingdean</Name>
               </TopographicPlaceView>
             </ScheduledStopPoint>
-            <ScheduledStopPoint version="any" id="atco:149000006016">
-              <Name>The Windmill</Name>
+            <ScheduledStopPoint version="any" id="atco:149000006383">
+              <Name>The Green</Name>
               <TopographicPlaceView>
                 <TopographicPlaceRef ref="nptgLocality:E0035546"/>
                 <Name>Rottingdean</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006381">
+              <Name>Bazehill Road</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035546"/>
+                <Name>Rottingdean</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006380">
+              <Name>Cricket Ground</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035546"/>
+                <Name>Rottingdean</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006379">
+              <Name>Court Ord Road</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035546"/>
+                <Name>Rottingdean</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006378">
+              <Name>Rottingdean Place</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035546"/>
+                <Name>Rottingdean</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006376">
+              <Name>Longhill School</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035536"/>
+                <Name>Ovingdean</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006759">
+              <Name>The Vale</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035536"/>
+                <Name>Ovingdean</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006758">
+              <Name>Wanderdown Road North End</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035536"/>
+                <Name>Ovingdean</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006760">
+              <Name>Ovingdean Stores</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035536"/>
+                <Name>Ovingdean</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006734">
+              <Name>Wanderdown Road South End</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035536"/>
+                <Name>Ovingdean</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006733">
+              <Name>Longhill Road</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035536"/>
+                <Name>Ovingdean</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006732">
+              <Name>Ainsworth Close</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035536"/>
+                <Name>Ovingdean</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006731">
+              <Name>Ovingdean Hall School</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035536"/>
+                <Name>Ovingdean</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006730">
+              <Name>Beacon Hill</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035536"/>
+                <Name>Ovingdean</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006729">
+              <Name>St Dunstan's</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035536"/>
+                <Name>Ovingdean</Name>
               </TopographicPlaceView>
             </ScheduledStopPoint>
             <ScheduledStopPoint version="any" id="atco:149000006015">
@@ -274,6 +449,153 @@
                 <Name>Brighton</Name>
               </TopographicPlaceView>
             </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006428">
+              <Name>Arundel Road</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0057155"/>
+                <Name>Brighton</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006427">
+              <Name>Lidl Superstore</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0057155"/>
+                <Name>Brighton</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006437">
+              <Name>Sussex Square</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035529"/>
+                <Name>Kemp Town</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006426">
+              <Name>St Mary's Hall</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035529"/>
+                <Name>Kemp Town</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006425">
+              <Name>Chesham Street</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035529"/>
+                <Name>Kemp Town</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006424">
+              <Name>County Hospital</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035529"/>
+                <Name>Kemp Town</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006661">
+              <Name>Abbey Road</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035529"/>
+                <Name>Kemp Town</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006662">
+              <Name>Kemp Town Shops</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035529"/>
+                <Name>Kemp Town</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006663">
+              <Name>Bedford Street North</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035529"/>
+                <Name>Kemp Town</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006422">
+              <Name>Rock Gardens</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035529"/>
+                <Name>Kemp Town</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006664">
+              <Name>Lower Rock Gardens</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0035529"/>
+                <Name>Kemp Town</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006003">
+              <Name>New Steine</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0057155"/>
+                <Name>Brighton</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006820">
+              <Name>Sea Life Centre</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0057155"/>
+                <Name>Brighton</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000007830">
+              <Name>Old Steine south</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0057155"/>
+                <Name>Brighton</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000007833">
+              <Name>North Street</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0057155"/>
+                <Name>Brighton</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000007355">
+              <Name>Imperial Arcade</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0057155"/>
+                <Name>Brighton</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000007558">
+              <Name>Clifton Hill</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0057155"/>
+                <Name>Brighton</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000007559">
+              <Name>Homelees House</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0057155"/>
+                <Name>Brighton</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006129">
+              <Name>Seven Dials</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0057155"/>
+                <Name>Brighton</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006128">
+              <Name>Compton Avenue</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0057155"/>
+                <Name>Brighton</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="atco:149000006934">
+              <Name>Brighton Station</Name>
+              <TopographicPlaceView>
+                <TopographicPlaceRef ref="nptgLocality:E0057155"/>
+                <Name>Brighton</Name>
+              </TopographicPlaceView>
+            </ScheduledStopPoint>
           </scheduledStopPoints>
         </ServiceFrame>
         <FareFrame version="1.0" id="epd:UK:LEMN:FareFrame_UK_PI_FARE_NETWORK:57:op" dataSourceRef="op:operator" responsibilitySetRef="network_data">
@@ -284,7 +606,8 @@
               <members>
                 <ScheduledStopPointRef ref="atco:1400LE10012" version="any">Bannings Vale, East Saltdean</ScheduledStopPointRef>
                 <ScheduledStopPointRef ref="atco:1400LE10013" version="any">Bevendean Avenue, East Saltdean</ScheduledStopPointRef>
-                <ScheduledStopPointRef ref="atco:1400LE10104" version="any">Cissbury Crescent, East Saltdean</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:1400LE10014" version="any">Oaklands Avenue, East Saltdean</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:1400LE10015" version="any">Cissbury Crescent, East Saltdean</ScheduledStopPointRef>
                 <ScheduledStopPointRef ref="atco:1400LE10016" version="any">Martlet House, East Saltdean</ScheduledStopPointRef>
                 <ScheduledStopPointRef ref="atco:1400LE10017" version="any">Crowborough Road, East Saltdean</ScheduledStopPointRef>
                 <ScheduledStopPointRef ref="atco:149000006084" version="any">Grand Ocean, Saltdean</ScheduledStopPointRef>
@@ -295,12 +618,46 @@
               <members>
                 <ScheduledStopPointRef ref="atco:149000006085" version="any">Longridge Avenue Post Office, Saltdean</ScheduledStopPointRef>
                 <ScheduledStopPointRef ref="atco:149000006022" version="any">Longridge Avenue, Saltdean</ScheduledStopPointRef>
-                <ScheduledStopPointRef ref="atco:149000006021" version="any">Chichester Drive West, Saltdean</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006789" version="any">Lido, Saltdean</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006542" version="any">St Nicholas's Church, Saltdean</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006785" version="any">Glynde Avenue, Saltdean</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000007546" version="any">Arlington Gardens, Saltdean</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006548" version="any">Saltdean Vale Shops, Saltdean</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006784" version="any">Winton Avenue, Saltdean</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006783" version="any">Tumulus Road Middle, Saltdean</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006786" version="any">Falmer Avenue North, Saltdean</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006608" version="any">Chorley Avenue, Saltdean</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006607" version="any">Founthill Road, Saltdean</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006605" version="any">Lenham Road East, Saltdean</ScheduledStopPointRef>
                 <ScheduledStopPointRef ref="atco:149000006020" version="any">Cranleigh Avenue, Saltdean</ScheduledStopPointRef>
                 <ScheduledStopPointRef ref="atco:149000006019" version="any">Chailey Avenue, Rottingdean</ScheduledStopPointRef>
                 <ScheduledStopPointRef ref="atco:149000006018" version="any">Newlands Road, Rottingdean</ScheduledStopPointRef>
-                <ScheduledStopPointRef ref="atco:149000006017" version="any">White Horse, Rottingdean</ScheduledStopPointRef>
-                <ScheduledStopPointRef ref="atco:149000006016" version="any">The Windmill, Rottingdean</ScheduledStopPointRef>
+              </members>
+            </FareZone>
+            <FareZone version="1.0" id="fs@Rottingdean">
+              <Name>Rottingdean</Name>
+              <members>
+                <ScheduledStopPointRef ref="atco:149000006384" version="any">Rottingdean High Street, Rottingdean</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006383" version="any">The Green, Rottingdean</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006381" version="any">Bazehill Road, Rottingdean</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006380" version="any">Cricket Ground, Rottingdean</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006379" version="any">Court Ord Road, Rottingdean</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006378" version="any">Rottingdean Place, Rottingdean</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006376" version="any">Longhill School, Ovingdean</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006759" version="any">The Vale, Ovingdean</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006758" version="any">Wanderdown Road North End, Ovingdean</ScheduledStopPointRef>
+              </members>
+            </FareZone>
+            <FareZone version="1.0" id="fs@Ovingdean_Stores">
+              <Name>Ovingdean Stores</Name>
+              <members>
+                <ScheduledStopPointRef ref="atco:149000006760" version="any">Ovingdean Stores, Ovingdean</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006734" version="any">Wanderdown Road South End, Ovingdean</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006733" version="any">Longhill Road, Ovingdean</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006732" version="any">Ainsworth Close, Ovingdean</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006731" version="any">Ovingdean Hall School, Ovingdean</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006730" version="any">Beacon Hill, Ovingdean</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006729" version="any">St Dunstan's, Ovingdean</ScheduledStopPointRef>
               </members>
             </FareZone>
             <FareZone version="1.0" id="fs@Greenways">
@@ -320,6 +677,57 @@
                 <ScheduledStopPointRef ref="atco:149000006756" version="any">Marina, Brighton</ScheduledStopPointRef>
               </members>
             </FareZone>
+            <FareZone version="1.0" id="fs@Arundel_Road">
+              <Name>Arundel Road</Name>
+              <members>
+                <ScheduledStopPointRef ref="atco:149000006428" version="any">Arundel Road, Brighton</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006427" version="any">Lidl Superstore, Brighton</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006437" version="any">Sussex Square, Kemp Town</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006426" version="any">St Mary's Hall, Kemp Town</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006425" version="any">Chesham Street, Kemp Town</ScheduledStopPointRef>
+              </members>
+            </FareZone>
+            <FareZone version="1.0" id="fs@Royal_Sussex_County_Hospital">
+              <Name>Royal Sussex County Hospital</Name>
+              <members>
+                <ScheduledStopPointRef ref="atco:149000006424" version="any">County Hospital, Kemp Town</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006661" version="any">Abbey Road, Kemp Town</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006662" version="any">Kemp Town Shops, Kemp Town</ScheduledStopPointRef>
+              </members>
+            </FareZone>
+            <FareZone version="1.0" id="fs@Bedford_Street">
+              <Name>Bedford Street</Name>
+              <members>
+                <ScheduledStopPointRef ref="atco:149000006663" version="any">Bedford Street North, Kemp Town</ScheduledStopPointRef>
+              </members>
+            </FareZone>
+            <FareZone version="1.0" id="fs@St_James_Street">
+              <Name>St James Street</Name>
+              <members>
+                <ScheduledStopPointRef ref="atco:149000006422" version="any">Rock Gardens, Kemp Town</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006664" version="any">Lower Rock Gardens, Kemp Town</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006003" version="any">New Steine, Brighton</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006820" version="any">Sea Life Centre, Brighton</ScheduledStopPointRef>
+              </members>
+            </FareZone>
+            <FareZone version="1.0" id="fs@Old_Steine">
+              <Name>Old Steine</Name>
+              <members>
+                <ScheduledStopPointRef ref="atco:149000007830" version="any">Old Steine south, Brighton</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000007833" version="any">North Street, Brighton</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000007355" version="any">Imperial Arcade, Brighton</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000007558" version="any">Clifton Hill, Brighton</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000007559" version="any">Homelees House, Brighton</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006129" version="any">Seven Dials, Brighton</ScheduledStopPointRef>
+                <ScheduledStopPointRef ref="atco:149000006128" version="any">Compton Avenue, Brighton</ScheduledStopPointRef>
+              </members>
+            </FareZone>
+            <FareZone version="1.0" id="fs@Brighton_Station">
+              <Name>Brighton Station</Name>
+              <members>
+                <ScheduledStopPointRef ref="atco:149000006934" version="any">Brighton Station, Brighton</ScheduledStopPointRef>
+              </members>
+            </FareZone>
           </fareZones>
         </FareFrame>
         <FareFrame version="1.0" id="epd:UK:LEMN:FareFrame_UK_PI_FARE_PRODUCT:57@pass:op" dataSourceRef="op:operator" responsibilitySetRef="op:tariffs">
@@ -328,8 +736,8 @@
             <Tariff version="1.0" id="Tariff@single@57">
               <validityConditions>
                 <ValidBetween>
-                  <FromDate>2021-07-08T13:17:59.751Z</FromDate>
-                  <ToDate>2121-07-08T13:17:59.751Z</ToDate>
+                  <FromDate>2021-07-08T13:22:39.434Z</FromDate>
+                  <ToDate>2121-07-08T13:22:39.434Z</ToDate>
                 </ValidBetween>
               </validityConditions>
               <Name>The Big Lemon - 57 - Fares for Single ticket</Name>
@@ -347,6 +755,20 @@
                       <StartTariffZoneRef version="1.0" ref="fs@Bannings_Vale"/>
                       <EndTariffZoneRef version="1.0" ref="fs@Saltdean_Post_Office"/>
                     </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Bannings_Vale+Rottingdean">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_0.95"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Bannings_Vale"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Rottingdean"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Bannings_Vale+Ovingdean_Stores">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Bannings_Vale"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Ovingdean_Stores"/>
+                    </DistanceMatrixElement>
                     <DistanceMatrixElement version="1.0" id="Bannings_Vale+Greenways">
                       <priceGroups>
                         <PriceGroupRef version="1.0" ref="price_band_1.35"/>
@@ -360,6 +782,62 @@
                       </priceGroups>
                       <StartTariffZoneRef version="1.0" ref="fs@Bannings_Vale"/>
                       <EndTariffZoneRef version="1.0" ref="fs@Brighton_Marina"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Bannings_Vale+Arundel_Road">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Bannings_Vale"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Arundel_Road"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Bannings_Vale+Royal_Sussex_County_Hospital">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Bannings_Vale"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Royal_Sussex_County_Hospital"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Bannings_Vale+Bedford_Street">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Bannings_Vale"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Bedford_Street"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Bannings_Vale+St_James_Street">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Bannings_Vale"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@St_James_Street"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Bannings_Vale+Old_Steine">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Bannings_Vale"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Old_Steine"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Bannings_Vale+Brighton_Station">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Bannings_Vale"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Brighton_Station"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Saltdean_Post_Office+Rottingdean">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_0.95"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Saltdean_Post_Office"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Rottingdean"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Saltdean_Post_Office+Ovingdean_Stores">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Saltdean_Post_Office"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Ovingdean_Stores"/>
                     </DistanceMatrixElement>
                     <DistanceMatrixElement version="1.0" id="Saltdean_Post_Office+Greenways">
                       <priceGroups>
@@ -375,12 +853,362 @@
                       <StartTariffZoneRef version="1.0" ref="fs@Saltdean_Post_Office"/>
                       <EndTariffZoneRef version="1.0" ref="fs@Brighton_Marina"/>
                     </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Saltdean_Post_Office+Arundel_Road">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Saltdean_Post_Office"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Arundel_Road"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Saltdean_Post_Office+Royal_Sussex_County_Hospital">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Saltdean_Post_Office"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Royal_Sussex_County_Hospital"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Saltdean_Post_Office+Bedford_Street">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Saltdean_Post_Office"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Bedford_Street"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Saltdean_Post_Office+St_James_Street">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Saltdean_Post_Office"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@St_James_Street"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Saltdean_Post_Office+Old_Steine">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Saltdean_Post_Office"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Old_Steine"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Saltdean_Post_Office+Brighton_Station">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Saltdean_Post_Office"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Brighton_Station"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Rottingdean+Ovingdean_Stores">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_0.95"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Rottingdean"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Ovingdean_Stores"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Rottingdean+Greenways">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Rottingdean"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Greenways"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Rottingdean+Brighton_Marina">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Rottingdean"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Brighton_Marina"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Rottingdean+Arundel_Road">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Rottingdean"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Arundel_Road"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Rottingdean+Royal_Sussex_County_Hospital">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Rottingdean"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Royal_Sussex_County_Hospital"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Rottingdean+Bedford_Street">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Rottingdean"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Bedford_Street"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Rottingdean+St_James_Street">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Rottingdean"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@St_James_Street"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Rottingdean+Old_Steine">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Rottingdean"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Old_Steine"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Rottingdean+Brighton_Station">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Rottingdean"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Brighton_Station"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Ovingdean_Stores+Greenways">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_0.95"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Ovingdean_Stores"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Greenways"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Ovingdean_Stores+Brighton_Marina">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Ovingdean_Stores"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Brighton_Marina"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Ovingdean_Stores+Arundel_Road">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Ovingdean_Stores"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Arundel_Road"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Ovingdean_Stores+Royal_Sussex_County_Hospital">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Ovingdean_Stores"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Royal_Sussex_County_Hospital"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Ovingdean_Stores+Bedford_Street">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Ovingdean_Stores"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Bedford_Street"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Ovingdean_Stores+St_James_Street">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Ovingdean_Stores"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@St_James_Street"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Ovingdean_Stores+Old_Steine">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Ovingdean_Stores"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Old_Steine"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Ovingdean_Stores+Brighton_Station">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Ovingdean_Stores"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Brighton_Station"/>
+                    </DistanceMatrixElement>
                     <DistanceMatrixElement version="1.0" id="Greenways+Brighton_Marina">
                       <priceGroups>
                         <PriceGroupRef version="1.0" ref="price_band_0.95"/>
                       </priceGroups>
                       <StartTariffZoneRef version="1.0" ref="fs@Greenways"/>
                       <EndTariffZoneRef version="1.0" ref="fs@Brighton_Marina"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Greenways+Arundel_Road">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Greenways"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Arundel_Road"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Greenways+Royal_Sussex_County_Hospital">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Greenways"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Royal_Sussex_County_Hospital"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Greenways+Bedford_Street">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Greenways"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Bedford_Street"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Greenways+St_James_Street">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Greenways"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@St_James_Street"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Greenways+Old_Steine">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Greenways"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Old_Steine"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Greenways+Brighton_Station">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Greenways"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Brighton_Station"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Brighton_Marina+Arundel_Road">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_0.95"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Brighton_Marina"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Arundel_Road"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Brighton_Marina+Royal_Sussex_County_Hospital">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Brighton_Marina"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Royal_Sussex_County_Hospital"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Brighton_Marina+Bedford_Street">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Brighton_Marina"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Bedford_Street"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Brighton_Marina+St_James_Street">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Brighton_Marina"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@St_James_Street"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Brighton_Marina+Old_Steine">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Brighton_Marina"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Old_Steine"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Brighton_Marina+Brighton_Station">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.35"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Brighton_Marina"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Brighton_Station"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Arundel_Road+Royal_Sussex_County_Hospital">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_0.95"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Arundel_Road"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Royal_Sussex_County_Hospital"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Arundel_Road+Bedford_Street">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_0.95"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Arundel_Road"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Bedford_Street"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Arundel_Road+St_James_Street">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.10"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Arundel_Road"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@St_James_Street"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Arundel_Road+Old_Steine">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.10"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Arundel_Road"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Old_Steine"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Arundel_Road+Brighton_Station">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.10"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Arundel_Road"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Brighton_Station"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Royal_Sussex_County_Hospital+Bedford_Street">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_0.95"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Royal_Sussex_County_Hospital"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Bedford_Street"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Royal_Sussex_County_Hospital+St_James_Street">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.10"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Royal_Sussex_County_Hospital"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@St_James_Street"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Royal_Sussex_County_Hospital+Old_Steine">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.10"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Royal_Sussex_County_Hospital"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Old_Steine"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Royal_Sussex_County_Hospital+Brighton_Station">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.10"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Royal_Sussex_County_Hospital"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Brighton_Station"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Bedford_Street+St_James_Street">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_0.95"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Bedford_Street"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@St_James_Street"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Bedford_Street+Old_Steine">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.10"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Bedford_Street"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Old_Steine"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Bedford_Street+Brighton_Station">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.10"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Bedford_Street"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Brighton_Station"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="St_James_Street+Old_Steine">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_0.95"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@St_James_Street"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Old_Steine"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="St_James_Street+Brighton_Station">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_1.10"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@St_James_Street"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Brighton_Station"/>
+                    </DistanceMatrixElement>
+                    <DistanceMatrixElement version="1.0" id="Old_Steine+Brighton_Station">
+                      <priceGroups>
+                        <PriceGroupRef version="1.0" ref="price_band_0.95"/>
+                      </priceGroups>
+                      <StartTariffZoneRef version="1.0" ref="fs@Old_Steine"/>
+                      <EndTariffZoneRef version="1.0" ref="fs@Brighton_Station"/>
                     </DistanceMatrixElement>
                   </distanceMatrixElements>
                   <GenericParameterAssignment version="1.0" order="01" id="Tariff@single@lines">
@@ -505,6 +1333,13 @@
                 </GeographicalIntervalPrice>
               </members>
             </PriceGroup>
+            <PriceGroup version="1.0" id="price_band_1.10">
+              <members>
+                <GeographicalIntervalPrice version="1.0" id="price_band_1.10@child">
+                  <Amount>1.10</Amount>
+                </GeographicalIntervalPrice>
+              </members>
+            </PriceGroup>
           </priceGroups>
           <fareTables>
             <FareTable id="Trip@single-SOP@Onboard_(cash)@Line_57@child" version="1.0">
@@ -528,18 +1363,66 @@
                 <FareTableColumn version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@c2@Saltdean_Post_Office" order="2">
                   <Name>Saltdean Post Office</Name>
                 </FareTableColumn>
-                <FareTableColumn version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@c3@Greenways" order="3">
+                <FareTableColumn version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@c3@Rottingdean" order="3">
+                  <Name>Rottingdean</Name>
+                </FareTableColumn>
+                <FareTableColumn version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@c4@Ovingdean_Stores" order="4">
+                  <Name>Ovingdean Stores</Name>
+                </FareTableColumn>
+                <FareTableColumn version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@c5@Greenways" order="5">
                   <Name>Greenways</Name>
+                </FareTableColumn>
+                <FareTableColumn version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@c6@Brighton_Marina" order="6">
+                  <Name>Brighton Marina</Name>
+                </FareTableColumn>
+                <FareTableColumn version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@c7@Arundel_Road" order="7">
+                  <Name>Arundel Road</Name>
+                </FareTableColumn>
+                <FareTableColumn version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@c8@Royal_Sussex_County_Hospital" order="8">
+                  <Name>Royal Sussex County Hospital</Name>
+                </FareTableColumn>
+                <FareTableColumn version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@c9@Bedford_Street" order="9">
+                  <Name>Bedford Street</Name>
+                </FareTableColumn>
+                <FareTableColumn version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@c10@St_James_Street" order="10">
+                  <Name>St James Street</Name>
+                </FareTableColumn>
+                <FareTableColumn version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@c11@Old_Steine" order="11">
+                  <Name>Old Steine</Name>
                 </FareTableColumn>
               </columns>
               <rows>
-                <FareTableRow version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@r1@Brighton_Marina" order="1">
+                <FareTableRow version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@r1@Brighton_Station" order="1">
+                  <Name>Brighton Station</Name>
+                </FareTableRow>
+                <FareTableRow version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@r2@Old_Steine" order="2">
+                  <Name>Old Steine</Name>
+                </FareTableRow>
+                <FareTableRow version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@r3@St_James_Street" order="3">
+                  <Name>St James Street</Name>
+                </FareTableRow>
+                <FareTableRow version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@r4@Bedford_Street" order="4">
+                  <Name>Bedford Street</Name>
+                </FareTableRow>
+                <FareTableRow version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@r5@Royal_Sussex_County_Hospital" order="5">
+                  <Name>Royal Sussex County Hospital</Name>
+                </FareTableRow>
+                <FareTableRow version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@r6@Arundel_Road" order="6">
+                  <Name>Arundel Road</Name>
+                </FareTableRow>
+                <FareTableRow version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@r7@Brighton_Marina" order="7">
                   <Name>Brighton Marina</Name>
                 </FareTableRow>
-                <FareTableRow version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@r2@Greenways" order="2">
+                <FareTableRow version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@r8@Greenways" order="8">
                   <Name>Greenways</Name>
                 </FareTableRow>
-                <FareTableRow version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@r3@Saltdean_Post_Office" order="3">
+                <FareTableRow version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@r9@Ovingdean_Stores" order="9">
+                  <Name>Ovingdean Stores</Name>
+                </FareTableRow>
+                <FareTableRow version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@r10@Rottingdean" order="10">
+                  <Name>Rottingdean</Name>
+                </FareTableRow>
+                <FareTableRow version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@r11@Saltdean_Post_Office" order="11">
                   <Name>Saltdean Post Office</Name>
                 </FareTableRow>
               </rows>
@@ -554,23 +1437,87 @@
                         <DistanceMatrixElementRef version="1.0" ref="Bannings_Vale+Saltdean_Post_Office"/>
                       </DistanceMatrixElementPrice>
                       <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c1@Bannings_Vale"/>
-                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r3@Saltdean_Post_Office"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r11@Saltdean_Post_Office"/>
                     </Cell>
                     <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Bannings_Vale" order="2">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Bannings_Vale+Rottingdean">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_0.95@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Bannings_Vale+Rottingdean"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c1@Bannings_Vale"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r10@Rottingdean"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Bannings_Vale" order="3">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Bannings_Vale+Ovingdean_Stores">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Bannings_Vale+Ovingdean_Stores"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c1@Bannings_Vale"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r9@Ovingdean_Stores"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Bannings_Vale" order="4">
                       <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Bannings_Vale+Greenways">
                         <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
                         <DistanceMatrixElementRef version="1.0" ref="Bannings_Vale+Greenways"/>
                       </DistanceMatrixElementPrice>
                       <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c1@Bannings_Vale"/>
-                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r2@Greenways"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r8@Greenways"/>
                     </Cell>
-                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Bannings_Vale" order="3">
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Bannings_Vale" order="5">
                       <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Bannings_Vale+Brighton_Marina">
                         <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
                         <DistanceMatrixElementRef version="1.0" ref="Bannings_Vale+Brighton_Marina"/>
                       </DistanceMatrixElementPrice>
                       <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c1@Bannings_Vale"/>
-                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r1@Brighton_Marina"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r7@Brighton_Marina"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Bannings_Vale" order="6">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Bannings_Vale+Arundel_Road">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Bannings_Vale+Arundel_Road"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c1@Bannings_Vale"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r6@Arundel_Road"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Bannings_Vale" order="7">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Bannings_Vale+Royal_Sussex_County_Hospital">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Bannings_Vale+Royal_Sussex_County_Hospital"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c1@Bannings_Vale"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r5@Royal_Sussex_County_Hospital"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Bannings_Vale" order="8">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Bannings_Vale+Bedford_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Bannings_Vale+Bedford_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c1@Bannings_Vale"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r4@Bedford_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Bannings_Vale" order="9">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Bannings_Vale+St_James_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Bannings_Vale+St_James_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c1@Bannings_Vale"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r3@St_James_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Bannings_Vale" order="10">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Bannings_Vale+Old_Steine">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Bannings_Vale+Old_Steine"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c1@Bannings_Vale"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r2@Old_Steine"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Bannings_Vale" order="11">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Bannings_Vale+Brighton_Station">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Bannings_Vale+Brighton_Station"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c1@Bannings_Vale"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r1@Brighton_Station"/>
                     </Cell>
                   </cells>
                 </FareTable>
@@ -579,34 +1526,498 @@
                   <Description>Column 2</Description>
                   <cells>
                     <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Saltdean_Post_Office" order="1">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Saltdean_Post_Office+Rottingdean">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_0.95@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Saltdean_Post_Office+Rottingdean"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c2@Saltdean_Post_Office"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r10@Rottingdean"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Saltdean_Post_Office" order="2">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Saltdean_Post_Office+Ovingdean_Stores">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Saltdean_Post_Office+Ovingdean_Stores"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c2@Saltdean_Post_Office"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r9@Ovingdean_Stores"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Saltdean_Post_Office" order="3">
                       <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Saltdean_Post_Office+Greenways">
                         <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
                         <DistanceMatrixElementRef version="1.0" ref="Saltdean_Post_Office+Greenways"/>
                       </DistanceMatrixElementPrice>
                       <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c2@Saltdean_Post_Office"/>
-                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r2@Greenways"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r8@Greenways"/>
                     </Cell>
-                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Saltdean_Post_Office" order="2">
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Saltdean_Post_Office" order="4">
                       <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Saltdean_Post_Office+Brighton_Marina">
                         <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
                         <DistanceMatrixElementRef version="1.0" ref="Saltdean_Post_Office+Brighton_Marina"/>
                       </DistanceMatrixElementPrice>
                       <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c2@Saltdean_Post_Office"/>
-                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r1@Brighton_Marina"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r7@Brighton_Marina"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Saltdean_Post_Office" order="5">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Saltdean_Post_Office+Arundel_Road">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Saltdean_Post_Office+Arundel_Road"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c2@Saltdean_Post_Office"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r6@Arundel_Road"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Saltdean_Post_Office" order="6">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Saltdean_Post_Office+Royal_Sussex_County_Hospital">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Saltdean_Post_Office+Royal_Sussex_County_Hospital"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c2@Saltdean_Post_Office"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r5@Royal_Sussex_County_Hospital"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Saltdean_Post_Office" order="7">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Saltdean_Post_Office+Bedford_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Saltdean_Post_Office+Bedford_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c2@Saltdean_Post_Office"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r4@Bedford_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Saltdean_Post_Office" order="8">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Saltdean_Post_Office+St_James_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Saltdean_Post_Office+St_James_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c2@Saltdean_Post_Office"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r3@St_James_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Saltdean_Post_Office" order="9">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Saltdean_Post_Office+Old_Steine">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Saltdean_Post_Office+Old_Steine"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c2@Saltdean_Post_Office"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r2@Old_Steine"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Saltdean_Post_Office" order="10">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Saltdean_Post_Office+Brighton_Station">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Saltdean_Post_Office+Brighton_Station"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c2@Saltdean_Post_Office"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r1@Brighton_Station"/>
                     </Cell>
                   </cells>
                 </FareTable>
-                <FareTable id="Trip@single-SOP@Onboard_(cash)@57@child@c3@Greenways" version="1.0">
-                  <Name>Greenways</Name>
+                <FareTable id="Trip@single-SOP@Onboard_(cash)@57@child@c3@Rottingdean" version="1.0">
+                  <Name>Rottingdean</Name>
                   <Description>Column 3</Description>
+                  <cells>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Rottingdean" order="1">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Rottingdean+Ovingdean_Stores">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_0.95@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Rottingdean+Ovingdean_Stores"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c3@Rottingdean"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r9@Ovingdean_Stores"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Rottingdean" order="2">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Rottingdean+Greenways">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Rottingdean+Greenways"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c3@Rottingdean"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r8@Greenways"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Rottingdean" order="3">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Rottingdean+Brighton_Marina">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Rottingdean+Brighton_Marina"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c3@Rottingdean"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r7@Brighton_Marina"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Rottingdean" order="4">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Rottingdean+Arundel_Road">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Rottingdean+Arundel_Road"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c3@Rottingdean"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r6@Arundel_Road"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Rottingdean" order="5">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Rottingdean+Royal_Sussex_County_Hospital">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Rottingdean+Royal_Sussex_County_Hospital"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c3@Rottingdean"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r5@Royal_Sussex_County_Hospital"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Rottingdean" order="6">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Rottingdean+Bedford_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Rottingdean+Bedford_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c3@Rottingdean"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r4@Bedford_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Rottingdean" order="7">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Rottingdean+St_James_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Rottingdean+St_James_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c3@Rottingdean"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r3@St_James_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Rottingdean" order="8">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Rottingdean+Old_Steine">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Rottingdean+Old_Steine"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c3@Rottingdean"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r2@Old_Steine"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Rottingdean" order="9">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Rottingdean+Brighton_Station">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Rottingdean+Brighton_Station"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c3@Rottingdean"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r1@Brighton_Station"/>
+                    </Cell>
+                  </cells>
+                </FareTable>
+                <FareTable id="Trip@single-SOP@Onboard_(cash)@57@child@c4@Ovingdean_Stores" version="1.0">
+                  <Name>Ovingdean Stores</Name>
+                  <Description>Column 4</Description>
+                  <cells>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Ovingdean_Stores" order="1">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Ovingdean_Stores+Greenways">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_0.95@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Ovingdean_Stores+Greenways"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c4@Ovingdean_Stores"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r8@Greenways"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Ovingdean_Stores" order="2">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Ovingdean_Stores+Brighton_Marina">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Ovingdean_Stores+Brighton_Marina"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c4@Ovingdean_Stores"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r7@Brighton_Marina"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Ovingdean_Stores" order="3">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Ovingdean_Stores+Arundel_Road">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Ovingdean_Stores+Arundel_Road"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c4@Ovingdean_Stores"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r6@Arundel_Road"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Ovingdean_Stores" order="4">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Ovingdean_Stores+Royal_Sussex_County_Hospital">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Ovingdean_Stores+Royal_Sussex_County_Hospital"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c4@Ovingdean_Stores"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r5@Royal_Sussex_County_Hospital"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Ovingdean_Stores" order="5">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Ovingdean_Stores+Bedford_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Ovingdean_Stores+Bedford_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c4@Ovingdean_Stores"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r4@Bedford_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Ovingdean_Stores" order="6">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Ovingdean_Stores+St_James_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Ovingdean_Stores+St_James_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c4@Ovingdean_Stores"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r3@St_James_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Ovingdean_Stores" order="7">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Ovingdean_Stores+Old_Steine">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Ovingdean_Stores+Old_Steine"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c4@Ovingdean_Stores"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r2@Old_Steine"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Ovingdean_Stores" order="8">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Ovingdean_Stores+Brighton_Station">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Ovingdean_Stores+Brighton_Station"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c4@Ovingdean_Stores"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r1@Brighton_Station"/>
+                    </Cell>
+                  </cells>
+                </FareTable>
+                <FareTable id="Trip@single-SOP@Onboard_(cash)@57@child@c5@Greenways" version="1.0">
+                  <Name>Greenways</Name>
+                  <Description>Column 5</Description>
                   <cells>
                     <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Greenways" order="1">
                       <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Greenways+Brighton_Marina">
                         <GeographicalIntervalPriceRef version="1.0" ref="price_band_0.95@child"/>
                         <DistanceMatrixElementRef version="1.0" ref="Greenways+Brighton_Marina"/>
                       </DistanceMatrixElementPrice>
-                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c3@Greenways"/>
-                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r1@Brighton_Marina"/>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c5@Greenways"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r7@Brighton_Marina"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Greenways" order="2">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Greenways+Arundel_Road">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Greenways+Arundel_Road"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c5@Greenways"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r6@Arundel_Road"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Greenways" order="3">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Greenways+Royal_Sussex_County_Hospital">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Greenways+Royal_Sussex_County_Hospital"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c5@Greenways"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r5@Royal_Sussex_County_Hospital"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Greenways" order="4">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Greenways+Bedford_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Greenways+Bedford_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c5@Greenways"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r4@Bedford_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Greenways" order="5">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Greenways+St_James_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Greenways+St_James_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c5@Greenways"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r3@St_James_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Greenways" order="6">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Greenways+Old_Steine">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Greenways+Old_Steine"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c5@Greenways"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r2@Old_Steine"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Greenways" order="7">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Greenways+Brighton_Station">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Greenways+Brighton_Station"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c5@Greenways"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r1@Brighton_Station"/>
+                    </Cell>
+                  </cells>
+                </FareTable>
+                <FareTable id="Trip@single-SOP@Onboard_(cash)@57@child@c6@Brighton_Marina" version="1.0">
+                  <Name>Brighton Marina</Name>
+                  <Description>Column 6</Description>
+                  <cells>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Brighton_Marina" order="1">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Brighton_Marina+Arundel_Road">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_0.95@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Brighton_Marina+Arundel_Road"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c6@Brighton_Marina"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r6@Arundel_Road"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Brighton_Marina" order="2">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Brighton_Marina+Royal_Sussex_County_Hospital">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Brighton_Marina+Royal_Sussex_County_Hospital"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c6@Brighton_Marina"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r5@Royal_Sussex_County_Hospital"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Brighton_Marina" order="3">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Brighton_Marina+Bedford_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Brighton_Marina+Bedford_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c6@Brighton_Marina"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r4@Bedford_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Brighton_Marina" order="4">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Brighton_Marina+St_James_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Brighton_Marina+St_James_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c6@Brighton_Marina"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r3@St_James_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Brighton_Marina" order="5">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Brighton_Marina+Old_Steine">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Brighton_Marina+Old_Steine"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c6@Brighton_Marina"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r2@Old_Steine"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Brighton_Marina" order="6">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Brighton_Marina+Brighton_Station">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Brighton_Marina+Brighton_Station"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c6@Brighton_Marina"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r1@Brighton_Station"/>
+                    </Cell>
+                  </cells>
+                </FareTable>
+                <FareTable id="Trip@single-SOP@Onboard_(cash)@57@child@c7@Arundel_Road" version="1.0">
+                  <Name>Arundel Road</Name>
+                  <Description>Column 7</Description>
+                  <cells>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Arundel_Road" order="1">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Arundel_Road+Royal_Sussex_County_Hospital">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_0.95@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Arundel_Road+Royal_Sussex_County_Hospital"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c7@Arundel_Road"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r5@Royal_Sussex_County_Hospital"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Arundel_Road" order="2">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Arundel_Road+Bedford_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_0.95@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Arundel_Road+Bedford_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c7@Arundel_Road"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r4@Bedford_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Arundel_Road" order="3">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Arundel_Road+St_James_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.10@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Arundel_Road+St_James_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c7@Arundel_Road"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r3@St_James_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Arundel_Road" order="4">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Arundel_Road+Old_Steine">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.10@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Arundel_Road+Old_Steine"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c7@Arundel_Road"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r2@Old_Steine"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Arundel_Road" order="5">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Arundel_Road+Brighton_Station">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.10@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Arundel_Road+Brighton_Station"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c7@Arundel_Road"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r1@Brighton_Station"/>
+                    </Cell>
+                  </cells>
+                </FareTable>
+                <FareTable id="Trip@single-SOP@Onboard_(cash)@57@child@c8@Royal_Sussex_County_Hospital" version="1.0">
+                  <Name>Royal Sussex County Hospital</Name>
+                  <Description>Column 8</Description>
+                  <cells>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Royal_Sussex_County_Hospital" order="1">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Royal_Sussex_County_Hospital+Bedford_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_0.95@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Royal_Sussex_County_Hospital+Bedford_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c8@Royal_Sussex_County_Hospital"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r4@Bedford_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Royal_Sussex_County_Hospital" order="2">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Royal_Sussex_County_Hospital+St_James_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.10@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Royal_Sussex_County_Hospital+St_James_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c8@Royal_Sussex_County_Hospital"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r3@St_James_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Royal_Sussex_County_Hospital" order="3">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Royal_Sussex_County_Hospital+Old_Steine">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.10@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Royal_Sussex_County_Hospital+Old_Steine"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c8@Royal_Sussex_County_Hospital"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r2@Old_Steine"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Royal_Sussex_County_Hospital" order="4">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Royal_Sussex_County_Hospital+Brighton_Station">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.10@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Royal_Sussex_County_Hospital+Brighton_Station"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c8@Royal_Sussex_County_Hospital"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r1@Brighton_Station"/>
+                    </Cell>
+                  </cells>
+                </FareTable>
+                <FareTable id="Trip@single-SOP@Onboard_(cash)@57@child@c9@Bedford_Street" version="1.0">
+                  <Name>Bedford Street</Name>
+                  <Description>Column 9</Description>
+                  <cells>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Bedford_Street" order="1">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Bedford_Street+St_James_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_0.95@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Bedford_Street+St_James_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c9@Bedford_Street"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r3@St_James_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Bedford_Street" order="2">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Bedford_Street+Old_Steine">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.10@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Bedford_Street+Old_Steine"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c9@Bedford_Street"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r2@Old_Steine"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Bedford_Street" order="3">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Bedford_Street+Brighton_Station">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.10@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Bedford_Street+Brighton_Station"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c9@Bedford_Street"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r1@Brighton_Station"/>
+                    </Cell>
+                  </cells>
+                </FareTable>
+                <FareTable id="Trip@single-SOP@Onboard_(cash)@57@child@c10@St_James_Street" version="1.0">
+                  <Name>St James Street</Name>
+                  <Description>Column 10</Description>
+                  <cells>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@St_James_Street" order="1">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@St_James_Street+Old_Steine">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_0.95@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="St_James_Street+Old_Steine"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c10@St_James_Street"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r2@Old_Steine"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@St_James_Street" order="2">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@St_James_Street+Brighton_Station">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.10@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="St_James_Street+Brighton_Station"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c10@St_James_Street"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r1@Brighton_Station"/>
+                    </Cell>
+                  </cells>
+                </FareTable>
+                <FareTable id="Trip@single-SOP@Onboard_(cash)@57@child@c11@Old_Steine" version="1.0">
+                  <Name>Old Steine</Name>
+                  <Description>Column 11</Description>
+                  <cells>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Old_Steine" order="1">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(cash)@57@child@Old_Steine+Brighton_Station">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_0.95@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Old_Steine+Brighton_Station"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@c11@Old_Steine"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(cash)@57@child@r1@Brighton_Station"/>
                     </Cell>
                   </cells>
                 </FareTable>
@@ -633,18 +2044,66 @@
                 <FareTableColumn version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@c2@Saltdean_Post_Office" order="2">
                   <Name>Saltdean Post Office</Name>
                 </FareTableColumn>
-                <FareTableColumn version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@c3@Greenways" order="3">
+                <FareTableColumn version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@c3@Rottingdean" order="3">
+                  <Name>Rottingdean</Name>
+                </FareTableColumn>
+                <FareTableColumn version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@c4@Ovingdean_Stores" order="4">
+                  <Name>Ovingdean Stores</Name>
+                </FareTableColumn>
+                <FareTableColumn version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@c5@Greenways" order="5">
                   <Name>Greenways</Name>
+                </FareTableColumn>
+                <FareTableColumn version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@c6@Brighton_Marina" order="6">
+                  <Name>Brighton Marina</Name>
+                </FareTableColumn>
+                <FareTableColumn version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@c7@Arundel_Road" order="7">
+                  <Name>Arundel Road</Name>
+                </FareTableColumn>
+                <FareTableColumn version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@c8@Royal_Sussex_County_Hospital" order="8">
+                  <Name>Royal Sussex County Hospital</Name>
+                </FareTableColumn>
+                <FareTableColumn version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@c9@Bedford_Street" order="9">
+                  <Name>Bedford Street</Name>
+                </FareTableColumn>
+                <FareTableColumn version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@c10@St_James_Street" order="10">
+                  <Name>St James Street</Name>
+                </FareTableColumn>
+                <FareTableColumn version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@c11@Old_Steine" order="11">
+                  <Name>Old Steine</Name>
                 </FareTableColumn>
               </columns>
               <rows>
-                <FareTableRow version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@r1@Brighton_Marina" order="1">
+                <FareTableRow version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@r1@Brighton_Station" order="1">
+                  <Name>Brighton Station</Name>
+                </FareTableRow>
+                <FareTableRow version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@r2@Old_Steine" order="2">
+                  <Name>Old Steine</Name>
+                </FareTableRow>
+                <FareTableRow version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@r3@St_James_Street" order="3">
+                  <Name>St James Street</Name>
+                </FareTableRow>
+                <FareTableRow version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@r4@Bedford_Street" order="4">
+                  <Name>Bedford Street</Name>
+                </FareTableRow>
+                <FareTableRow version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@r5@Royal_Sussex_County_Hospital" order="5">
+                  <Name>Royal Sussex County Hospital</Name>
+                </FareTableRow>
+                <FareTableRow version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@r6@Arundel_Road" order="6">
+                  <Name>Arundel Road</Name>
+                </FareTableRow>
+                <FareTableRow version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@r7@Brighton_Marina" order="7">
                   <Name>Brighton Marina</Name>
                 </FareTableRow>
-                <FareTableRow version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@r2@Greenways" order="2">
+                <FareTableRow version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@r8@Greenways" order="8">
                   <Name>Greenways</Name>
                 </FareTableRow>
-                <FareTableRow version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@r3@Saltdean_Post_Office" order="3">
+                <FareTableRow version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@r9@Ovingdean_Stores" order="9">
+                  <Name>Ovingdean Stores</Name>
+                </FareTableRow>
+                <FareTableRow version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@r10@Rottingdean" order="10">
+                  <Name>Rottingdean</Name>
+                </FareTableRow>
+                <FareTableRow version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@r11@Saltdean_Post_Office" order="11">
                   <Name>Saltdean Post Office</Name>
                 </FareTableRow>
               </rows>
@@ -659,23 +2118,87 @@
                         <DistanceMatrixElementRef version="1.0" ref="Bannings_Vale+Saltdean_Post_Office"/>
                       </DistanceMatrixElementPrice>
                       <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c1@Bannings_Vale"/>
-                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r3@Saltdean_Post_Office"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r11@Saltdean_Post_Office"/>
                     </Cell>
                     <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Bannings_Vale" order="2">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Bannings_Vale+Rottingdean">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_0.95@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Bannings_Vale+Rottingdean"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c1@Bannings_Vale"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r10@Rottingdean"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Bannings_Vale" order="3">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Bannings_Vale+Ovingdean_Stores">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Bannings_Vale+Ovingdean_Stores"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c1@Bannings_Vale"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r9@Ovingdean_Stores"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Bannings_Vale" order="4">
                       <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Bannings_Vale+Greenways">
                         <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
                         <DistanceMatrixElementRef version="1.0" ref="Bannings_Vale+Greenways"/>
                       </DistanceMatrixElementPrice>
                       <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c1@Bannings_Vale"/>
-                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r2@Greenways"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r8@Greenways"/>
                     </Cell>
-                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Bannings_Vale" order="3">
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Bannings_Vale" order="5">
                       <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Bannings_Vale+Brighton_Marina">
                         <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
                         <DistanceMatrixElementRef version="1.0" ref="Bannings_Vale+Brighton_Marina"/>
                       </DistanceMatrixElementPrice>
                       <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c1@Bannings_Vale"/>
-                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r1@Brighton_Marina"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r7@Brighton_Marina"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Bannings_Vale" order="6">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Bannings_Vale+Arundel_Road">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Bannings_Vale+Arundel_Road"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c1@Bannings_Vale"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r6@Arundel_Road"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Bannings_Vale" order="7">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Bannings_Vale+Royal_Sussex_County_Hospital">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Bannings_Vale+Royal_Sussex_County_Hospital"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c1@Bannings_Vale"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r5@Royal_Sussex_County_Hospital"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Bannings_Vale" order="8">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Bannings_Vale+Bedford_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Bannings_Vale+Bedford_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c1@Bannings_Vale"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r4@Bedford_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Bannings_Vale" order="9">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Bannings_Vale+St_James_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Bannings_Vale+St_James_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c1@Bannings_Vale"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r3@St_James_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Bannings_Vale" order="10">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Bannings_Vale+Old_Steine">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Bannings_Vale+Old_Steine"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c1@Bannings_Vale"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r2@Old_Steine"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Bannings_Vale" order="11">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Bannings_Vale+Brighton_Station">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Bannings_Vale+Brighton_Station"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c1@Bannings_Vale"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r1@Brighton_Station"/>
                     </Cell>
                   </cells>
                 </FareTable>
@@ -684,34 +2207,498 @@
                   <Description>Column 2</Description>
                   <cells>
                     <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Saltdean_Post_Office" order="1">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Saltdean_Post_Office+Rottingdean">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_0.95@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Saltdean_Post_Office+Rottingdean"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c2@Saltdean_Post_Office"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r10@Rottingdean"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Saltdean_Post_Office" order="2">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Saltdean_Post_Office+Ovingdean_Stores">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Saltdean_Post_Office+Ovingdean_Stores"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c2@Saltdean_Post_Office"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r9@Ovingdean_Stores"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Saltdean_Post_Office" order="3">
                       <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Saltdean_Post_Office+Greenways">
                         <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
                         <DistanceMatrixElementRef version="1.0" ref="Saltdean_Post_Office+Greenways"/>
                       </DistanceMatrixElementPrice>
                       <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c2@Saltdean_Post_Office"/>
-                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r2@Greenways"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r8@Greenways"/>
                     </Cell>
-                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Saltdean_Post_Office" order="2">
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Saltdean_Post_Office" order="4">
                       <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Saltdean_Post_Office+Brighton_Marina">
                         <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
                         <DistanceMatrixElementRef version="1.0" ref="Saltdean_Post_Office+Brighton_Marina"/>
                       </DistanceMatrixElementPrice>
                       <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c2@Saltdean_Post_Office"/>
-                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r1@Brighton_Marina"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r7@Brighton_Marina"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Saltdean_Post_Office" order="5">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Saltdean_Post_Office+Arundel_Road">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Saltdean_Post_Office+Arundel_Road"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c2@Saltdean_Post_Office"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r6@Arundel_Road"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Saltdean_Post_Office" order="6">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Saltdean_Post_Office+Royal_Sussex_County_Hospital">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Saltdean_Post_Office+Royal_Sussex_County_Hospital"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c2@Saltdean_Post_Office"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r5@Royal_Sussex_County_Hospital"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Saltdean_Post_Office" order="7">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Saltdean_Post_Office+Bedford_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Saltdean_Post_Office+Bedford_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c2@Saltdean_Post_Office"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r4@Bedford_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Saltdean_Post_Office" order="8">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Saltdean_Post_Office+St_James_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Saltdean_Post_Office+St_James_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c2@Saltdean_Post_Office"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r3@St_James_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Saltdean_Post_Office" order="9">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Saltdean_Post_Office+Old_Steine">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Saltdean_Post_Office+Old_Steine"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c2@Saltdean_Post_Office"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r2@Old_Steine"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Saltdean_Post_Office" order="10">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Saltdean_Post_Office+Brighton_Station">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Saltdean_Post_Office+Brighton_Station"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c2@Saltdean_Post_Office"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r1@Brighton_Station"/>
                     </Cell>
                   </cells>
                 </FareTable>
-                <FareTable id="Trip@single-SOP@Onboard_(contactless)@57@child@c3@Greenways" version="1.0">
-                  <Name>Greenways</Name>
+                <FareTable id="Trip@single-SOP@Onboard_(contactless)@57@child@c3@Rottingdean" version="1.0">
+                  <Name>Rottingdean</Name>
                   <Description>Column 3</Description>
+                  <cells>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Rottingdean" order="1">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Rottingdean+Ovingdean_Stores">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_0.95@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Rottingdean+Ovingdean_Stores"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c3@Rottingdean"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r9@Ovingdean_Stores"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Rottingdean" order="2">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Rottingdean+Greenways">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Rottingdean+Greenways"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c3@Rottingdean"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r8@Greenways"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Rottingdean" order="3">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Rottingdean+Brighton_Marina">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Rottingdean+Brighton_Marina"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c3@Rottingdean"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r7@Brighton_Marina"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Rottingdean" order="4">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Rottingdean+Arundel_Road">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Rottingdean+Arundel_Road"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c3@Rottingdean"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r6@Arundel_Road"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Rottingdean" order="5">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Rottingdean+Royal_Sussex_County_Hospital">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Rottingdean+Royal_Sussex_County_Hospital"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c3@Rottingdean"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r5@Royal_Sussex_County_Hospital"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Rottingdean" order="6">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Rottingdean+Bedford_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Rottingdean+Bedford_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c3@Rottingdean"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r4@Bedford_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Rottingdean" order="7">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Rottingdean+St_James_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Rottingdean+St_James_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c3@Rottingdean"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r3@St_James_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Rottingdean" order="8">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Rottingdean+Old_Steine">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Rottingdean+Old_Steine"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c3@Rottingdean"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r2@Old_Steine"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Rottingdean" order="9">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Rottingdean+Brighton_Station">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Rottingdean+Brighton_Station"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c3@Rottingdean"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r1@Brighton_Station"/>
+                    </Cell>
+                  </cells>
+                </FareTable>
+                <FareTable id="Trip@single-SOP@Onboard_(contactless)@57@child@c4@Ovingdean_Stores" version="1.0">
+                  <Name>Ovingdean Stores</Name>
+                  <Description>Column 4</Description>
+                  <cells>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Ovingdean_Stores" order="1">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Ovingdean_Stores+Greenways">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_0.95@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Ovingdean_Stores+Greenways"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c4@Ovingdean_Stores"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r8@Greenways"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Ovingdean_Stores" order="2">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Ovingdean_Stores+Brighton_Marina">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Ovingdean_Stores+Brighton_Marina"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c4@Ovingdean_Stores"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r7@Brighton_Marina"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Ovingdean_Stores" order="3">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Ovingdean_Stores+Arundel_Road">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Ovingdean_Stores+Arundel_Road"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c4@Ovingdean_Stores"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r6@Arundel_Road"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Ovingdean_Stores" order="4">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Ovingdean_Stores+Royal_Sussex_County_Hospital">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Ovingdean_Stores+Royal_Sussex_County_Hospital"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c4@Ovingdean_Stores"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r5@Royal_Sussex_County_Hospital"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Ovingdean_Stores" order="5">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Ovingdean_Stores+Bedford_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Ovingdean_Stores+Bedford_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c4@Ovingdean_Stores"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r4@Bedford_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Ovingdean_Stores" order="6">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Ovingdean_Stores+St_James_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Ovingdean_Stores+St_James_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c4@Ovingdean_Stores"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r3@St_James_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Ovingdean_Stores" order="7">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Ovingdean_Stores+Old_Steine">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Ovingdean_Stores+Old_Steine"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c4@Ovingdean_Stores"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r2@Old_Steine"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Ovingdean_Stores" order="8">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Ovingdean_Stores+Brighton_Station">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Ovingdean_Stores+Brighton_Station"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c4@Ovingdean_Stores"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r1@Brighton_Station"/>
+                    </Cell>
+                  </cells>
+                </FareTable>
+                <FareTable id="Trip@single-SOP@Onboard_(contactless)@57@child@c5@Greenways" version="1.0">
+                  <Name>Greenways</Name>
+                  <Description>Column 5</Description>
                   <cells>
                     <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Greenways" order="1">
                       <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Greenways+Brighton_Marina">
                         <GeographicalIntervalPriceRef version="1.0" ref="price_band_0.95@child"/>
                         <DistanceMatrixElementRef version="1.0" ref="Greenways+Brighton_Marina"/>
                       </DistanceMatrixElementPrice>
-                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c3@Greenways"/>
-                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r1@Brighton_Marina"/>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c5@Greenways"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r7@Brighton_Marina"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Greenways" order="2">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Greenways+Arundel_Road">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Greenways+Arundel_Road"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c5@Greenways"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r6@Arundel_Road"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Greenways" order="3">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Greenways+Royal_Sussex_County_Hospital">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Greenways+Royal_Sussex_County_Hospital"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c5@Greenways"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r5@Royal_Sussex_County_Hospital"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Greenways" order="4">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Greenways+Bedford_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Greenways+Bedford_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c5@Greenways"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r4@Bedford_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Greenways" order="5">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Greenways+St_James_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Greenways+St_James_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c5@Greenways"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r3@St_James_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Greenways" order="6">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Greenways+Old_Steine">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Greenways+Old_Steine"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c5@Greenways"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r2@Old_Steine"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Greenways" order="7">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Greenways+Brighton_Station">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Greenways+Brighton_Station"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c5@Greenways"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r1@Brighton_Station"/>
+                    </Cell>
+                  </cells>
+                </FareTable>
+                <FareTable id="Trip@single-SOP@Onboard_(contactless)@57@child@c6@Brighton_Marina" version="1.0">
+                  <Name>Brighton Marina</Name>
+                  <Description>Column 6</Description>
+                  <cells>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Brighton_Marina" order="1">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Brighton_Marina+Arundel_Road">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_0.95@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Brighton_Marina+Arundel_Road"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c6@Brighton_Marina"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r6@Arundel_Road"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Brighton_Marina" order="2">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Brighton_Marina+Royal_Sussex_County_Hospital">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Brighton_Marina+Royal_Sussex_County_Hospital"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c6@Brighton_Marina"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r5@Royal_Sussex_County_Hospital"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Brighton_Marina" order="3">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Brighton_Marina+Bedford_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Brighton_Marina+Bedford_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c6@Brighton_Marina"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r4@Bedford_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Brighton_Marina" order="4">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Brighton_Marina+St_James_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Brighton_Marina+St_James_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c6@Brighton_Marina"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r3@St_James_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Brighton_Marina" order="5">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Brighton_Marina+Old_Steine">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Brighton_Marina+Old_Steine"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c6@Brighton_Marina"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r2@Old_Steine"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Brighton_Marina" order="6">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Brighton_Marina+Brighton_Station">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.35@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Brighton_Marina+Brighton_Station"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c6@Brighton_Marina"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r1@Brighton_Station"/>
+                    </Cell>
+                  </cells>
+                </FareTable>
+                <FareTable id="Trip@single-SOP@Onboard_(contactless)@57@child@c7@Arundel_Road" version="1.0">
+                  <Name>Arundel Road</Name>
+                  <Description>Column 7</Description>
+                  <cells>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Arundel_Road" order="1">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Arundel_Road+Royal_Sussex_County_Hospital">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_0.95@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Arundel_Road+Royal_Sussex_County_Hospital"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c7@Arundel_Road"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r5@Royal_Sussex_County_Hospital"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Arundel_Road" order="2">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Arundel_Road+Bedford_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_0.95@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Arundel_Road+Bedford_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c7@Arundel_Road"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r4@Bedford_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Arundel_Road" order="3">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Arundel_Road+St_James_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.10@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Arundel_Road+St_James_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c7@Arundel_Road"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r3@St_James_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Arundel_Road" order="4">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Arundel_Road+Old_Steine">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.10@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Arundel_Road+Old_Steine"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c7@Arundel_Road"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r2@Old_Steine"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Arundel_Road" order="5">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Arundel_Road+Brighton_Station">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.10@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Arundel_Road+Brighton_Station"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c7@Arundel_Road"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r1@Brighton_Station"/>
+                    </Cell>
+                  </cells>
+                </FareTable>
+                <FareTable id="Trip@single-SOP@Onboard_(contactless)@57@child@c8@Royal_Sussex_County_Hospital" version="1.0">
+                  <Name>Royal Sussex County Hospital</Name>
+                  <Description>Column 8</Description>
+                  <cells>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Royal_Sussex_County_Hospital" order="1">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Royal_Sussex_County_Hospital+Bedford_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_0.95@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Royal_Sussex_County_Hospital+Bedford_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c8@Royal_Sussex_County_Hospital"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r4@Bedford_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Royal_Sussex_County_Hospital" order="2">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Royal_Sussex_County_Hospital+St_James_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.10@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Royal_Sussex_County_Hospital+St_James_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c8@Royal_Sussex_County_Hospital"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r3@St_James_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Royal_Sussex_County_Hospital" order="3">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Royal_Sussex_County_Hospital+Old_Steine">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.10@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Royal_Sussex_County_Hospital+Old_Steine"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c8@Royal_Sussex_County_Hospital"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r2@Old_Steine"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Royal_Sussex_County_Hospital" order="4">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Royal_Sussex_County_Hospital+Brighton_Station">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.10@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Royal_Sussex_County_Hospital+Brighton_Station"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c8@Royal_Sussex_County_Hospital"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r1@Brighton_Station"/>
+                    </Cell>
+                  </cells>
+                </FareTable>
+                <FareTable id="Trip@single-SOP@Onboard_(contactless)@57@child@c9@Bedford_Street" version="1.0">
+                  <Name>Bedford Street</Name>
+                  <Description>Column 9</Description>
+                  <cells>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Bedford_Street" order="1">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Bedford_Street+St_James_Street">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_0.95@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Bedford_Street+St_James_Street"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c9@Bedford_Street"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r3@St_James_Street"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Bedford_Street" order="2">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Bedford_Street+Old_Steine">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.10@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Bedford_Street+Old_Steine"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c9@Bedford_Street"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r2@Old_Steine"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Bedford_Street" order="3">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Bedford_Street+Brighton_Station">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.10@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Bedford_Street+Brighton_Station"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c9@Bedford_Street"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r1@Brighton_Station"/>
+                    </Cell>
+                  </cells>
+                </FareTable>
+                <FareTable id="Trip@single-SOP@Onboard_(contactless)@57@child@c10@St_James_Street" version="1.0">
+                  <Name>St James Street</Name>
+                  <Description>Column 10</Description>
+                  <cells>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@St_James_Street" order="1">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@St_James_Street+Old_Steine">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_0.95@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="St_James_Street+Old_Steine"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c10@St_James_Street"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r2@Old_Steine"/>
+                    </Cell>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@St_James_Street" order="2">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@St_James_Street+Brighton_Station">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_1.10@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="St_James_Street+Brighton_Station"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c10@St_James_Street"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r1@Brighton_Station"/>
+                    </Cell>
+                  </cells>
+                </FareTable>
+                <FareTable id="Trip@single-SOP@Onboard_(contactless)@57@child@c11@Old_Steine" version="1.0">
+                  <Name>Old Steine</Name>
+                  <Description>Column 11</Description>
+                  <cells>
+                    <Cell version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Old_Steine" order="1">
+                      <DistanceMatrixElementPrice version="1.0" id="Trip@single-SOP@Onboard_(contactless)@57@child@Old_Steine+Brighton_Station">
+                        <GeographicalIntervalPriceRef version="1.0" ref="price_band_0.95@child"/>
+                        <DistanceMatrixElementRef version="1.0" ref="Old_Steine+Brighton_Station"/>
+                      </DistanceMatrixElementPrice>
+                      <ColumnRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@c11@Old_Steine"/>
+                      <RowRef versionRef="1" ref="Trip@single-SOP@Onboard_(contactless)@57@child@r1@Brighton_Station"/>
                     </Cell>
                   </cells>
                 </FareTable>
