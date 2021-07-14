@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- File written by Elydium.API.Timetable v.2.0.7657.18710 using PTI Profile v.1.1-->
-<TransXChange xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_general.xsd" CreationDateTime="2020-12-18T12:13:57.5430116+00:00" ModificationDateTime="2020-12-18T12:13:57.5430116+00:00" Modification="new" RevisionNumber="0" SchemaVersion="2.4" FileName="TXC - CRTB|PD1073423:5|20201124.xml" RegistrationDocument="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.transxchange.org.uk/">
+<TransXChange xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_general.xsd" CreationDateTime="2020-12-18T12:13:57.5430116+00:00" ModificationDateTime="2020-12-18T12:13:57.5430116+00:00" Modification="new" RevisionNumber="0" SchemaVersion="2.4" FileName="TXC - UKAP|PD1073423:5|20201124.xml" RegistrationDocument="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.transxchange.org.uk/">
   <StopPoints>
     <AnnotatedStopPointRef>
       <StopPointRef>2090A19680</StopPointRef>
@@ -1148,25 +1148,25 @@
   </JourneyPatternSections>
   <Operators>
     <Operator id="OP1">
-      <OperatorCode>CRTB</OperatorCode>
-      <OperatorShortName>CRTB Bus</OperatorShortName>
-      <OperatorNameOnLicence>CRTB Coaches</OperatorNameOnLicence>
-      <TradingName>CRTB Coaches</TradingName>
+      <OperatorCode>UKAP</OperatorCode>
+      <OperatorShortName>UKAP Bus</OperatorShortName>
+      <OperatorNameOnLicence>UKAP Coaches</OperatorNameOnLicence>
+      <TradingName>UKAP Coaches</TradingName>
       <LicenceNumber>PD1073423</LicenceNumber>
     </Operator>
   </Operators>
   <Services>
-    <Service id="CRTB:PD1073423:5:20201124" CreationDateTime="2020-12-18T12:13:57.5421874+00:00" ModificationDateTime="2020-12-18T12:13:57.5421884+00:00" Modification="new" RevisionNumber="20">
+    <Service id="UKAP:PD1073423:5:20201124" CreationDateTime="2020-12-18T12:13:57.5421874+00:00" ModificationDateTime="2020-12-18T12:13:57.5421884+00:00" Modification="new" RevisionNumber="20">
       <ServiceCode>PD1073423:5</ServiceCode>
-      <PrivateCode>CRTB|PD1073423:5|20201124</PrivateCode>
+      <PrivateCode>UKAP|PD1073423:5|20201124</PrivateCode>
       <Lines>
-        <Line id="CRTB:PD1073423:5:469">
+        <Line id="UKAP:PD1073423:5:469">
           <LineName>469</LineName>
           <OutboundDescription>
-            <Description>CRTB 469 Outbound</Description>
+            <Description>UKAP 469 Outbound</Description>
           </OutboundDescription>
           <InboundDescription>
-            <Description>CRTB 469 Inbound</Description>
+            <Description>UKAP 469 Inbound</Description>
           </InboundDescription>
         </Line>
       </Lines>
@@ -1174,20 +1174,20 @@
         <StartDate>2020-12-17</StartDate>
       </OperatingPeriod>
       <RegisteredOperatorRef>OP1</RegisteredOperatorRef>
-      <Description>CRTB 469 Outbound</Description>
+      <Description>UKAP 469 Outbound</Description>
       <StandardService>
-        <Origin>CRTB 469 Outbound</Origin>
-        <Destination>CRTB 469 Outbound</Destination>
+        <Origin>UKAP 469 Outbound</Origin>
+        <Destination>UKAP 469 Outbound</Destination>
         <JourneyPattern id="JPS1" CreationDateTime="2020-12-18T12:13:57.5418427+00:00" Modification="new" RevisionNumber="0">
           <DestinationDisplay>Bromyard</DestinationDisplay>
-          <OperatorRef>CRTB</OperatorRef>
+          <OperatorRef>UKAP</OperatorRef>
           <Direction>inbound</Direction>
           <RouteRef>RT1</RouteRef>
           <JourneyPatternSectionRefs>JPS1</JourneyPatternSectionRefs>
         </JourneyPattern>
         <JourneyPattern id="JPS2" CreationDateTime="2020-12-18T12:13:57.541981+00:00" Modification="new" RevisionNumber="0">
           <DestinationDisplay>Hereford</DestinationDisplay>
-          <OperatorRef>CRTB</OperatorRef>
+          <OperatorRef>UKAP</OperatorRef>
           <Direction>outbound</Direction>
           <RouteRef>RT2</RouteRef>
           <JourneyPatternSectionRefs>JPS2</JourneyPatternSectionRefs>
@@ -1198,7 +1198,7 @@
   </Services>
   <!-- <VehicleJourneys>
     <VehicleJourney id="VJ1" CreationDateTime="2020-12-18T12:13:57.5423634+00:00" Modification="new" RevisionNumber="0">
-      <PrivateCode>CRTB:PD1073423:5:20201124|O|2</PrivateCode>
+      <PrivateCode>UKAP:PD1073423:5:20201124|O|2</PrivateCode>
       <DestinationDisplay>Hereford</DestinationDisplay>
       <OperatorRef>OP1</OperatorRef>
       <Direction>outbound</Direction>
@@ -1226,12 +1226,12 @@
       </OperatingProfile>
       <VehicleJourneyCode>VJ1</VehicleJourneyCode>
       <ServiceRef>PD1073423:5</ServiceRef>
-      <LineRef>CRTB:PD1073423:5:469</LineRef>
+      <LineRef>UKAP:PD1073423:5:469</LineRef>
       <JourneyPatternRef>JPS2</JourneyPatternRef>
       <DepartureTime>09:00:00</DepartureTime>
     </VehicleJourney>
     <VehicleJourney id="VJ2" CreationDateTime="2020-12-18T12:13:57.5422733+00:00" Modification="new" RevisionNumber="0">
-      <PrivateCode>CRTB:PD1073423:5:20201124|I|1</PrivateCode>
+      <PrivateCode>UKAP:PD1073423:5:20201124|I|1</PrivateCode>
       <DestinationDisplay>Bromyard</DestinationDisplay>
       <OperatorRef>OP1</OperatorRef>
       <Direction>inbound</Direction>
@@ -1259,7 +1259,7 @@
       </OperatingProfile>
       <VehicleJourneyCode>VJ2</VehicleJourneyCode>
       <ServiceRef>PD1073423:5</ServiceRef>
-      <LineRef>CRTB:PD1073423:5:469</LineRef>
+      <LineRef>UKAP:PD1073423:5:469</LineRef>
       <JourneyPatternRef>JPS1</JourneyPatternRef>
       <DepartureTime>13:25:00</DepartureTime>
     </VehicleJourney>
