@@ -1153,7 +1153,6 @@
   <Operators>
     <Operator id="OP1">
       <NationalOperatorCode>UKAP</NationalOperatorCode>
-      <OperatorCode>UKAP</OperatorCode>
       <OperatorShortName>UKAP Bus</OperatorShortName>
       <OperatorNameOnLicence>UKAP Coaches</OperatorNameOnLicence>
       <TradingName>UKAP Coaches</TradingName>

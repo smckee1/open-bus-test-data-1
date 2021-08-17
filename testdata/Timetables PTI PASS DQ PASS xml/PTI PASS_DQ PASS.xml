@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- File written by Elydium.API.Timetable v.2.0.7657.18710 using PTI Profile v.1.1-->
-<TransXChange xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_general.xsd" CreationDateTime="2020-12-18T12:13:57.5430116+00:00" ModificationDateTime="2020-12-18T12:13:57.5430116+00:00" Modification="new" RevisionNumber="0" SchemaVersion="2.4" FileName="TXC - CRTB|PD1073423:5|20201124.xml" RegistrationDocument="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.transxchange.org.uk/">
+<TransXChange xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_general.xsd" CreationDateTime="2020-12-18T12:13:57.5430116+00:00" ModificationDateTime="2020-12-30T12:13:57.5430116+00:00" Modification="revise" RevisionNumber="2" SchemaVersion="2.4" FileName="TXC - CRTB|PD1073423:5|20201124.xml" RegistrationDocument="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.transxchange.org.uk/">
   <StopPoints>
     <AnnotatedStopPointRef>
       <StopPointRef>2090A19680</StopPointRef>
@@ -1153,7 +1153,6 @@
   <Operators>
     <Operator id="OP1">
       <NationalOperatorCode>CRTB</NationalOperatorCode>
-      <OperatorCode>CRTB</OperatorCode>
       <OperatorShortName>CRTB Bus</OperatorShortName>
       <OperatorNameOnLicence>CRTB Coaches</OperatorNameOnLicence>
       <TradingName>CRTB Coaches</TradingName>
@@ -1165,7 +1164,7 @@
 	  <ServiceCode>PD1073423:5</ServiceCode>
       <PrivateCode>CRTB|PD1073423:5|20201124</PrivateCode>
       <Lines>
-        <Line id="CRTB:PD1073423:5:469">
+        <Line id="CRTB:PD1073423:5:469:summer">
           <LineName>469</LineName>
           <OutboundDescription>
             <Description>CRTB 469 Outbound</Description>
